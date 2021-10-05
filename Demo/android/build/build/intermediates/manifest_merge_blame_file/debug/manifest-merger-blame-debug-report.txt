@@ -1,0 +1,927 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.flynetstudios.fx3"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" > <!-- glEsVersion is modified by the exporter, changing this value here has no effect. -->
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10
+11    <supports-screens
+11-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:12:5-16:40
+12        android:largeScreens="true"
+12-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:15:9-36
+13        android:normalScreens="true"
+13-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:14:9-37
+14        android:smallScreens="true"
+14-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:13:9-36
+15        android:xlargeScreens="true" />
+15-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:16:9-37
+16
+17    <uses-feature
+17-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:10:5-78
+18        android:glEsVersion="0x00030000"
+18-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:10:19-51
+19        android:required="true" />
+19-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:10:52-75
+20
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:11:5-79
+21-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:11:22-76
+22
+23    <instrumentation
+23-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:12:5-17:57
+24        android:name=".GodotInstrumentation"
+24-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:14:9-45
+25        android:icon="@mipmap/icon"
+25-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:15:9-36
+26        android:label="@string/godot_project_name_string"
+26-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:16:9-58
+27        android:targetPackage="com.flynetstudios.fx3" />
+27-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/src/debug/AndroidManifest.xml:17:9-54
+28
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->[GodotYodo1Mas.1.0.1.release.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b9c8eefc36aa49275bb1cbeeebbb26e5/jetified-GodotYodo1Mas.1.0.1.release/AndroidManifest.xml:11:5-67
+29-->[GodotYodo1Mas.1.0.1.release.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b9c8eefc36aa49275bb1cbeeebbb26e5/jetified-GodotYodo1Mas.1.0.1.release/AndroidManifest.xml:11:22-64
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Android package visibility setting -->
+30-->[com.yodo1.common:androidx:1.0.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f580d6f586f0f9980eee6c041dc908ea/jetified-androidx-1.0.1/AndroidManifest.xml:13:5-76
+30-->[com.yodo1.common:androidx:1.0.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f580d6f586f0f9980eee6c041dc908ea/jetified-androidx-1.0.1/AndroidManifest.xml:13:22-73
+31    <queries>
+31-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:27:5-43:15
+32
+33        <!-- For browser content -->
+34        <intent>
+34-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:30:9-36:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:31:13-65
+35-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:31:21-62
+36
+37            <category android:name="android.intent.category.BROWSABLE" />
+37-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:33:13-74
+37-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:33:23-71
+38
+39            <data android:scheme="https" />
+39-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:35:13-44
+39-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:35:19-41
+40        </intent>
+41        <!-- End of browser content -->
+42        <!-- For CustomTabsService -->
+43        <intent>
+43-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:39:9-41:18
+44            <action android:name="android.support.customtabs.action.CustomTabsService" />
+44-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:40:13-90
+44-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:40:21-87
+45        </intent>
+46        <!-- End of CustomTabsService -->
+47        <package android:name="com.facebook.katana" />
+47-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:12:9-55
+47-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:12:18-52
+48
+49        <intent>
+49-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:17:9-19:18
+50            <action android:name="androidx.browser.customtabs.CustomTabsService" />
+50-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:18:13-84
+50-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:18:21-81
+51        </intent>
+52        <intent>
+52-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:27:9-33:18
+53            <action android:name="android.intent.action.VIEW" />
+53-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:31:13-65
+53-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:31:21-62
+54
+55            <category android:name="android.intent.category.BROWSABLE" />
+55-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:33:13-74
+55-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:33:23-71
+56
+57            <data android:scheme="http" />
+57-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:35:13-44
+57-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:35:19-41
+58        </intent>
+59
+60        <package android:name="com.android.chrome" />
+60-->[com.my.target:mytarget-sdk:5.11.12] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/365d1caba036a1b3447f24ef68fdcacf/jetified-mytarget-sdk-5.11.12/AndroidManifest.xml:15:9-54
+60-->[com.my.target:mytarget-sdk:5.11.12] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/365d1caba036a1b3447f24ef68fdcacf/jetified-mytarget-sdk-5.11.12/AndroidManifest.xml:15:18-51
+61    </queries>
+62
+63    <uses-permission android:name="android.permission.WAKE_LOCK" />
+63-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/2a8a8214b2310819481faf7e729cfd63/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:5-68
+63-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/2a8a8214b2310819481faf7e729cfd63/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:22-65
+64    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+64-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:27:5-81
+64-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:27:22-78
+65    <uses-permission
+65-->[com.vungle:publisher-sdk-android:6.9.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/de7c17d796efdcbb61b2a9d8692750a8/jetified-publisher-sdk-android-6.9.1/AndroidManifest.xml:14:5-16:38
+66        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+66-->[com.vungle:publisher-sdk-android:6.9.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/de7c17d796efdcbb61b2a9d8692750a8/jetified-publisher-sdk-android-6.9.1/AndroidManifest.xml:15:9-65
+67        android:maxSdkVersion="18" />
+67-->[com.vungle:publisher-sdk-android:6.9.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/de7c17d796efdcbb61b2a9d8692750a8/jetified-publisher-sdk-android-6.9.1/AndroidManifest.xml:16:9-35
+68    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+68-->[com.yodo1.mas.mediation:facebook:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/5820ac69854788e8f8ce42d814f51d72/jetified-facebook-4.2.1/AndroidManifest.xml:13:5-79
+68-->[com.yodo1.mas.mediation:facebook:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/5820ac69854788e8f8ce42d814f51d72/jetified-facebook-4.2.1/AndroidManifest.xml:13:22-76
+69    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+69-->[com.yodo1.mas.mediation:inmobi:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/5a2685462c0aa4304bcebe23cf0c2838/jetified-inmobi-4.2.1/AndroidManifest.xml:12:5-76
+69-->[com.yodo1.mas.mediation:inmobi:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/5a2685462c0aa4304bcebe23cf0c2838/jetified-inmobi-4.2.1/AndroidManifest.xml:12:22-73
+70    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+70-->[com.android.installreferrer:installreferrer:1.1.2] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dc4e18ff52eb9493f1620cc72be9028b/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+70-->[com.android.installreferrer:installreferrer:1.1.2] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dc4e18ff52eb9493f1620cc72be9028b/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+71
+72    <application
+72-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:31:5-69:19
+73        android:name="androidx.multidex.MultiDexApplication"
+74        android:allowBackup="false"
+74-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:31:118-145
+75        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+75-->[androidx.core:core:1.3.2] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/98827f4c9be62b6d5402d90c8c995960/core-1.3.2/AndroidManifest.xml:24:18-86
+76        android:debuggable="true"
+77        android:fullBackupContent="@xml/vungle_backup_rule"
+77-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:19:9-60
+78        android:hardwareAccelerated="true"
+78-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:20:9-43
+79        android:icon="@mipmap/icon"
+79-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:31:231-258
+80        android:label="@string/godot_project_name_string"
+80-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:31:68-117
+81        android:networkSecurityConfig="@xml/network_security_config"
+81-->[GodotYodo1Mas.1.0.1.release.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b9c8eefc36aa49275bb1cbeeebbb26e5/jetified-GodotYodo1Mas.1.0.1.release/AndroidManifest.xml:13:18-78
+82        android:requestLegacyExternalStorage="false"
+82-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:31:186-230
+83        android:supportsRtl="true" >
+83-->[com.yodo1.mas.mediation:admob:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f0145ff1ab3f37a33d49e064e6199b70/jetified-admob-4.2.1/AndroidManifest.xml:16:9-35
+84        <activity
+84-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:46:9-63:20
+85            android:name="com.godot.game.GodotApp"
+85-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:47:13-37
+86            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+86-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:52:13-141
+87            android:label="@string/godot_project_name_string"
+87-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:48:13-62
+88            android:launchMode="singleTask"
+88-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:50:13-44
+89            android:resizeableActivity="false"
+89-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:53:13-47
+90            android:screenOrientation="landscape"
+90-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:51:13-50
+91            android:theme="@style/GodotAppSplashTheme" >
+91-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:49:13-55
+92            <intent-filter>
+92-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:59:13-62:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:60:17-69
+93-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:60:25-66
+94
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:61:17-77
+95-->/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/AndroidManifest.xml:61:27-74
+96            </intent-filter>
+97        </activity>
+98        <!-- Records the version of the Godot editor used for building -->
+99        <meta-data
+100            android:name="org.godotengine.editor.version"
+101            android:value="3.3.3.stable" /> <!-- Records the version of the Godot library -->
+102        <meta-data
+102-->[godot-lib.debug.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/07eb4d87e283bf5e3a01bbcaf6469940/jetified-godot-lib.debug/AndroidManifest.xml:20:9-22:44
+103            android:name="org.godotengine.library.version"
+103-->[godot-lib.debug.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/07eb4d87e283bf5e3a01bbcaf6469940/jetified-godot-lib.debug/AndroidManifest.xml:21:13-59
+104            android:value="3.3.3.stable" />
+104-->[godot-lib.debug.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/07eb4d87e283bf5e3a01bbcaf6469940/jetified-godot-lib.debug/AndroidManifest.xml:22:13-41
+105
+106        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+106-->[godot-lib.debug.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/07eb4d87e283bf5e3a01bbcaf6469940/jetified-godot-lib.debug/AndroidManifest.xml:24:9-80
+106-->[godot-lib.debug.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/07eb4d87e283bf5e3a01bbcaf6469940/jetified-godot-lib.debug/AndroidManifest.xml:24:18-77
+107
+108        <meta-data
+108-->[GodotYodo1Mas.1.0.1.release.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b9c8eefc36aa49275bb1cbeeebbb26e5/jetified-GodotYodo1Mas.1.0.1.release/AndroidManifest.xml:14:9-16:88
+109            android:name="org.godotengine.plugin.v1.GodotYodo1Mas"
+109-->[GodotYodo1Mas.1.0.1.release.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b9c8eefc36aa49275bb1cbeeebbb26e5/jetified-GodotYodo1Mas.1.0.1.release/AndroidManifest.xml:15:13-67
+110            android:value="shinnil.godot.plugin.android.godotyodo1mas.GodotYodo1Mas" />
+110-->[GodotYodo1Mas.1.0.1.release.aar] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b9c8eefc36aa49275bb1cbeeebbb26e5/jetified-GodotYodo1Mas.1.0.1.release/AndroidManifest.xml:16:13-85
+111        <meta-data
+111-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:17:9-20:45
+112            android:name="PUBLISH_CHANNEL_CODE"
+112-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:18:13-48
+113            android:value="GooglePlay" />
+113-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:19:13-39
+114        <meta-data
+114-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:21:9-24:45
+115            android:name="MAS_SDK_VERSION_NAME"
+115-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:22:13-48
+116            android:value="4.2.1" />
+116-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:23:13-34
+117        <meta-data
+117-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:25:9-28:45
+118            android:name="MAS_SDK_TYPE"
+118-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:26:13-40
+119            android:value="mas_gp" />
+119-->[com.yodo1.mas:standard:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/b74ea986621c22aa41451109c3a7b7bd/jetified-standard-4.2.1/AndroidManifest.xml:27:13-35
+120        <meta-data
+120-->[com.yodo1.mas.mediation:admob:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f0145ff1ab3f37a33d49e064e6199b70/jetified-admob-4.2.1/AndroidManifest.xml:17:9-19:69
+121            android:name="com.google.android.gms.version"
+121-->[com.yodo1.mas.mediation:admob:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f0145ff1ab3f37a33d49e064e6199b70/jetified-admob-4.2.1/AndroidManifest.xml:18:13-58
+122            android:value="@integer/google_play_services_version" /> <!-- <meta-data -->
+122-->[com.yodo1.mas.mediation:admob:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f0145ff1ab3f37a33d49e064e6199b70/jetified-admob-4.2.1/AndroidManifest.xml:19:13-66
+123        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+124        <!-- android:value="${applicationId}" /> -->
+125        <activity
+125-->[com.yodo1.mas.mediation:admob:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f0145ff1ab3f37a33d49e064e6199b70/jetified-admob-4.2.1/AndroidManifest.xml:23:9-26:64
+126            android:name="com.google.android.gms.ads.AdActivity"
+126-->[com.yodo1.mas.mediation:admob:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f0145ff1ab3f37a33d49e064e6199b70/jetified-admob-4.2.1/AndroidManifest.xml:24:13-65
+127            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+127-->[com.yodo1.mas.mediation:admob:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f0145ff1ab3f37a33d49e064e6199b70/jetified-admob-4.2.1/AndroidManifest.xml:25:13-122
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:51:13-37
+129            android:theme="@android:style/Theme.Translucent" />
+129-->[com.yodo1.mas.mediation:admob:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/f0145ff1ab3f37a33d49e064e6199b70/jetified-admob-4.2.1/AndroidManifest.xml:26:13-61
+130
+131        <provider
+131-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:54:9-58:39
+132            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+132-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:55:13-76
+133            android:authorities="com.flynetstudios.fx3.mobileadsinitprovider"
+133-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:56:13-73
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:57:13-37
+135            android:initOrder="100" />
+135-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:58:13-36
+136
+137        <service
+137-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:60:9-63:40
+138            android:name="com.google.android.gms.ads.AdService"
+138-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:61:13-64
+139            android:enabled="true"
+139-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:62:13-35
+140            android:exported="false" />
+140-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:63:13-37
+141
+142        <activity
+142-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:20:9-24:86
+143            android:name="com.tapjoy.TJAdUnitActivity"
+143-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:21:13-55
+144            android:configChanges="orientation|keyboardHidden|screenSize"
+144-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:22:13-74
+145            android:hardwareAccelerated="true"
+145-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:23:13-47
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+146-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:24:13-83
+147        <activity
+147-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:25:9-29:75
+148            android:name="com.tapjoy.TJContentActivity"
+148-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:26:13-56
+149            android:configChanges="orientation|keyboardHidden|screenSize"
+149-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:27:13-74
+150            android:hardwareAccelerated="true"
+150-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:28:13-47
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.yodo1.mas.mediation:tapjoy:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fabf279eac65935cb5ad7aa6901486c5/jetified-tapjoy-4.2.1/AndroidManifest.xml:29:13-72
+152        <activity
+152-->[com.yodo1.mas.mediation:mytarget:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/46aacbf2ab8562441c8c4f3ba6092eba/jetified-mytarget-4.2.1/AndroidManifest.xml:15:9-17:125
+153            android:name="com.my.target.common.MyTargetActivity"
+153-->[com.yodo1.mas.mediation:mytarget:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/46aacbf2ab8562441c8c4f3ba6092eba/jetified-mytarget-4.2.1/AndroidManifest.xml:16:13-65
+154            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+154-->[com.yodo1.mas.mediation:mytarget:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/46aacbf2ab8562441c8c4f3ba6092eba/jetified-mytarget-4.2.1/AndroidManifest.xml:17:13-122
+155
+156        <provider
+156-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:30:9-36:35
+157            android:name="androidx.work.impl.WorkManagerInitializer"
+157-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:31:13-69
+158            android:authorities="com.flynetstudios.fx3.workmanager-init"
+158-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:32:13-68
+159            android:directBootAware="false"
+159-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:33:13-44
+160            android:exported="false"
+160-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:34:13-37
+161            android:multiprocess="true" />
+161-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:35:13-40
+162
+163        <service
+163-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:38:9-43:35
+164            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+164-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:39:13-88
+165            android:directBootAware="false"
+165-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:40:13-44
+166            android:enabled="@bool/enable_system_alarm_service_default"
+166-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:41:13-72
+167            android:exported="false" />
+167-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:42:13-37
+168        <service
+168-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:44:9-50:35
+169            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+169-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:45:13-84
+170            android:directBootAware="false"
+170-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:46:13-44
+171            android:enabled="@bool/enable_system_job_service_default"
+171-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:47:13-70
+172            android:exported="true"
+172-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:48:13-36
+173            android:permission="android.permission.BIND_JOB_SERVICE" />
+173-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:49:13-69
+174
+175        <receiver
+175-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:52:9-57:35
+176            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+176-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:53:13-88
+177            android:directBootAware="false"
+177-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:54:13-44
+178            android:enabled="true"
+178-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:55:13-35
+179            android:exported="false" />
+179-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:56:13-37
+180        <receiver
+180-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:58:9-68:20
+181            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+181-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:59:13-106
+182            android:directBootAware="false"
+182-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:60:13-44
+183            android:enabled="false"
+183-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:61:13-36
+184            android:exported="false" >
+184-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:62:13-37
+185            <intent-filter>
+185-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:64:13-67:29
+186                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+186-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:65:17-87
+186-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:65:25-84
+187                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+187-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:66:17-90
+187-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:66:25-87
+188            </intent-filter>
+189        </receiver>
+190        <receiver
+190-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:69:9-79:20
+191            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+191-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:70:13-104
+192            android:directBootAware="false"
+192-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:71:13-44
+193            android:enabled="false"
+193-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:72:13-36
+194            android:exported="false" >
+194-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:73:13-37
+195            <intent-filter>
+195-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:75:13-78:29
+196                <action android:name="android.intent.action.BATTERY_OKAY" />
+196-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:76:17-77
+196-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:76:25-74
+197                <action android:name="android.intent.action.BATTERY_LOW" />
+197-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:77:17-76
+197-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:77:25-73
+198            </intent-filter>
+199        </receiver>
+200        <receiver
+200-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:80:9-90:20
+201            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+201-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:81:13-104
+202            android:directBootAware="false"
+202-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:82:13-44
+203            android:enabled="false"
+203-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:83:13-36
+204            android:exported="false" >
+204-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:84:13-37
+205            <intent-filter>
+205-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:86:13-89:29
+206                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+206-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:87:17-83
+206-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:87:25-80
+207                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+207-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:88:17-82
+207-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:88:25-79
+208            </intent-filter>
+209        </receiver>
+210        <receiver
+210-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:91:9-100:20
+211            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+211-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:92:13-103
+212            android:directBootAware="false"
+212-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:93:13-44
+213            android:enabled="false"
+213-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:94:13-36
+214            android:exported="false" >
+214-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:95:13-37
+215            <intent-filter>
+215-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:97:13-99:29
+216                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+216-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+216-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+217            </intent-filter>
+218        </receiver>
+219        <receiver
+219-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:101:9-112:20
+220            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+220-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:102:13-88
+221            android:directBootAware="false"
+221-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:103:13-44
+222            android:enabled="false"
+222-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:104:13-36
+223            android:exported="false" >
+223-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:105:13-37
+224            <intent-filter>
+224-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:107:13-111:29
+225                <action android:name="android.intent.action.BOOT_COMPLETED" />
+225-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:108:17-79
+225-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:108:25-76
+226                <action android:name="android.intent.action.TIME_SET" />
+226-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:109:17-73
+226-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:109:25-70
+227                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+227-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:110:17-81
+227-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:110:25-78
+228            </intent-filter>
+229        </receiver>
+230        <receiver
+230-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:113:9-122:20
+231            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+231-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:114:13-99
+232            android:directBootAware="false"
+232-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:115:13-44
+233            android:enabled="@bool/enable_system_alarm_service_default"
+233-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:116:13-72
+234            android:exported="false" >
+234-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:117:13-37
+235            <intent-filter>
+235-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:119:13-121:29
+236                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+236-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:120:17-98
+236-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:120:25-95
+237            </intent-filter>
+238        </receiver>
+239
+240        <service
+240-->[androidx.room:room-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a311f37aa3e9bd991e766a5907524262/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+241            android:name="androidx.room.MultiInstanceInvalidationService"
+241-->[androidx.room:room-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a311f37aa3e9bd991e766a5907524262/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+242            android:exported="false" />
+242-->[androidx.room:room-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a311f37aa3e9bd991e766a5907524262/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+243
+244        <provider
+244-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9cda5cff3025f1354398db155884535e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+245            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+245-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9cda5cff3025f1354398db155884535e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+246            android:authorities="com.flynetstudios.fx3.lifecycle-process"
+246-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9cda5cff3025f1354398db155884535e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+247            android:exported="false"
+247-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9cda5cff3025f1354398db155884535e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+248            android:multiprocess="true" /> <!-- IronSource -->
+248-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9cda5cff3025f1354398db155884535e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+249        <activity
+249-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:17:9-20:50
+250            android:name="com.ironsource.sdk.controller.ControllerActivity"
+250-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:18:13-76
+251            android:configChanges="orientation|screenSize"
+251-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:19:13-59
+252            android:exported="false"
+252-->[com.google.ads.mediation:ironsource:7.1.5.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/0d414af17b873628798a71acd425250a/jetified-ironsource-7.1.5.1.0/AndroidManifest.xml:15:13-37
+253            android:hardwareAccelerated="true" />
+253-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:20:13-47
+254        <activity
+254-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:21:9-25:64
+255            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+255-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:22:13-78
+256            android:configChanges="orientation|screenSize"
+256-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:23:13-59
+257            android:exported="false"
+257-->[com.google.ads.mediation:ironsource:7.1.5.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/0d414af17b873628798a71acd425250a/jetified-ironsource-7.1.5.1.0/AndroidManifest.xml:20:13-37
+258            android:hardwareAccelerated="true"
+258-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:24:13-47
+259            android:theme="@android:style/Theme.Translucent" />
+259-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:25:13-61
+260        <activity
+260-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:26:9-30:64
+261            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+261-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:27:13-73
+262            android:configChanges="orientation|screenSize"
+262-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:28:13-59
+263            android:exported="false"
+263-->[com.google.ads.mediation:ironsource:7.1.5.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/0d414af17b873628798a71acd425250a/jetified-ironsource-7.1.5.1.0/AndroidManifest.xml:26:13-37
+264            android:hardwareAccelerated="true"
+264-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:29:13-47
+265            android:theme="@android:style/Theme.Translucent" />
+265-->[com.yodo1.mas.mediation:ironsource:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/01c0b9dc35ca9ef1ae2950338be80945/jetified-ironsource-4.2.1/AndroidManifest.xml:30:13-61
+266
+267        <provider
+267-->[com.ironsource.sdk:mediationsdk:7.1.5.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/ab5a705d0a5b2d23a02e84e31d6d3f57/jetified-mediationsdk-7.1.5.1/AndroidManifest.xml:32:9-34:82
+268            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
+268-->[com.ironsource.sdk:mediationsdk:7.1.5.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/ab5a705d0a5b2d23a02e84e31d6d3f57/jetified-mediationsdk-7.1.5.1/AndroidManifest.xml:33:13-80
+269            android:authorities="com.flynetstudios.fx3.IronsourceLifecycleProvider" /> <!-- 暂时屏蔽configChanges，因为打开就会导致Manifest合并出错 -->
+269-->[com.ironsource.sdk:mediationsdk:7.1.5.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/ab5a705d0a5b2d23a02e84e31d6d3f57/jetified-mediationsdk-7.1.5.1/AndroidManifest.xml:34:13-79
+270        <!-- android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize" -->
+271        <activity
+271-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:25:9-28:74
+272            android:name="com.vungle.warren.ui.VungleActivity"
+272-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:26:13-63
+273            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+273-->[com.vungle:publisher-sdk-android:6.9.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/de7c17d796efdcbb61b2a9d8692750a8/jetified-publisher-sdk-android-6.9.1/AndroidManifest.xml:25:13-113
+274            android:launchMode="singleTop"
+274-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:27:13-43
+275            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+275-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:28:13-71
+276
+277        <receiver
+277-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:30:9-38:20
+278            android:name="com.vungle.warren.NetworkProviderReceiver"
+278-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:31:13-69
+279            android:enabled="false" >
+279-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:32:13-36
+280            <intent-filter>
+280-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:33:13-37:29
+281                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+281-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+281-->[androidx.work:work-runtime:2.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a430ba4135f7325ee3ef6d6b025fae25/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+282
+283                <category android:name="android.intent.category.DEFAULT" />
+283-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:36:17-76
+283-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:36:27-73
+284            </intent-filter>
+285        </receiver>
+286
+287        <provider
+287-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:40:9-43:40
+288            android:name="com.vungle.warren.utility.VungleProvider"
+288-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:41:13-68
+289            android:authorities="com.flynetstudios.fx3.vungle-provider"
+289-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:42:13-67
+290            android:exported="false" />
+290-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:43:13-37
+291
+292        <activity
+292-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:15:9-19:50
+293            android:name="com.applovin.adview.AppLovinInterstitialActivity"
+293-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:16:13-76
+294            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+294-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:17:13-98
+295            android:hardwareAccelerated="true"
+295-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:18:13-47
+296            android:screenOrientation="behind" />
+296-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:19:13-47
+297        <activity
+297-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:20:9-26:50
+298            android:name="com.applovin.adview.AppLovinFullscreenActivity"
+298-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:21:13-74
+299            android:configChanges="keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+299-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:22:13-129
+300            android:exported="false"
+300-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:23:13-37
+301            android:hardwareAccelerated="true"
+301-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:24:13-47
+302            android:launchMode="singleTop"
+302-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:25:13-43
+303            android:screenOrientation="behind" />
+303-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:26:13-47
+304        <activity
+304-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:27:9-29:84
+305            android:name="com.applovin.sdk.AppLovinWebViewActivity"
+305-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:28:13-68
+306            android:configChanges="keyboardHidden|orientation|screenSize|uiMode" />
+306-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:29:13-81
+307
+308        <meta-data
+308-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:31:9-33:118
+309            android:name="applovin.sdk.key"
+309-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:32:13-44
+310            android:value="xcGD2fy-GdmiZQapx_kUSy5SMKyLoXBk8RyB5u9MVv34KetGdbl4XrXvAUFy0Qg9scKyVTI0NM4i_yzdXih4XE" />
+310-->[com.yodo1.mas.mediation:applovin:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/fd84d27d3009a7641327ca154f3545d0/jetified-applovin-4.2.1/AndroidManifest.xml:33:13-115
+311
+312        <activity
+312-->[com.yodo1.mas.mediation:yodo1:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a1f42fcebf2b0918792f7562327be9c4/jetified-yodo1-4.2.1/AndroidManifest.xml:12:9-15:47
+313            android:name="com.yodo1.mas.mediation.yodo1.kit.Yodo1VPActivity"
+313-->[com.yodo1.mas.mediation:yodo1:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a1f42fcebf2b0918792f7562327be9c4/jetified-yodo1-4.2.1/AndroidManifest.xml:13:13-77
+314            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+314-->[com.yodo1.mas.mediation:yodo1:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a1f42fcebf2b0918792f7562327be9c4/jetified-yodo1-4.2.1/AndroidManifest.xml:14:13-83
+315            android:launchMode="singleTask" />
+315-->[com.yodo1.mas.mediation:yodo1:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a1f42fcebf2b0918792f7562327be9c4/jetified-yodo1-4.2.1/AndroidManifest.xml:15:13-44
+316
+317        <meta-data
+317-->[com.yodo1.common:sensor:1.0.4] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a891fe97f5c3a22980a8e7b71b21b706/jetified-sensor-1.0.4/AndroidManifest.xml:14:9-16:36
+318            android:name="LocalIsSensorProduction"
+318-->[com.yodo1.common:sensor:1.0.4] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a891fe97f5c3a22980a8e7b71b21b706/jetified-sensor-1.0.4/AndroidManifest.xml:15:13-51
+319            android:value="true" />
+319-->[com.yodo1.common:sensor:1.0.4] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a891fe97f5c3a22980a8e7b71b21b706/jetified-sensor-1.0.4/AndroidManifest.xml:16:13-33
+320
+321        <provider
+321-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:15:9-19:39
+322            android:name="com.applovin.sdk.AppLovinInitProvider"
+322-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:16:13-65
+323            android:authorities="com.flynetstudios.fx3.applovininitprovider"
+323-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:17:13-72
+324            android:exported="false"
+324-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:18:13-37
+325            android:initOrder="101" />
+325-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:19:13-36
+326
+327        <activity
+327-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:36:9-39:87
+328            android:name="com.applovin.mediation.MaxDebuggerActivity"
+328-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:37:13-70
+329            android:configChanges="keyboardHidden|orientation|screenSize"
+329-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:38:13-74
+330            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+330-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:39:13-84
+331        <activity
+331-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:40:9-43:87
+332            android:name="com.applovin.mediation.MaxDebuggerDetailActivity"
+332-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:41:13-76
+333            android:configChanges="keyboardHidden|orientation|screenSize"
+333-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:42:13-74
+334            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+334-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:43:13-84
+335        <activity
+335-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:44:9-47:87
+336            android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity"
+336-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:45:13-77
+337            android:configChanges="keyboardHidden|orientation|screenSize"
+337-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:46:13-74
+338            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+338-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:47:13-84
+339        <activity
+339-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:48:9-51:87
+340            android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity"
+340-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:49:13-81
+341            android:configChanges="keyboardHidden|orientation|screenSize"
+341-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:50:13-74
+342            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+342-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:51:13-84
+343        <activity
+343-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:52:9-55:87
+344            android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"
+344-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:53:13-82
+345            android:configChanges="keyboardHidden|orientation|screenSize"
+345-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:54:13-74
+346            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+346-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:55:13-84
+347        <activity
+347-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:56:9-59:87
+348            android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"
+348-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:57:13-85
+349            android:configChanges="keyboardHidden|orientation|screenSize"
+349-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:58:13-74
+350            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+350-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:59:13-84
+351
+352        <service
+352-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:61:9-64:44
+353            android:name="com.applovin.impl.sdk.utils.AppKilledService"
+353-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:62:13-72
+354            android:exported="false"
+354-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:63:13-37
+355            android:stopWithTask="false" />
+355-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:64:13-41
+356        <service
+356-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:65:9-68:44
+357            android:name="com.applovin.impl.adview.activity.FullscreenAdService"
+357-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:66:13-81
+358            android:exported="false"
+358-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:67:13-37
+359            android:stopWithTask="false" /> <!-- fix for https://issuetracker.google.com/issues/79478779 -->
+359-->[com.applovin:applovin-sdk:10.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/9e812318330bd210bb052111d942bcb4/jetified-applovin-sdk-10.2.1/AndroidManifest.xml:68:13-41
+360        <uses-library
+360-->[com.yandex.android:mobileads:3.3.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/83110535d273380bb43004c62c386f73/jetified-mobileads-3.3.0/AndroidManifest.xml:25:9-27:40
+361            android:name="org.apache.http.legacy"
+361-->[com.yandex.android:mobileads:3.3.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/83110535d273380bb43004c62c386f73/jetified-mobileads-3.3.0/AndroidManifest.xml:26:13-50
+362            android:required="false" />
+362-->[com.yandex.android:mobileads:3.3.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/83110535d273380bb43004c62c386f73/jetified-mobileads-3.3.0/AndroidManifest.xml:27:13-37
+363
+364        <activity
+364-->[com.yandex.android:mobileads:3.3.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/83110535d273380bb43004c62c386f73/jetified-mobileads-3.3.0/AndroidManifest.xml:29:9-32:75
+365            android:name="com.yandex.mobile.ads.AdActivity"
+365-->[com.yandex.android:mobileads:3.3.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/83110535d273380bb43004c62c386f73/jetified-mobileads-3.3.0/AndroidManifest.xml:30:13-60
+366            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+366-->[com.yandex.android:mobileads:3.3.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/83110535d273380bb43004c62c386f73/jetified-mobileads-3.3.0/AndroidManifest.xml:31:13-122
+367            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Yandex Mobile Metrica Analytics: common service -->
+367-->[com.yandex.android:mobileads:3.3.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/83110535d273380bb43004c62c386f73/jetified-mobileads-3.3.0/AndroidManifest.xml:32:13-72
+368        <service
+368-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:26:9-43:19
+369            android:name="com.yandex.metrica.MetricaService"
+369-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:27:13-61
+370            android:enabled="true"
+370-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:28:13-35
+371            android:exported="true"
+371-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:29:13-36
+372            android:process=":Metrica" >
+372-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:30:13-39
+373            <intent-filter>
+373-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:32:13-38:29
+374                <category android:name="android.intent.category.DEFAULT" />
+374-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:36:17-76
+374-->[com.yodo1.mas.mediation:vungle:4.2.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/71b65d8c2df2a8486342ee8f01fac91d/jetified-vungle-4.2.1/AndroidManifest.xml:36:27-73
+375
+376                <action android:name="com.yandex.metrica.IMetricaService" />
+376-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:35:17-77
+376-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:35:25-74
+377
+378                <data android:scheme="metrica" />
+378-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:35:13-44
+378-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a18a6cd1c03b2db74ebd0ba879be83bd/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:35:19-41
+379            </intent-filter>
+380
+381            <meta-data
+381-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:40:13-42:38
+382                android:name="metrica:api:level"
+382-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:41:17-49
+383                android:value="94" />
+383-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:42:17-35
+384        </service>
+385        <service
+385-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:44:9-60:19
+386            android:name="com.yandex.metrica.ConfigurationService"
+386-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:45:13-67
+387            android:enabled="true"
+387-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:46:13-35
+388            android:exported="false"
+388-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:47:13-37
+389            android:process=":Metrica" >
+389-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:48:13-39
+390            <meta-data
+390-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:50:13-52:37
+391                android:name="metrica:configuration:api:level"
+391-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:51:17-63
+392                android:value="3" />
+392-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:52:17-34
+393
+394            <intent-filter>
+394-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:54:13-59:29
+395
+396                <!-- This action was used by old background location collecting and should not be used again -->
+397                <!-- <action android:name="com.yandex.metrica.configuration.ACTION_START"/> -->
+398                <action android:name="com.yandex.metrica.configuration.ACTION_INIT" />
+398-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:58:17-87
+398-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:58:25-84
+399            </intent-filter>
+400        </service>
+401        <service
+401-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:61:9-67:19
+402            android:name="com.yandex.metrica.ConfigurationJobService"
+402-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:62:13-70
+403            android:enabled="true"
+403-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:63:13-35
+404            android:exported="false"
+404-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:64:13-37
+405            android:permission="android.permission.BIND_JOB_SERVICE"
+405-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:65:13-69
+406            android:process=":Metrica" >
+406-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:66:13-39
+407        </service> <!-- Yandex Mobile Metrica Analytics: main receiver -->
+408        <receiver
+408-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:70:9-78:20
+409            android:name="com.yandex.metrica.MetricaEventHandler"
+409-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:71:13-66
+410            android:enabled="true"
+410-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:72:13-35
+411            android:exported="true" >
+411-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:73:13-36
+412            <intent-filter>
+412-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:75:13-77:29
+413                <action android:name="com.android.vending.INSTALL_REFERRER" />
+413-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:76:17-79
+413-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:76:25-76
+414            </intent-filter>
+415        </receiver>
+416        <receiver
+416-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:79:9-88:20
+417            android:name="com.yandex.metrica.ConfigurationServiceReceiver"
+417-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:80:13-75
+418            android:enabled="true"
+418-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:81:13-35
+419            android:exported="true"
+419-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:82:13-36
+420            android:process=":Metrica" >
+420-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:83:13-39
+421            <intent-filter>
+421-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:85:13-87:29
+422                <action android:name="com.yandex.metrica.configuration.service.PLC" />
+422-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:86:17-87
+422-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:86:25-84
+423            </intent-filter>
+424        </receiver>
+425
+426        <provider
+426-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:90:9-97:20
+427            android:name="com.yandex.metrica.PreloadInfoContentProvider"
+427-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:91:13-73
+428            android:authorities="com.flynetstudios.fx3.appmetrica.preloadinfo.retail"
+428-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:92:13-81
+429            android:enabled="true"
+429-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:93:13-35
+430            android:exported="true"
+430-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:94:13-36
+431            android:process=":Metrica" >
+431-->[com.yandex.android:mobmetricalib:3.18.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/6b801f35335d16de0d5a9fdc7e295e0a/jetified-mobmetricalib-3.18.0/AndroidManifest.xml:95:13-39
+432        </provider>
+433
+434        <activity
+434-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:19:9-23:75
+435            android:name="com.facebook.ads.AudienceNetworkActivity"
+435-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:20:13-68
+436            android:configChanges="keyboardHidden|orientation|screenSize"
+436-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:21:13-74
+437            android:exported="false"
+437-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:22:13-37
+438            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+438-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:23:13-72
+439
+440        <provider
+440-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:25:9-28:40
+441            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+441-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:26:13-75
+442            android:authorities="com.flynetstudios.fx3.AudienceNetworkContentProvider"
+442-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:27:13-82
+443            android:exported="false" />
+443-->[com.facebook.android:audience-network-sdk:6.4.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/3e51e0f7e7d24aaa000ef8778688825f/jetified-audience-network-sdk-6.4.0/AndroidManifest.xml:28:13-37
+444
+445        <activity
+445-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:37:9-42:46
+446            android:name="com.inmobi.ads.rendering.InMobiAdActivity"
+446-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:38:13-69
+447            android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize|screenLayout|locale|fontScale|uiMode"
+447-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:39:13-139
+448            android:hardwareAccelerated="true"
+448-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:40:13-47
+449            android:theme="@android:style/Theme.NoTitleBar" />
+449-->[com.inmobi.monetization:inmobi-ads:9.1.9] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/c2cbf9554d77c9453f411cd40d55bff2/jetified-inmobi-ads-9.1.9/AndroidManifest.xml:41:13-60
+450
+451        <provider
+451-->[com.squareup.picasso:picasso:2.71828] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dae82918423e0a8087c75d559c7a3c93/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+452            android:name="com.squareup.picasso.PicassoProvider"
+452-->[com.squareup.picasso:picasso:2.71828] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dae82918423e0a8087c75d559c7a3c93/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+453            android:authorities="com.flynetstudios.fx3.com.squareup.picasso"
+453-->[com.squareup.picasso:picasso:2.71828] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dae82918423e0a8087c75d559c7a3c93/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+454            android:exported="false" />
+454-->[com.squareup.picasso:picasso:2.71828] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dae82918423e0a8087c75d559c7a3c93/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+455
+456        <activity
+456-->[com.applovin.mediation:tapjoy-adapter:12.8.0.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dd254697351de6be54efe7938315886d/jetified-tapjoy-adapter-12.8.0.0/AndroidManifest.xml:23:9-25:77
+457            android:name="com.tapjoy.mraid.view.ActionHandler"
+457-->[com.applovin.mediation:tapjoy-adapter:12.8.0.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dd254697351de6be54efe7938315886d/jetified-tapjoy-adapter-12.8.0.0/AndroidManifest.xml:24:13-63
+458            android:configChanges="orientation|keyboardHidden|screenSize" />
+458-->[com.applovin.mediation:tapjoy-adapter:12.8.0.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dd254697351de6be54efe7938315886d/jetified-tapjoy-adapter-12.8.0.0/AndroidManifest.xml:25:13-74
+459        <activity
+459-->[com.applovin.mediation:tapjoy-adapter:12.8.0.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dd254697351de6be54efe7938315886d/jetified-tapjoy-adapter-12.8.0.0/AndroidManifest.xml:26:9-28:77
+460            android:name="com.tapjoy.mraid.view.Browser"
+460-->[com.applovin.mediation:tapjoy-adapter:12.8.0.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dd254697351de6be54efe7938315886d/jetified-tapjoy-adapter-12.8.0.0/AndroidManifest.xml:27:13-57
+461            android:configChanges="orientation|keyboardHidden|screenSize" />
+461-->[com.applovin.mediation:tapjoy-adapter:12.8.0.0] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/dd254697351de6be54efe7938315886d/jetified-tapjoy-adapter-12.8.0.0/AndroidManifest.xml:28:13-74
+462        <activity
+462-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:15:9-19:74
+463            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+463-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:16:13-74
+464            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+464-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:17:13-170
+465            android:hardwareAccelerated="true"
+465-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:18:13-47
+466            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+466-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:19:13-71
+467        <activity
+467-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:20:9-24:86
+468            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+468-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:21:13-85
+469            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+469-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:22:13-170
+470            android:hardwareAccelerated="true"
+470-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:23:13-47
+471            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+471-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:24:13-83
+472        <activity
+472-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:25:9-29:86
+473            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+473-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:26:13-93
+474            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+474-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:27:13-170
+475            android:hardwareAccelerated="false"
+475-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:28:13-48
+476            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+476-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:29:13-83
+477        <activity
+477-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:30:9-34:74
+478            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+478-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:31:13-82
+479            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+479-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:32:13-170
+480            android:hardwareAccelerated="false"
+480-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:33:13-48
+481            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+481-->[com.unity3d.ads:unity-ads:3.7.1] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/a30f52bfdba99b587d6becbc682d2d6f/jetified-unity-ads-3.7.1/AndroidManifest.xml:34:13-71
+482        <activity
+482-->[com.ironsource.adapters:vungleadapter:4.3.8] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/7136f5508d3c64664c88336b4ee5fe6c/jetified-vungleadapter-4.3.8/AndroidManifest.xml:20:9-25:75
+483            android:name="com.vungle.warren.ui.VungleFlexViewActivity"
+483-->[com.ironsource.adapters:vungleadapter:4.3.8] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/7136f5508d3c64664c88336b4ee5fe6c/jetified-vungleadapter-4.3.8/AndroidManifest.xml:21:13-71
+484            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+484-->[com.ironsource.adapters:vungleadapter:4.3.8] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/7136f5508d3c64664c88336b4ee5fe6c/jetified-vungleadapter-4.3.8/AndroidManifest.xml:22:13-113
+485            android:hardwareAccelerated="true"
+485-->[com.ironsource.adapters:vungleadapter:4.3.8] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/7136f5508d3c64664c88336b4ee5fe6c/jetified-vungleadapter-4.3.8/AndroidManifest.xml:23:13-47
+486            android:launchMode="singleTop"
+486-->[com.ironsource.adapters:vungleadapter:4.3.8] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/7136f5508d3c64664c88336b4ee5fe6c/jetified-vungleadapter-4.3.8/AndroidManifest.xml:24:13-43
+487            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+487-->[com.ironsource.adapters:vungleadapter:4.3.8] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/7136f5508d3c64664c88336b4ee5fe6c/jetified-vungleadapter-4.3.8/AndroidManifest.xml:25:13-72
+488
+489        <provider
+489-->[com.yodo1.common:online-config:1.0.3] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/bfe0d664550373a74113279fc1ce57d4/jetified-online-config-1.0.3/AndroidManifest.xml:15:9-20:43
+490            android:name="com.yodo1.onlineconfig.Yodo1OlConfigProvider"
+490-->[com.yodo1.common:online-config:1.0.3] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/bfe0d664550373a74113279fc1ce57d4/jetified-online-config-1.0.3/AndroidManifest.xml:16:13-72
+491            android:authorities="com.flynetstudios.fx3.olprovider"
+491-->[com.yodo1.common:online-config:1.0.3] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/bfe0d664550373a74113279fc1ce57d4/jetified-online-config-1.0.3/AndroidManifest.xml:17:13-62
+492            android:exported="false"
+492-->[com.yodo1.common:online-config:1.0.3] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/bfe0d664550373a74113279fc1ce57d4/jetified-online-config-1.0.3/AndroidManifest.xml:18:13-37
+493            android:initOrder="100"
+493-->[com.yodo1.common:online-config:1.0.3] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/bfe0d664550373a74113279fc1ce57d4/jetified-online-config-1.0.3/AndroidManifest.xml:19:13-36
+494            android:multiprocess="true" />
+494-->[com.yodo1.common:online-config:1.0.3] /Users/hicspace/.gradle/caches/transforms-2/files-2.1/bfe0d664550373a74113279fc1ce57d4/jetified-online-config-1.0.3/AndroidManifest.xml:20:13-40
+495    </application>
+496
+497</manifest>

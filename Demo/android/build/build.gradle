@@ -9,7 +9,7 @@ buildscript {
 
     repositories {
         google()
-        jcenter()
+        mavenCentral()
 //CHUNK_BUILDSCRIPT_REPOSITORIES_BEGIN
 //CHUNK_BUILDSCRIPT_REPOSITORIES_END
     }
@@ -25,19 +25,14 @@ apply plugin: 'com.android.application'
 
 allprojects {
     repositories {
-        mavenCentral()
         google()
-        jcenter()
+        mavenCentral()
 //CHUNK_ALLPROJECTS_REPOSITORIES_BEGIN
 //CHUNK_ALLPROJECTS_REPOSITORIES_END
 
-        maven { url "https://dl.bintray.com/ironsource-mobile/android-sdk" }
-        maven { url "https://dl.bintray.com/ironsource-mobile/android-adapters" }
-        maven { url "https://dl.bintray.com/yodo1/MAS-Android" }
-        maven { url "https://dl.bintray.com/yodo1/android-sdk" }
-        maven { url "https://android-sdk.is.com" }
-        maven { url "https://artifact.bytedance.com/repository/pangle" }
-        maven { url "https://sdk.tapjoy.com/" }
+maven { url "https://android-sdk.is.com" }
+maven { url "https://artifact.bytedance.com/repository/pangle" }
+maven { url "https://sdk.tapjoy.com/" }
 
         // Godot user plugins custom maven repos
         String[] mavenRepos = getGodotPluginsMavenRepos()
@@ -113,7 +108,7 @@ android {
         versionName getExportVersionName()
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
-		multiDexEnabled true
+        multiDexEnabled true
 //CHUNK_ANDROID_DEFAULTCONFIG_BEGIN
 //CHUNK_ANDROID_DEFAULTCONFIG_END
     }
@@ -136,6 +131,15 @@ android {
     }
 
     signingConfigs {
+        debug {
+            if (hasCustomDebugKeystore()) {
+                storeFile new File(getDebugKeystoreFile())
+                storePassword getDebugKeystorePassword()
+                keyAlias getDebugKeyAlias()
+                keyPassword getDebugKeystorePassword()
+            }
+        }
+
         release {
             File keystoreFile = new File(getReleaseKeystoreFile())
             if (keystoreFile.isFile()) {

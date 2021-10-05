@@ -1,0 +1,13 @@
+#Mon Oct 04 17:52:25 WEST 2021
+path.3=classes4.dex
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+base.3=/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/build/intermediates/dex/debug/mergeDexDebug/classes4.dex
+base.2=/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/build/intermediates/dex/debug/mergeDexDebug/classes3.dex
+base.1=/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/build/intermediates/dex/debug/mergeDexDebug/classes2.dex
+base.0=/Users/hicspace/Downloads/GodotYodo1Mas-develop 2/demo/android/build/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex

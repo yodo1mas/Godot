@@ -29,8 +29,8 @@ signal rewarded_ad_earned()
 signal rewarded_ad_error()
 
 # properties
-export var app_id_ios: String
-export var app_id_android: String
+export var app_key_ios: String
+export var app_key_android: String
 
 # "private" properties
 var _yodo1mas_singleton = null
@@ -74,9 +74,9 @@ func init() -> bool:
 		print("OS.get_name()")
 
 		if OS.get_name() == "iOS":
-			_yodo1mas_singleton.init(app_id_ios)
+			_yodo1mas_singleton.init(app_key_ios)
 		elif OS.get_name() == "Android":
-			_yodo1mas_singleton.init(app_id_android)
+			_yodo1mas_singleton.init(app_key_android)
 		else:
 			print("NOT Android or iOs")
 			

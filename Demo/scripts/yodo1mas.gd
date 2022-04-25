@@ -152,13 +152,13 @@ func _on_banner_ad_not_loaded() -> void:
 	emit_signal("banner_ad_not_loaded")
 
 func _on_banner_ad_opened() -> void:
-	emit_signal("banner_ad_not_opened")
+	emit_signal("banner_ad_opened")
 	
 func _on_banner_ad_closed() -> void:
-	emit_signal("banner_ad_not_closed")
+	emit_signal("banner_ad_closed")
 
-func _on_banner_ad_error() -> void:
-	emit_signal("banner_ad_not_error")
+func _on_banner_ad_error(error_code:int) -> void:
+	emit_signal("banner_ad_error", error_code)
 
 
 func _on_interstitial_ad_not_loaded() -> void:

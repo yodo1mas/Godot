@@ -1,0 +1,7 @@
+[config]
+name="Yodo1Mas"
+binary_type="local"
+binary="GodotYodo1Mas4.7.6.aar"
+
+[dependencies]
+remote=["com.yodo1.mas:full:4.7.6"]

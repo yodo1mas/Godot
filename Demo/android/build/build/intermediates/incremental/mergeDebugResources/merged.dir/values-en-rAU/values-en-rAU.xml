@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>Normal</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">Fast-forward %d second</item>
     <item quantity="other">Fast-forward %d seconds</item>
@@ -48,7 +57,6 @@
     <string name="exo_controls_pause_description">Pause</string>
     <string name="exo_controls_play_description">Play</string>
     <string name="exo_controls_playback_speed">Speed</string>
-    <string name="exo_controls_playback_speed_normal">Normal</string>
     <string name="exo_controls_previous_description">Previous</string>
     <string name="exo_controls_repeat_all_description">Repeat all</string>
     <string name="exo_controls_repeat_off_description">Repeat none</string>
@@ -66,6 +74,9 @@
     <string name="exo_download_downloading">Downloading</string>
     <string name="exo_download_failed">Download failed</string>
     <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_paused">Downloads paused</string>
+    <string name="exo_download_paused_for_network">Downloads waiting for network</string>
+    <string name="exo_download_paused_for_wifi">Downloads waiting for Wi-Fi</string>
     <string name="exo_download_removing">Removing downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>

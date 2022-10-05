@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25-kordne</item>
+    <item>0,5-kordne</item>
+    <item>0,75-kordne</item>
+    <item>Tavaline</item>
+    <item>1,25-kordne</item>
+    <item>1,5-kordne</item>
+    <item>2-kordne</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">Keri %d sekund edasi</item>
     <item quantity="other">Keri %d sekundit edasi</item>
@@ -35,7 +44,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Jaga:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Jagamine rakendusega <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ahendamine"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Rakendusel <ns1:g id="APP_NAME">%1$s</ns1:g> on probleeme Google Play teenustega. Proovige uuesti."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Luba</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Rakendus %1$s töötab ainult siis, kui lubate Google Play teenused.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play teenuste lubamine</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installi</string>
+    <string name="common_google_play_services_install_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida teie seadmes pole.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play teenuste hankimine</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play teenuste saadavalolek</string>
+    <string name="common_google_play_services_notification_ticker">Viga Google Play teenustes</string>
+    <string name="common_google_play_services_unknown_issue">Rakendusel %1$s on probleeme Google Play teenustega. Proovige uuesti.</string>
+    <string name="common_google_play_services_unsupported_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida teie seadmes ei toetata.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Värskenda</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Rakenduse %1$s töötamiseks peate värskendama Google Play teenuseid.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play teenuste värskendamine</string>
+    <string name="common_google_play_services_updating_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida praegu värskendatakse.</string>
+    <string name="common_google_play_services_wear_update_text">Vajalik on Google Play teenuste uus versioon. See värskendab end peagi.</string>
+    <string name="common_open_on_phone">Ava telefonis</string>
+    <string name="common_signin_button_text">Logi sisse</string>
+    <string name="common_signin_button_text_long">Logi sisse Google\'i kontoga</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Link kopeeriti lõikelauale"</string>
     <string name="exo_controls_cc_disabled_description">Luba subtiitrid</string>
     <string name="exo_controls_cc_enabled_description">Keela subtiitrid</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">Peata</string>
     <string name="exo_controls_play_description">Esita</string>
     <string name="exo_controls_playback_speed">Kiirus</string>
-    <string name="exo_controls_playback_speed_normal">Tavaline</string>
     <string name="exo_controls_previous_description">Eelmine</string>
     <string name="exo_controls_repeat_all_description">Korda kõiki</string>
     <string name="exo_controls_repeat_off_description">Ära korda ühtegi</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">Allalaadimine</string>
     <string name="exo_download_failed">Allalaadimine ebaõnnestus</string>
     <string name="exo_download_notification_channel_name">Allalaadimised</string>
+    <string name="exo_download_paused">Allalaadimised peatati</string>
+    <string name="exo_download_paused_for_network">Allalaadimised on võrgu ootel</string>
+    <string name="exo_download_paused_for_wifi">Allalaadimised on WiFi-võrgu ootel</string>
     <string name="exo_download_removing">Allalaadimiste eemaldamine</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
@@ -89,20 +117,20 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopeeri link"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Ava brauseris"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Jaga linki"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"Puudutage reklaami avamiseks"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"Vaadake reklaami, mille salvestasite siis, kui teil puudus võrguühendus"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"OK"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Saate märguande koos lingiga, kui teil on taas võrguühendus"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Tänan, ei"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"Saadame teile märguande koos lingiga reklaamija saidile."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"Avage reklaam, kui teil on taas võrguühendus."</string>
-    <string msgid="368094699078615544" name="s1">"Salvesta kujutis"</string>
-    <string msgid="4550830452390689489" name="s2">"Kas lubada reklaamil salvestada kujutis pildigaleriisse?"</string>
-    <string msgid="2435407834265420668" name="s3">"Nõustu"</string>
-    <string msgid="9167523597401839819" name="s4">"Keeldu"</string>
-    <string msgid="1566682516266724847" name="s5">"Loo kalendrisündmus"</string>
-    <string msgid="5996672174517137271" name="s6">"Kas lubada reklaamil luua kalendrisündmus?"</string>
-    <string msgid="7163549807207034258" name="s7">"Testreklaam"</string>
+    <string name="offline_notification_text">Puudutage reklaami avamiseks</string>
+    <string name="offline_notification_title">Vaadake reklaami, mille salvestasite siis, kui teil puudus võrguühendus</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Saate märguande koos lingiga, kui teil on taas võrguühendus</string>
+    <string name="offline_opt_in_decline">Tänan, ei</string>
+    <string name="offline_opt_in_message">Saadame teile märguande koos lingiga reklaamija saidile.</string>
+    <string name="offline_opt_in_title">Avage reklaam, kui teil on taas võrguühendus.</string>
+    <string name="s1">Salvesta kujutis</string>
+    <string name="s2">Kas lubada reklaamil salvestada kujutis pildigaleriisse?</string>
+    <string name="s3">Nõustu</string>
+    <string name="s4">Keeldu</string>
+    <string name="s5">Loo kalendrisündmus</string>
+    <string name="s6">Kas lubada reklaamil luua kalendrisündmus?</string>
+    <string name="s7">Testreklaam</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Otsing"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>०.२५x</item>
+    <item>०.५x</item>
+    <item>०.७५x</item>
+    <item>सामान्य</item>
+    <item>१.२५x</item>
+    <item>१.५x</item>
+    <item>२x</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">%d सेकंद फास्ट फॉरवर्ड करा</item>
     <item quantity="other">%d सेकंद फास्ट फॉरवर्ड करा</item>
@@ -35,12 +44,29 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"यांच्यासोबत शेअर करा"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> सह शेअर करा"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"कोलॅप्स करा"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ला Google Play सेवांमध्ये समस्या येत आहे. कृपया पुन्हा प्रयत्न करा."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">सुरू करा</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">तुम्ही Google Play सेवा सक्षम केल्याशिवाय %1$s हा अ‍ॅप कार्य करणार नाही.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play सेवा सुरू करा</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">स्‍थापित करा</string>
+    <string name="common_google_play_services_install_text">Google Play सेवा आपल्या डिव्हाइसवर उपलब्ध नाही, त्याशिवाय %1$s चालणार नाही.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play सेवा मिळवा</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play सेवा उपलब्धता</string>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवा एरर</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ला Google Play सेवांमध्ये समस्या येत आहे. कृपया पुन्हा प्रयत्न करा.</string>
+    <string name="common_google_play_services_unsupported_text">तुमचे डिव्हाइस सपोर्ट करत नसलेल्या, Google Play सेवांशिवाय %1$s चालणार नाही.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">अपडेट करा</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">तुम्ही Google Play सेवा अपडेट करेपर्यंत %1$s चालणार नाही.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play सेवा अपडेट करा</string>
+    <string name="common_google_play_services_updating_text">सध्‍या अपडेट होत असलेल्‍या, Google Play सेवांशिवाय %1$s चालणार नाही.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play सेवांच्या नवीन आवृत्तीची आवश्यकता आहे. हे स्वत:ला लवकरच अपडेट करेल.</string>
+    <string name="common_open_on_phone">फोनवर उघडा</string>
+    <string name="common_signin_button_text">साइन इन करा</string>
+    <string name="common_signin_button_text_long">Google सह साइन इन करा</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"लिंक क्लिपबोर्डवर कॉपी केली"</string>
     <string name="exo_controls_cc_disabled_description">सबटायटल सुरू करा</string>
     <string name="exo_controls_cc_enabled_description">सबटायटल बंद करा</string>
     <string name="exo_controls_fastforward_description">फास्ट फॉरवर्ड करा</string>
-    <string name="exo_controls_fullscreen_enter_description">फुलस्क्रीनवर पाहा</string>
+    <string name="exo_controls_fullscreen_enter_description">फुलस्क्रीनवर पहा</string>
     <string name="exo_controls_fullscreen_exit_description">फुलस्क्रीनवरून बाहेर पडा</string>
     <string name="exo_controls_hide">प्लेअर नियंत्रणे लपवा</string>
     <string name="exo_controls_next_description">पुढील</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">विराम</string>
     <string name="exo_controls_play_description">प्‍ले करा</string>
     <string name="exo_controls_playback_speed">वेग</string>
-    <string name="exo_controls_playback_speed_normal">सामान्य</string>
     <string name="exo_controls_previous_description">मागील</string>
     <string name="exo_controls_repeat_all_description">सर्व रीपीट करा</string>
     <string name="exo_controls_repeat_off_description">रीपीट करू नका</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">डाउनलोड होत आहे</string>
     <string name="exo_download_failed">डाउनलोड अयशस्वी झाले</string>
     <string name="exo_download_notification_channel_name">डाउनलोड</string>
+    <string name="exo_download_paused">डाउनलोड थांबवले</string>
+    <string name="exo_download_paused_for_network">डाउनलोड नेटवर्कची प्रतीक्षा करत आहेत</string>
+    <string name="exo_download_paused_for_wifi">डाउनलोड वायफाय ची प्रतीक्षा करत आहेत</string>
     <string name="exo_download_removing">डाउनलोड काढून टाकत आहे</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -89,20 +117,20 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"लिंक कॉपी करा"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ब्राउझरमध्ये उघडा"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"लिंक शेअर करा"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"जाहिरात उघडण्यासाठी टॅप करा"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"तुम्ही ऑफलाइन असताना तुम्ही सेव्ह केलेली जाहिरात पाहा"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"ओके"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"तुम्ही पुन्हा ऑनलाइन याल तेव्हा तुम्हाला लिंकसह सूचना मिळेल"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"नाही, नको"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"आम्ही तुम्हाला जाहिरातदाराच्या साइटच्या लिंकसह एक सूचना पाठवू."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"तुम्ही पुन्हा ऑनलाइन याल तेव्हा जाहिरात उघडा."</string>
-    <string msgid="368094699078615544" name="s1">"इमेज सेव्ह करा"</string>
-    <string msgid="4550830452390689489" name="s2">"चित्र गॅलरीत इमेज संग्रहित करण्याची जाहिरातीस अनुमती द्यायची?"</string>
-    <string msgid="2435407834265420668" name="s3">"स्वीकारा"</string>
-    <string msgid="9167523597401839819" name="s4">"नकार द्या"</string>
-    <string msgid="1566682516266724847" name="s5">"कॅलेंडर इव्हेंट तयार करा"</string>
-    <string msgid="5996672174517137271" name="s6">"जाहिरातीस कॅलेंडर इव्हेंट तयार करण्याची परवानगी द्यायची?"</string>
-    <string msgid="7163549807207034258" name="s7">"चाचणी जाहिरात"</string>
+    <string name="offline_notification_text">जाहिरात उघडण्यासाठी टॅप करा</string>
+    <string name="offline_notification_title">तुम्ही ऑफलाइन असताना तुम्ही सेव्ह केलेली जाहिरात पहा</string>
+    <string name="offline_opt_in_confirm">ओके</string>
+    <string name="offline_opt_in_confirmation">तुम्ही पुन्हा ऑनलाइन याल तेव्हा तुम्हाला लिंकसह सूचना मिळेल</string>
+    <string name="offline_opt_in_decline">नाही, नको</string>
+    <string name="offline_opt_in_message">आम्ही तुम्हाला जाहिरातदाराच्या साइटच्या लिंकसह एक सूचना पाठवू.</string>
+    <string name="offline_opt_in_title">तुम्ही पुन्हा ऑनलाइन याल तेव्हा जाहिरात उघडा.</string>
+    <string name="s1">इमेज सेव्ह करा</string>
+    <string name="s2">चित्र गॅलरीत इमेज संग्रहित करण्याची जाहिरातीस अनुमती द्यायची?</string>
+    <string name="s3">स्वीकारा</string>
+    <string name="s4">नकार द्या</string>
+    <string name="s5">कॅलेंडर इव्हेंट तयार करा</string>
+    <string name="s6">जाहिरातीस कॅलेंडर इव्हेंट तयार करण्याची परवानगी द्यायची?</string>
+    <string name="s7">चाचणी जाहिरात</string>
     <string msgid="6264217191555673260" name="search_menu_title">"शोध"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"९९९+"</string>
 </resources>

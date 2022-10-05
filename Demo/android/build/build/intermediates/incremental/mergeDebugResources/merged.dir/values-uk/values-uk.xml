@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Звичайна</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">Перемотати вперед на %d секунду</item>
     <item quantity="few">Перемотати вперед на %d секунди</item>
@@ -39,7 +48,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поділитися:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поділитися через додаток <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Згорнути"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"У додатку <ns1:g id="APP_NAME">%1$s</ns1:g> виникла проблема із сервісами Google Play. Повторіть спробу."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Увімкнути</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Додаток %1$s не працюватиме, якщо не ввімкнути сервіси Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Увімкнути сервіси Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Установити</string>
+    <string name="common_google_play_services_install_text">Додаток %1$s не працюватиме без сервісів Google Play, яких немає на вашому пристрої.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Установити сервіси Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступність сервісів Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Помилка сервісів Google Play</string>
+    <string name="common_google_play_services_unknown_issue">У додатку %1$s виникла проблема із сервісами Google Play. Повторіть спробу.</string>
+    <string name="common_google_play_services_unsupported_text">Додаток %1$s не працюватиме без сервісів Google Play, які не підтримуються на вашому пристрої.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Оновити</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Додаток %1$s не працюватиме, якщо не оновити сервіси Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Оновіть сервіси Google Play</string>
+    <string name="common_google_play_services_updating_text">Додаток %1$s не працюватиме без сервісів Google Play, які зараз оновлюються.</string>
+    <string name="common_google_play_services_wear_update_text">Потрібна нова версія сервісів Google Play. Вони невдовзі оновляться.</string>
+    <string name="common_open_on_phone">Відкрити на телефоні</string>
+    <string name="common_signin_button_text">Увійти</string>
+    <string name="common_signin_button_text_long">Увійти в облік. запис Google</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Посилання скопійовано в буфер обміну"</string>
     <string name="exo_controls_cc_disabled_description">Увімкнути субтитри</string>
     <string name="exo_controls_cc_enabled_description">Вимкнути субтитри</string>
@@ -53,7 +79,6 @@
     <string name="exo_controls_pause_description">Призупинити</string>
     <string name="exo_controls_play_description">Відтворити</string>
     <string name="exo_controls_playback_speed">Швидкість</string>
-    <string name="exo_controls_playback_speed_normal">Звичайна</string>
     <string name="exo_controls_previous_description">Назад</string>
     <string name="exo_controls_repeat_all_description">Повторити всі</string>
     <string name="exo_controls_repeat_off_description">Не повторювати</string>
@@ -71,6 +96,9 @@
     <string name="exo_download_downloading">Завантажується</string>
     <string name="exo_download_failed">Не вдалося завантажити</string>
     <string name="exo_download_notification_channel_name">Завантаження</string>
+    <string name="exo_download_paused">Завантаження призупинено</string>
+    <string name="exo_download_paused_for_network">Очікується підключення до мережі</string>
+    <string name="exo_download_paused_for_wifi">Очікується підключення до Wi-Fi</string>
     <string name="exo_download_removing">Завантаження видаляються</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Мбіт/с</string>
@@ -94,20 +122,20 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Відкрити у веб-переглядачі"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Надіслати посилання"</string>
     <string name="godot_project_name_string">GodotYodo1Mas</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"Натисніть, щоб відкрити оголошення"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"Перегляньте оголошення, яке ви зберегли в режимі офлайн"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"OK"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Ви отримаєте сповіщення з посиланням, коли знову будете в мережі"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Не потрібно"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"Ми надішлемо сповіщення з посиланням на сайт рекламодавця."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"Відкрийте оголошення, коли знову будете в мережі."</string>
-    <string msgid="368094699078615544" name="s1">"Зберегти зображення"</string>
-    <string msgid="4550830452390689489" name="s2">"Дозволити оголошенню зберегти зображення в галереї?"</string>
-    <string msgid="2435407834265420668" name="s3">"Прийняти"</string>
-    <string msgid="9167523597401839819" name="s4">"Відхилити"</string>
-    <string msgid="1566682516266724847" name="s5">"Створити подію календаря"</string>
-    <string msgid="5996672174517137271" name="s6">"Дозволити оголошенню створити подію календаря?"</string>
-    <string msgid="7163549807207034258" name="s7">"Тестове оголошення"</string>
+    <string name="offline_notification_text">Натисніть, щоб відкрити оголошення</string>
+    <string name="offline_notification_title">Перегляньте оголошення, яке ви зберегли в режимі офлайн</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Ви отримаєте сповіщення з посиланням, коли знову будете в мережі</string>
+    <string name="offline_opt_in_decline">Не потрібно</string>
+    <string name="offline_opt_in_message">Ми надішлемо сповіщення з посиланням на сайт рекламодавця.</string>
+    <string name="offline_opt_in_title">Відкрийте оголошення, коли знову будете в мережі.</string>
+    <string name="s1">Зберегти зображення</string>
+    <string name="s2">Дозволити оголошенню зберегти зображення в галереї?</string>
+    <string name="s3">Прийняти</string>
+    <string name="s4">Відхилити</string>
+    <string name="s5">Створити подію календаря</string>
+    <string name="s6">Дозволити оголошенню створити подію календаря?</string>
+    <string name="s7">Тестове оголошення</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25×</item>
+    <item>0,5×</item>
+    <item>0,75×</item>
+    <item>Normál</item>
+    <item>1,25×</item>
+    <item>1,5×</item>
+    <item>2×</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">Előretekerés %d másodperccel</item>
     <item quantity="other">Előretekerés %d másodperccel</item>
@@ -35,7 +44,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Megosztás a következő alkalmazással: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Összecsukás"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás problémába ütközött a Google Play-szolgáltatások használata során. Próbálkozzon újra."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Engedélyezés</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">A(z) %1$s alkalmazás csak akkor működik, ha  engedélyezi a Google Play-szolgáltatásokat.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play-szolgáltatások engedélyezése</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Telepítés</string>
+    <string name="common_google_play_services_install_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak az eszközről.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">A Google Play-szolgáltatások beszerzése</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play-szolgáltatások elérhetősége</string>
+    <string name="common_google_play_services_notification_ticker">Google Play-szolgáltatások – hiba</string>
+    <string name="common_google_play_services_unknown_issue">A(z) %1$s alkalmazás problémába ütközött a Google Play-szolgáltatások használata során. Próbálkozzon újra.</string>
+    <string name="common_google_play_services_unsupported_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyeket eszköze nem támogat.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Frissítés</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">A(z) %1$s alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">A Google Play-szolgáltatások frissítése</string>
+    <string name="common_google_play_services_updating_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek frissítése folyamatban van.</string>
+    <string name="common_google_play_services_wear_update_text">A Google Play-szolgáltatások új verziójára van szükség. A szolgáltatás hamarosan frissíti önmagát.</string>
+    <string name="common_open_on_phone">Megnyitás a telefonon</string>
+    <string name="common_signin_button_text">Bejelentkezés</string>
+    <string name="common_signin_button_text_long">Bejelentkezés Google-fiókkal</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Link vágólapra másolva"</string>
     <string name="exo_controls_cc_disabled_description">Feliratok bekapcsolása</string>
     <string name="exo_controls_cc_enabled_description">Feliratok kikapcsolása</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">Szüneteltetés</string>
     <string name="exo_controls_play_description">Lejátszás</string>
     <string name="exo_controls_playback_speed">Sebesség</string>
-    <string name="exo_controls_playback_speed_normal">Normál</string>
     <string name="exo_controls_previous_description">Előző</string>
     <string name="exo_controls_repeat_all_description">Összes szám ismétlése</string>
     <string name="exo_controls_repeat_off_description">Nincs ismétlés</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">Letöltés folyamatban</string>
     <string name="exo_download_failed">Nem sikerült a letöltés</string>
     <string name="exo_download_notification_channel_name">Letöltések</string>
+    <string name="exo_download_paused">Letöltések szüneteltetve</string>
+    <string name="exo_download_paused_for_network">A letöltések hálózatra várakoznak</string>
+    <string name="exo_download_paused_for_wifi">A letöltések Wi-Fi-re várakoznak</string>
     <string name="exo_download_removing">Letöltések törlése folyamatban</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -90,20 +118,20 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Megnyitás böngészőben"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Link megosztása"</string>
     <string name="godot_project_name_string">GodotYodo1Mas</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"Koppintson a hirdetés megnyitásához"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"Az offline mentett hirdetés megtekintése"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"OK"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Linket tartalmazó értesítést kap, amikor újra online lesz"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Nem"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"Értesítést küldünk, amelyben a hirdető webhelyére mutató link szerepel."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"Megnyithatja a hirdetést akkor, amikor újra online lesz."</string>
-    <string msgid="368094699078615544" name="s1">"Kép mentése"</string>
-    <string msgid="4550830452390689489" name="s2">"Engedélyezi a hirdetés számára a kép tárolását a Képgalériában?"</string>
-    <string msgid="2435407834265420668" name="s3">"Elfogadás"</string>
-    <string msgid="9167523597401839819" name="s4">"Elutasítás"</string>
-    <string msgid="1566682516266724847" name="s5">"Naptáresemény létrehozása"</string>
-    <string msgid="5996672174517137271" name="s6">"Engedélyezi a hirdetés számára naptáresemény létrehozását?"</string>
-    <string msgid="7163549807207034258" name="s7">"Teszthirdetés"</string>
+    <string name="offline_notification_text">Koppintson a hirdetés megnyitásához</string>
+    <string name="offline_notification_title">Az offline mentett hirdetés megtekintése</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Linket tartalmazó értesítést kap, amikor újra online lesz</string>
+    <string name="offline_opt_in_decline">Nem</string>
+    <string name="offline_opt_in_message">Értesítést küldünk, amelyben a hirdető webhelyére mutató link szerepel.</string>
+    <string name="offline_opt_in_title">Megnyithatja a hirdetést akkor, amikor újra online lesz.</string>
+    <string name="s1">Kép mentése</string>
+    <string name="s2">Engedélyezi a hirdetés számára a kép tárolását a Képgalériában?</string>
+    <string name="s3">Elfogadás</string>
+    <string name="s4">Elutasítás</string>
+    <string name="s5">Naptáresemény létrehozása</string>
+    <string name="s6">Engedélyezi a hirdetés számára naptáresemény létrehozását?</string>
+    <string name="s7">Teszthirdetés</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Keresés"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

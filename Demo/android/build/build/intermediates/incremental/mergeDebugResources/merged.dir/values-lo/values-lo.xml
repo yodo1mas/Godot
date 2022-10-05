@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>ປົກກະຕິ</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">ເລື່ອນໄປໜ້າ %d ວິນາທີ</item>
     <item quantity="other">ເລື່ອນໄປໜ້າ %d ວິນາທີ</item>
@@ -35,7 +44,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ແບ່ງປັນກັບ"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"ແບ່ງປັນດ້ວຍ <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ຫຍໍ້ລົງ"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ກຳລັງມີບັນຫາກັບບໍລິການ Google Play. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">ເປີດນຳໃຊ້</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s ຈະບໍ່ສາມາດໃຊ້ງານໄດ້ຈົນກວ່າທ່ານຈະເປີດໃຊ້ງານ​ການ​ບໍ​ລິ​ການ Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">ເປີດໃຊ້ການ​ບໍ​ລິ​ການ Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">ຕິດຕັ້ງ</string>
+    <string name="common_google_play_services_install_text">%1$s ຈະບໍ່ສາມາດເປີດໃຊ້ໄດ້ຫາກບໍ່ມີການບໍລິການ Google Play ເຊິ່ງແທັບເລັດຂອງທ່ານບໍ່ມີ.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">ຕິດຕັ້ງບໍລິການ Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">ສະຖານະບໍລິການ Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services ​ເກີດ​ຄວາມ​ຜິດ​ພາດ</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ກຳລັງມີບັນຫາກັບບໍລິການ Google Play. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ຈະບໍ່ສາມາດໃຊ້ໄດ້ຫາກບໍ່ມີບໍລິການ Google Play ເຊິ່ງອຸປະກອນຂອງທ່ານບໍ່ຮອງຮັບ.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">ອັບເດດ</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ຈົນກວ່າທ່ານຈະອັບເດດການ​ບໍ​ລິ​ການ Google Play</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">ອັບເດດການ​ບໍ​ລິ​ການ Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ຈະບໍ່ສາມາດໃຊ້ງານໄດ້ໂດຍທີ່ບໍ່ມີການ​ບໍ​ລິ​ການ Google Play, ເຊິ່ງ​ກຳ​ລັງ​ອັບ​ເດດ​ຢູ່​ໃນ​ປະ​ຈຸ​ບັນ.</string>
+    <string name="common_google_play_services_wear_update_text">ຈຳ​ເປັນ​ຕ້ອງ​ມີ​ກາ​ນ​ບໍ​ລິ​ການ Google Play ເວີ​ຊັນ​ໃໝ່. ມັນ​ຈະ​ອັບ​ເດດ​ຕົວ​ເອງ​ໄວໆ​ນີ້.</string>
+    <string name="common_open_on_phone">​ເປີດ​ໃນ​ໂທ​ລະ​ສັບ</string>
+    <string name="common_signin_button_text">ລົງຊື່ເຂົ້າໃຊ້</string>
+    <string name="common_signin_button_text_long">ລົງຊື່ເຂົ້າໃຊ້ດ້ວຍ Google</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"ສຳເນົາລິ້ງໃສ່ຄລິບບອດແລ້ວ"</string>
     <string name="exo_controls_cc_disabled_description">ເປີດການນຳໃຊ້ຄຳແປ</string>
     <string name="exo_controls_cc_enabled_description">ປິດການນຳໃຊ້ຄຳແປ</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">ຢຸດຊົ່ວຄາວ</string>
     <string name="exo_controls_play_description">ຫຼິ້ນ</string>
     <string name="exo_controls_playback_speed">ຄວາມໄວ</string>
-    <string name="exo_controls_playback_speed_normal">ທົ່ວໄປ</string>
     <string name="exo_controls_previous_description">ກ່ອນໜ້າ</string>
     <string name="exo_controls_repeat_all_description">ຫຼິ້ນຊ້ຳທັງໝົດ</string>
     <string name="exo_controls_repeat_off_description">ບໍ່ຫຼິ້ນຊ້ຳ</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">ກຳລັງດາວໂຫລດ</string>
     <string name="exo_download_failed">ດາວໂຫຼດບໍ່ສຳເລັດ</string>
     <string name="exo_download_notification_channel_name">ດາວໂຫລດ</string>
+    <string name="exo_download_paused">ຢຸດດາວໂຫຼດຊົ່ວຄາວແລ້ວ</string>
+    <string name="exo_download_paused_for_network">ການດາວໂຫຼດກຳລັງລໍຖ້າເຄືອຂ່າຍຢູ່</string>
+    <string name="exo_download_paused_for_wifi">ການດາວໂຫຼດກຳລັງລໍຖ້າ WiFi ຢູ່</string>
     <string name="exo_download_removing">ກຳລັງລຶບການດາວໂຫລດອອກ</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -89,20 +117,20 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"ສຳເນົາລິ້ງ"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ເປີດໃນໂປຣແກຣມທ່ອງເວັບ"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"ແບ່ງປັນລິ້ງ"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"ແຕະເພື່ອເປີດໂຄສະນາ"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"ເບິ່ງໂຄສະນາທີ່ທ່ານບັນທຶກໄວ້ຕອນທ່ານອອບລາຍ"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"ຕົກລົງ"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"ທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນພ້ອມກັບລິ້ງເມື່ອທ່ານກັບມາອອນລາຍ"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"ບໍ່, ຂອບໃຈ"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"ພວກເຮົາຈະສົ່ງການແຈ້ງເຕືອນພ້ອມກັບລິ້ງຫາເວັບໄຊຜູ້ລົງໂຄສະນາໃຫ້ທ່ານ."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"ເປີດໂຄສະນາເມື່ອທ່ານກັບມາອອນລາຍ."</string>
-    <string msgid="368094699078615544" name="s1">"ບັນທຶກຮູບພາບ"</string>
-    <string msgid="4550830452390689489" name="s2">"ອະນຸຍາດໃຫ້ໂຄສະນາບັນທຶກຮູບພາບໃສ່ຫ້ອງສະໝຸດພາບໄດ້ບໍ່?"</string>
-    <string msgid="2435407834265420668" name="s3">"ຍອມຮັບ"</string>
-    <string msgid="9167523597401839819" name="s4">"ປະຕິເສດ"</string>
-    <string msgid="1566682516266724847" name="s5">"ສ້າງນັດໝາຍປະຕິທິນ"</string>
-    <string msgid="5996672174517137271" name="s6">"ອະນຸຍາດໃຫ້ໂຄສະນາສ້າງນັດໝາຍປະຕິທິນໄດ້ບໍ?"</string>
-    <string msgid="7163549807207034258" name="s7">"ໂຄສະນາທົດສອບ"</string>
+    <string name="offline_notification_text">ແຕະເພື່ອເປີດໂຄສະນາ</string>
+    <string name="offline_notification_title">ເບິ່ງໂຄສະນາທີ່ທ່ານບັນທຶກໄວ້ຕອນທ່ານອອບລາຍ</string>
+    <string name="offline_opt_in_confirm">ຕົກລົງ</string>
+    <string name="offline_opt_in_confirmation">ທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນພ້ອມກັບລິ້ງເມື່ອທ່ານກັບມາອອນລາຍ</string>
+    <string name="offline_opt_in_decline">ບໍ່, ຂອບໃຈ</string>
+    <string name="offline_opt_in_message">ພວກເຮົາຈະສົ່ງການແຈ້ງເຕືອນພ້ອມກັບລິ້ງຫາເວັບໄຊຜູ້ລົງໂຄສະນາໃຫ້ທ່ານ.</string>
+    <string name="offline_opt_in_title">ເປີດໂຄສະນາເມື່ອທ່ານກັບມາອອນລາຍ.</string>
+    <string name="s1">ບັນທຶກຮູບພາບ</string>
+    <string name="s2">ອະນຸຍາດໃຫ້ໂຄສະນາບັນທຶກຮູບພາບໃສ່ຫ້ອງສະໝຸດພາບໄດ້ບໍ່?</string>
+    <string name="s3">ຍອມຮັບ</string>
+    <string name="s4">ປະຕິເສດ</string>
+    <string name="s5">ສ້າງນັດໝາຍປະຕິທິນ</string>
+    <string name="s6">ອະນຸຍາດໃຫ້ໂຄສະນາສ້າງນັດໝາຍປະຕິທິນໄດ້ບໍ?</string>
+    <string name="s7">ໂຄສະນາທົດສອບ</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ຊອກຫາ"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

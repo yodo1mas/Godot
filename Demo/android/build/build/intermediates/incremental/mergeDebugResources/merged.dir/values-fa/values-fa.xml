@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>۰٫۲۵ برابر</item>
+    <item>۰٫۵ برابر</item>
+    <item>۰٫۷۵ برابر</item>
+    <item>عادی</item>
+    <item>۱٫۲۵ برابر</item>
+    <item>۱٫۵ برابر</item>
+    <item>۲ برابر</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">%d ثانیه سریع به‌جلو بردن</item>
     <item quantity="other">%d ثانیه سریع به‌جلو بردن</item>
@@ -35,7 +44,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"هم‌رسانی با"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"هم‌رسانی با <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> برای استفاده از خدمات Google Play با مشکل روبرو است. لطفاً دوباره امتحان کنید."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">فعال کردن</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">‏تا وقتی «خدمات Google Play» را فعال نکنید، %1$s کار نمی‌کند.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">‏‫فعال کردن «خدمات Google Play»</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">نصب</string>
+    <string name="common_google_play_services_install_text">‏%1$s بدون خدمات Google Play که در دستگاه شما وجود ندارد اجرا نمی‌شود.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">‏دریافت «خدمات Google Play»</string>
+    <string name="common_google_play_services_notification_channel_name">‏دردسترس بودن خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطا در خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s برای استفاده از خدمات Google Play با مشکل روبرو است. لطفاً دوباره امتحان کنید.</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s بدون خدمات Google Play که در دستگاه شما پشتیبانی نمی‌شود، اجرا نخواهد شد.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">به‌روزرسانی</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">‏تاز مانی که «خدمات Google Play» را به‌روزرسانی نکنید، %1$s اجرا نمی‌شود.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">‏‫به‌روزرسانی «خدمات Google Play»</string>
+    <string name="common_google_play_services_updating_text">‏%1$s بدون «خدمات Google Play» که درحال حاضر درحال به‌روزرسانی هستند، کار نمی‌کند.</string>
+    <string name="common_google_play_services_wear_update_text">‏نسخه جدید «خدمات Google Play» نیاز است. به‌زودی به‌طور خودکار به‌روزرسانی می‌شود.</string>
+    <string name="common_open_on_phone">باز کردن در تلفن</string>
+    <string name="common_signin_button_text">ورود به سیستم</string>
+    <string name="common_signin_button_text_long">‏ورود به سیستم با Google‎</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"پیوند در بریده‌دان کپی شد"</string>
     <string name="exo_controls_cc_disabled_description">فعال کردن زیرنویس</string>
     <string name="exo_controls_cc_enabled_description">غیرفعال کردن زیرنویس</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">مکث</string>
     <string name="exo_controls_play_description">پخش</string>
     <string name="exo_controls_playback_speed">سرعت</string>
-    <string name="exo_controls_playback_speed_normal">عادی</string>
     <string name="exo_controls_previous_description">قبلی</string>
     <string name="exo_controls_repeat_all_description">تکرار همه</string>
     <string name="exo_controls_repeat_off_description">تکرار هیچ‌کدام</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">درحال بارگیری</string>
     <string name="exo_download_failed">بارگیری نشد</string>
     <string name="exo_download_notification_channel_name">بارگیری‌ها</string>
+    <string name="exo_download_paused">بارگیری‌ها موقتاً متوقف شد</string>
+    <string name="exo_download_paused_for_network">بارگیری‌ها درانتظار شبکه است</string>
+    <string name="exo_download_paused_for_wifi">بارگیری‌ها در انتظار Wi-Fi است</string>
     <string name="exo_download_removing">حذف بارگیری‌ها</string>
     <string name="exo_item_list">%1$s،‏ %2$s</string>
     <string name="exo_track_bitrate">%1$.2f مگابیت در ثانیه</string>
@@ -90,20 +118,20 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"بازکردن در مرورگر"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"هم‌رسانی پیوند"</string>
     <string name="godot_project_name_string">GodotYodo1Mas</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"برای باز کردن آگهی، ضربه بزنید"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"مشاهده آگهی‌ای که هنگام آفلاین بودن ذخیره کردید"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"تأیید"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"وقتی دوباره آنلاین شدید، اعلانی حاوی پیوند دریافت خواهید کرد"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"نه متشکرم"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"اعلانی با پیوندی به سایت آگهی‌دهنده برایتان ارسال خواهیم کرد."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"وقتی دوباره آنلاین شدید آگهی را باز کنید."</string>
-    <string msgid="368094699078615544" name="s1">"ذخیره تصویر"</string>
-    <string msgid="4550830452390689489" name="s2">"به آگهی اجازه داده شود تصویر را در گالری تصویر ذخیره کند؟"</string>
-    <string msgid="2435407834265420668" name="s3">"پذیرفتن"</string>
-    <string msgid="9167523597401839819" name="s4">"نپذیرفتن"</string>
-    <string msgid="1566682516266724847" name="s5">"ایجاد رویداد تقویم"</string>
-    <string msgid="5996672174517137271" name="s6">"به آگهی اجازه داده شود رویداد تقویم ایجاد کند؟"</string>
-    <string msgid="7163549807207034258" name="s7">"آگهی آزمایشی"</string>
+    <string name="offline_notification_text">برای باز کردن آگهی، ضربه بزنید</string>
+    <string name="offline_notification_title">مشاهده آگهی‌ای که هنگام آفلاین بودن ذخیره کردید</string>
+    <string name="offline_opt_in_confirm">تأیید</string>
+    <string name="offline_opt_in_confirmation">وقتی دوباره آنلاین شدید، اعلانی حاوی پیوند دریافت خواهید کرد</string>
+    <string name="offline_opt_in_decline">نه متشکرم</string>
+    <string name="offline_opt_in_message">اعلانی با پیوندی به سایت آگهی‌دهنده برایتان ارسال خواهیم کرد.</string>
+    <string name="offline_opt_in_title">وقتی دوباره آنلاین شدید آگهی را باز کنید.</string>
+    <string name="s1">ذخیره تصویر</string>
+    <string name="s2">به آگهی اجازه داده شود تصویر را در گالری تصویر ذخیره کند؟</string>
+    <string name="s3">پذیرفتن</string>
+    <string name="s4">نپذیرفتن</string>
+    <string name="s5">ایجاد رویداد تقویم</string>
+    <string name="s6">به آگهی اجازه داده شود رویداد تقویم ایجاد کند؟</string>
+    <string name="s7">آگهی آزمایشی</string>
     <string msgid="6264217191555673260" name="search_menu_title">"جستجو"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="text_button_cancel">انصراف</string>

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Normal</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">Spol %d sekund fremover</item>
     <item quantity="other">Spol %d sekunder fremover</item>
@@ -35,7 +44,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Del med"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Skjul"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> har problemer med Google Play-tjenester. Prøv på nytt."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivér</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Installer Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Tjenester-tilgjengelighet</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Tjenester-feil</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Oppdater</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s kjører ikke med mindre du oppdaterer Google Play Tjenester.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Oppdater Google Play-tjenester</string>
+    <string name="common_google_play_services_updating_text">%1$s kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå.</string>
+    <string name="common_google_play_services_wear_update_text">Du må installere en ny versjon av Google Play-tjenester. Appen oppdateres automatisk om en kort stund.</string>
+    <string name="common_open_on_phone">Åpne på telefonen</string>
+    <string name="common_signin_button_text">Logg på</string>
+    <string name="common_signin_button_text_long">Logg på med Google</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Linken er kopiert til utklippstavlen"</string>
     <string name="exo_controls_cc_disabled_description">Slå på undertekstene</string>
     <string name="exo_controls_cc_enabled_description">Slå av undertekstene</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">Sett på pause</string>
     <string name="exo_controls_play_description">Spill av</string>
     <string name="exo_controls_playback_speed">Hastighet</string>
-    <string name="exo_controls_playback_speed_normal">Normal</string>
     <string name="exo_controls_previous_description">Forrige</string>
     <string name="exo_controls_repeat_all_description">Gjenta alle</string>
     <string name="exo_controls_repeat_off_description">Ikke gjenta noen</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">Laster ned</string>
     <string name="exo_download_failed">Nedlastingen mislyktes</string>
     <string name="exo_download_notification_channel_name">Nedlastinger</string>
+    <string name="exo_download_paused">Nedlastinger er satt på pause</string>
+    <string name="exo_download_paused_for_network">Nedlastinger venter på nettverket</string>
+    <string name="exo_download_paused_for_wifi">Nedlastinger venter på Wi-FI-tilkobling</string>
     <string name="exo_download_removing">Fjerner nedlastinger</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -90,20 +118,20 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Åpne i nettleseren"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Del link"</string>
     <string name="godot_project_name_string">GodotYodo1Mas</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"Trykk for å åpne annonsen"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"Se annonsen du lagret mens du var uten nett"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"OK"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Du får et varsel med linken når du er på nettet igjen"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Nei takk"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"Vi sender deg et varsel med en link til annonsørnettstedet."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"Åpne annonsen når du er på nettet igjen."</string>
-    <string msgid="368094699078615544" name="s1">"Lagre bilde"</string>
-    <string msgid="4550830452390689489" name="s2">"Vil du la annonsen lagre bildet i bildegalleriet?"</string>
-    <string msgid="2435407834265420668" name="s3">"Godta"</string>
-    <string msgid="9167523597401839819" name="s4">"Avslå"</string>
-    <string msgid="1566682516266724847" name="s5">"Opprett kalenderaktivitet"</string>
-    <string msgid="5996672174517137271" name="s6">"Vil du la annonsen opprette en kalenderaktivitet?"</string>
-    <string msgid="7163549807207034258" name="s7">"Testannonse"</string>
+    <string name="offline_notification_text">Trykk for å åpne annonsen</string>
+    <string name="offline_notification_title">Se annonsen du lagret mens du var uten nett</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Du får et varsel med linken når du er på nettet igjen</string>
+    <string name="offline_opt_in_decline">Nei takk</string>
+    <string name="offline_opt_in_message">Vi sender deg et varsel med en link til annonsørnettstedet.</string>
+    <string name="offline_opt_in_title">Åpne annonsen når du er på nettet igjen.</string>
+    <string name="s1">Lagre bilde</string>
+    <string name="s2">Vil du la annonsen lagre bildet i bildegalleriet?</string>
+    <string name="s3">Godta</string>
+    <string name="s4">Avslå</string>
+    <string name="s5">Opprett kalenderaktivitet</string>
+    <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
+    <string name="s7">Testannonse</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Søk"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

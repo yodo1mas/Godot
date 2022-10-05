@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>x 0,25</item>
+    <item>x 0,5</item>
+    <item>x 0,75</item>
+    <item>Normal</item>
+    <item>x 1,25</item>
+    <item>x 1,5</item>
+    <item>x 2</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">Avanza rapidamente %d segundo</item>
     <item quantity="other">Avanza rapidamente %d segundos</item>
@@ -35,7 +44,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Comparte contido con"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Comparte contido coa aplicación <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Contrae"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ten problemas cos servizos de Google Play. Téntao de novo."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Activar</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s non funcionará a menos que actives os servizos de Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Activar servizos de Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">%1$s non se executará se o teu dispositivo non ten instalados os servizos de Google Play.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Descargar servizos de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Dispoñibilidade dos servizos de Play</string>
+    <string name="common_google_play_services_notification_ticker">Erro nos servizos de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ten problemas cos servizos de Google Play. Téntao de novo.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s non se executará sen os servizos de Google Play, que non son compatibles co teu dispositivo.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Actualizar</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s non se executará a menos que actualices os servizos de Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Actualizar os servizos de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s non se executará sen os servizos de Google Play, que se están actualizando neste momento.</string>
+    <string name="common_google_play_services_wear_update_text">Necesítase a nova versión dos servizos de Google Play. Actualizarase en breve.</string>
+    <string name="common_open_on_phone">Abrir no teléfono</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Copiouse a ligazón no portapapeis"</string>
     <string name="exo_controls_cc_disabled_description">Activa os subtítulos</string>
     <string name="exo_controls_cc_enabled_description">Desactiva os subtítulos</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">Pausar</string>
     <string name="exo_controls_play_description">Reproducir</string>
     <string name="exo_controls_playback_speed">Velocidade</string>
-    <string name="exo_controls_playback_speed_normal">Normal</string>
     <string name="exo_controls_previous_description">Anterior</string>
     <string name="exo_controls_repeat_all_description">Repetir todas as pistas</string>
     <string name="exo_controls_repeat_off_description">Non repetir</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">Descargando</string>
     <string name="exo_download_failed">Produciuse un erro na descarga</string>
     <string name="exo_download_notification_channel_name">Descargas</string>
+    <string name="exo_download_paused">As descargas están en pausa</string>
+    <string name="exo_download_paused_for_network">As descargas están agardando pola rede</string>
+    <string name="exo_download_paused_for_wifi">As descargas están agardando pola wifi</string>
     <string name="exo_download_removing">Quitando descargas</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -89,20 +117,20 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar ligazón"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir no navegador"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartir ligazón"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"Toca para abrir o anuncio"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"Mira o anuncio que gardaches cando estabas sen conexión"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"Si"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Recibirás unha notificación coa ligazón cando volvas estar en liña"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Non"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"Enviarémosche unha notificación cunha ligazón ao sitio do anunciante."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"Abrir o anuncio cando volvas estar en liña."</string>
-    <string msgid="368094699078615544" name="s1">"Gardar imaxe"</string>
-    <string msgid="4550830452390689489" name="s2">"Queres permitir que o anuncio almacene imaxes na galería de imaxes?"</string>
-    <string msgid="2435407834265420668" name="s3">"Aceptar"</string>
-    <string msgid="9167523597401839819" name="s4">"Rexeitar"</string>
-    <string msgid="1566682516266724847" name="s5">"Crear evento do calendario"</string>
-    <string msgid="5996672174517137271" name="s6">"Queres permitir que o anuncio cree un evento do calendario?"</string>
-    <string msgid="7163549807207034258" name="s7">"Probar anuncio"</string>
+    <string name="offline_notification_text">Toca para abrir o anuncio</string>
+    <string name="offline_notification_title">Mira o anuncio que gardaches cando estabas sen conexión</string>
+    <string name="offline_opt_in_confirm">Si</string>
+    <string name="offline_opt_in_confirmation">Recibirás unha notificación coa ligazón cando volvas estar en liña</string>
+    <string name="offline_opt_in_decline">Non</string>
+    <string name="offline_opt_in_message">Enviarémosche unha notificación cunha ligazón ao sitio do anunciante.</string>
+    <string name="offline_opt_in_title">Abrir o anuncio cando volvas estar en liña.</string>
+    <string name="s1">Gardar imaxe</string>
+    <string name="s2">Queres permitir que o anuncio almacene imaxes na galería de imaxes?</string>
+    <string name="s3">Aceptar</string>
+    <string name="s4">Rexeitar</string>
+    <string name="s5">Crear evento do calendario</string>
+    <string name="s6">Queres permitir que o anuncio cree un evento do calendario?</string>
+    <string name="s7">Probar anuncio</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
 </resources>

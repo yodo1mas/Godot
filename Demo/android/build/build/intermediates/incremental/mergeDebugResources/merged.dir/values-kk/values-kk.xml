@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Қалыпты</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">%d секунд алға айналдыру</item>
     <item quantity="other">%d секунд алға айналдыру</item>
@@ -35,7 +44,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Бөлісу"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> қолданбасымен бөлісу"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Жию"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> қолданбасында Google Play қызметіне байланысты белгісіз қате шықты. Әрекетті қайталаңыз."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Қосу</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play қызметтерін қоспасаңыз, %1$s жұмыс істемейді.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play қызметтерін қосу</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Орнату</string>
+    <string name="common_google_play_services_install_text">Google Play қызметтері құрылғыда болмағандықтан, %1$s іске қосылмайды.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play қызметтерін алу</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play қызметтерінің қолжетімділігі</string>
+    <string name="common_google_play_services_notification_ticker">Google Play қызметтерінің қатесі</string>
+    <string name="common_google_play_services_unknown_issue">%1$s қолданбасында Google Play қызметіне байланысты белгісіз қате шықты. Әрекетті қайталаңыз.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s қолданбасы құрылғыңызда қолдау көрсетілмейтін Google Play қызметінсіз жұмыс істемейді.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Жаңарту</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play қызметтерін жаңартпасаңыз, %1$s іске қосылмайды.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play қызметтерін жаңарту</string>
+    <string name="common_google_play_services_updating_text">Қазіргі уақытта жаңартылып жатқан Google Play қызметтерінсіз %1$s іске қосылмайды.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play қызметтерінің жаңа нұсқасы қажет. Ол қысқа уақыттан кейін өзі жаңарады.</string>
+    <string name="common_open_on_phone">Телефонда ашу</string>
+    <string name="common_signin_button_text">Кіру</string>
+    <string name="common_signin_button_text_long">Google арқылы кіру</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Сілтеме буферге көшірілді."</string>
     <string name="exo_controls_cc_disabled_description">Субтитрді қосу</string>
     <string name="exo_controls_cc_enabled_description">Субтитрді өшіру</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">Кідірту</string>
     <string name="exo_controls_play_description">Ойнату</string>
     <string name="exo_controls_playback_speed">Жылдамдық</string>
-    <string name="exo_controls_playback_speed_normal">Қалыпты</string>
     <string name="exo_controls_previous_description">Алдыңғы</string>
     <string name="exo_controls_repeat_all_description">Барлығын қайталау</string>
     <string name="exo_controls_repeat_off_description">Ешқайсысын қайталамау</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">Жүктеп алынуда</string>
     <string name="exo_download_failed">Жүктеп алынбады</string>
     <string name="exo_download_notification_channel_name">Жүктеп алынғандар</string>
+    <string name="exo_download_paused">Жүктеп алу процестері уақытша тоқтады.</string>
+    <string name="exo_download_paused_for_network">Жүктеп алу үшін желіге қосылу керек.</string>
+    <string name="exo_download_paused_for_wifi">Жүктеп алу үшін Wi-Fi-ға қосылу керек.</string>
     <string name="exo_download_removing">Жүктеп алынғандар өшірілуде</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f МБ/сек</string>
@@ -77,7 +105,7 @@
     <string name="exo_track_role_commentary">Түсіндірме</string>
     <string name="exo_track_role_supplementary">Қосымша</string>
     <string name="exo_track_selection_auto">Автоматты</string>
-    <string name="exo_track_selection_none">Ешқайсысы</string>
+    <string name="exo_track_selection_none">Жоқ</string>
     <string name="exo_track_selection_title_audio">Aудиомазмұн</string>
     <string name="exo_track_selection_title_text">Мәтін</string>
     <string name="exo_track_selection_title_video">Бейне</string>
@@ -89,20 +117,20 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Сілтемені көшіру"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Браузерден ашу"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Сілтемені бөлісу"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"Жарнаманы ашу үшін түртіңіз."</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"Офлайн режимге өткенде, сақталған жарнамаңызды көріңіз"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"Жарайды"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Онлайн режимге оралғанда, сілтемесі бар хабарландыру аласыз."</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Жоқ, рақмет"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"Сізге жарнама беруші сайтына сілтемесі бар хабарландыру жібереміз."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"Онлайн режимге оралғанда, жарнаманы ашыңыз"</string>
-    <string msgid="368094699078615544" name="s1">"Кескінді сақтау"</string>
-    <string msgid="4550830452390689489" name="s2">"Жарнамаға кескінді сурет галереясында сақтауға рұқсат берілсін бе?"</string>
-    <string msgid="2435407834265420668" name="s3">"Қабылдау"</string>
-    <string msgid="9167523597401839819" name="s4">"Қабылдамау"</string>
-    <string msgid="1566682516266724847" name="s5">"Күнтізбе оқиғасын жасау"</string>
-    <string msgid="5996672174517137271" name="s6">"Жарнамаға күнтізбе оқиғасын жасауға рұқсат берілсін бе?"</string>
-    <string msgid="7163549807207034258" name="s7">"Сынақ жарнама"</string>
+    <string name="offline_notification_text">Жарнаманы ашу үшін түртіңіз.</string>
+    <string name="offline_notification_title">Офлайн режимге өткенде, сақталған жарнамаңызды көріңіз</string>
+    <string name="offline_opt_in_confirm">Жарайды</string>
+    <string name="offline_opt_in_confirmation">Онлайн режимге оралғанда, сілтемесі бар хабарландыру аласыз.</string>
+    <string name="offline_opt_in_decline">Жоқ, рақмет</string>
+    <string name="offline_opt_in_message">Сізге жарнама беруші сайтына сілтемесі бар хабарландыру жібереміз.</string>
+    <string name="offline_opt_in_title">Онлайн режимге оралғанда, жарнаманы ашыңыз</string>
+    <string name="s1">Кескінді сақтау</string>
+    <string name="s2">Жарнамаға кескінді сурет галереясында сақтауға рұқсат берілсін бе?</string>
+    <string name="s3">Қабылдау</string>
+    <string name="s4">Қабылдамау</string>
+    <string name="s5">Күнтізбе оқиғасын жасау</string>
+    <string name="s6">Жарнамаға күнтізбе оқиғасын жасауға рұқсат берілсін бе?</string>
+    <string name="s7">Сынақ жарнама</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Іздеу"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

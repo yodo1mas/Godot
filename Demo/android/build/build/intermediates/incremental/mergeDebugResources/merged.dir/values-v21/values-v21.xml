@@ -230,6 +230,13 @@
     <item name="android:layout_height">@dimen/exo_icon_size</item>
     <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
   </style>
+    <style name="InneractiveAppTheme.Home" parent="android:Theme.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
     <style name="Platform.AppCompat" parent="Platform.V21.AppCompat"/>
     <style name="Platform.AppCompat.Light" parent="Platform.V21.AppCompat.Light"/>
     <style name="Platform.ThemeOverlay.AppCompat" parent="">
@@ -292,10 +299,19 @@
         <item name="android:textColor">@color/androidx_core_secondary_text_default_material_light</item>
         <item name="android:textSize">@dimen/notification_action_text_size</item>
     </style>
-    <style name="YandexAdsInternal.CallToAction" parent="YandexAdsInternal.BaseCallToAction">
+    <style name="YandexAdsInternal.CallToAction." parent="YandexAdsInternal.BaseCallToAction">
         <item name="android:elevation">@dimen/yandex_ads_internal_button_elevation</item>
     </style>
     <style name="YandexAdsInternal.CallToActionTextAppearance" parent="YandexAdsInternal.BaseCallToActionTextAppearance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="YandexAdsInternal.ContentAnimatedGradientCallToAction" parent="YandexAdsInternal.BaseContentAnimatedGradientCallToAction">
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    <style name="YandexAdsInternal.RewardedCallToAction" parent="YandexAdsInternal.BaseCallToAction">
+        <item name="android:background">@drawable/yandex_ads_internal_call_to_action_background_shape_blue</item>
+        <item name="android:textColor">@color/yandex_ads_internal_text_color_white</item>
+        <item name="android:elevation">@dimen/yandex_ads_internal_button_elevation</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="com.applovin.mediation.MaxDebuggerActivity.ActionBar" parent="android:Widget.Material.Light.ActionBar">

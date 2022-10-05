@@ -86,9 +86,6 @@ margin_right = 400.0
 margin_bottom = 275.0
 texture_normal = ExtResource( 4 )
 expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Label2" type="Label" parent="CanvasLayer/Orange/BtnInterstitialAd"]
 anchor_left = 0.5
@@ -114,9 +111,6 @@ margin_bottom = 350.0
 rect_pivot_offset = Vector2( 100, 44 )
 texture_normal = ExtResource( 5 )
 expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Label" type="Label" parent="CanvasLayer/Orange/BtnRewardedAd"]
 anchor_left = 0.5
@@ -668,9 +662,6 @@ custom_fonts/font = SubResource( 3 )
 text = "Close"
 align = 1
 valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Yodo1Mas" type="Node" parent="."]
 script = ExtResource( 2 )
@@ -678,7 +669,8 @@ __meta__ = {
 "_editor_description_": ""
 }
 app_id_ios = "BkFDs2l8K4k"
-app_id_android = "emXSs0Md7ZC"
+app_id_android = "u0a2MHvyzD"
+IsPrivacyEnabled = true
 
 [connection signal="ended" from="PrivacyController" to="." method="_on_PrivacyController_ended"]
 [connection signal="pressed" from="CanvasLayer/Orange/BtnBannerAd" to="." method="_on_BtnBannerAd_pressed"]
@@ -697,15 +689,9 @@ app_id_android = "emXSs0Md7ZC"
 [connection signal="toggled" from="CanvasLayer/PdPrivacy/cbPrivacy_Ccpa" to="CanvasLayer/PdPrivacy" method="_on_cbPrivacy_Ccpa_toggled"]
 [connection signal="pressed" from="CanvasLayer/PdPrivacy/BtnPrivacy_Close" to="CanvasLayer/PdPrivacy" method="_on_BtnPrivacy_Close_pressed"]
 [connection signal="banner_ad_closed" from="Yodo1Mas" to="." method="_on_Yodo1Mas_banner_ad_closed"]
-[connection signal="banner_ad_error" from="Yodo1Mas" to="." method="_on_Yodo1Mas_banner_ad_error" binds= [ 0 ]]
-[connection signal="banner_ad_not_loaded" from="Yodo1Mas" to="." method="_on_Yodo1Mas_banner_ad_not_loaded"]
 [connection signal="banner_ad_opened" from="Yodo1Mas" to="." method="_on_Yodo1Mas_banner_ad_opened"]
 [connection signal="interstitial_ad_closed" from="Yodo1Mas" to="." method="_on_Yodo1Mas_interstitial_ad_closed"]
-[connection signal="interstitial_ad_error" from="Yodo1Mas" to="." method="_on_Yodo1Mas_interstitial_ad_error" binds= [ 0 ]]
-[connection signal="interstitial_ad_not_loaded" from="Yodo1Mas" to="." method="_on_Yodo1Mas_interstitial_ad_not_loaded"]
 [connection signal="interstitial_ad_opened" from="Yodo1Mas" to="." method="_on_Yodo1Mas_interstitial_ad_opened"]
 [connection signal="rewarded_ad_closed" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_closed"]
 [connection signal="rewarded_ad_earned" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_earned"]
-[connection signal="rewarded_ad_error" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_error" binds= [ 0 ]]
-[connection signal="rewarded_ad_not_loaded" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_not_loaded"]
 [connection signal="rewarded_ad_opened" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_opened"]

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25 x</item>
+    <item>0,5 x</item>
+    <item>0,75 x</item>
+    <item>Normalno</item>
+    <item>1,25 x</item>
+    <item>1,5 x</item>
+    <item>2 x</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">Premotavanje %d sekundu naprijed</item>
     <item quantity="few">Premotavanje %d sekunde naprijed</item>
@@ -37,7 +46,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dijeli sa"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dijeli putem aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Suzi"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Aplikacija <ns1:g id="APP_NAME">%1$s</ns1:g> ima problema s Google Play uslugama. Pokušajte ponovo."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Omogući</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Aplikacija %1$s neće raditi ako ne omogućite Google Play usluge.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Omogućite Google Play usluge</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instaliraj</string>
+    <string name="common_google_play_services_install_text">Aplikacija %1$s neće raditi bez Google Play usluga, kojih na vašem uređaju nema.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Nabavite Google Play usluge</string>
+    <string name="common_google_play_services_notification_channel_name">Dostupnost Google Play usluga</string>
+    <string name="common_google_play_services_notification_ticker">Greška Google Play usluge</string>
+    <string name="common_google_play_services_unknown_issue">Aplikacija %1$s ima problema s Google Play uslugama. Pokušajte ponovo.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikacija %1$s neće raditi bez Google Play usluga, koje vaš uređaj ne podržava.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Ažuriraj</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Aplikacija %1$s neće raditi ako ne ažurirate Google Play usluge.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Ažuriranje Google Play usluga</string>
+    <string name="common_google_play_services_updating_text">Aplikacija %1$s neće raditi bez Google Play usluga, koje se trenutno ažuriraju.</string>
+    <string name="common_google_play_services_wear_update_text">Potrebna je nova verzija Google Play usluga. Ubrzo će se samo ažurirati.</string>
+    <string name="common_open_on_phone">Otvori na telefonu</string>
+    <string name="common_signin_button_text">Prijava</string>
+    <string name="common_signin_button_text_long">Prijavi se pomoću Googlea</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Link je kopiran u međumemoriju"</string>
     <string name="exo_controls_cc_disabled_description">Omogućavanje titlova</string>
     <string name="exo_controls_cc_enabled_description">Onemogućavanje titlova</string>
@@ -51,7 +77,6 @@
     <string name="exo_controls_pause_description">Pauza</string>
     <string name="exo_controls_play_description">Reproduciranje</string>
     <string name="exo_controls_playback_speed">Brzina</string>
-    <string name="exo_controls_playback_speed_normal">Normalno</string>
     <string name="exo_controls_previous_description">Nazad</string>
     <string name="exo_controls_repeat_all_description">Ponovi sve</string>
     <string name="exo_controls_repeat_off_description">Ne ponavljaj</string>
@@ -69,6 +94,9 @@
     <string name="exo_download_downloading">Preuzimanje</string>
     <string name="exo_download_failed">Preuzimanje nije uspjelo</string>
     <string name="exo_download_notification_channel_name">Preuzimanja</string>
+    <string name="exo_download_paused">Preuzimanja su pauzirana</string>
+    <string name="exo_download_paused_for_network">Preuzimanja čekaju povezivanje s mrežom</string>
+    <string name="exo_download_paused_for_wifi">Preuzimanja čekaju WiFi</string>
     <string name="exo_download_removing">Uklanjanje preuzimanja</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -91,20 +119,20 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiraj link"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otvori u pregledniku"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Dijeli link"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"Dodirnite da otvorite oglas"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"Pogledajte sačuvani oglas kada ponovo budete online"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"UREDU"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Dobit ćete obavještenje s linkom kada ponovo budete online"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Ne, hvala"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"Poslat ćemo vam obavještenje s linkom na web lokaciju oglašivača."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"Otvorite oglas kada ponovo budete online."</string>
-    <string msgid="368094699078615544" name="s1">"Sačuvaj sliku"</string>
-    <string msgid="4550830452390689489" name="s2">"Želite li dozvoliti oglasu da pohrani sliku u Galeriju slika?"</string>
-    <string msgid="2435407834265420668" name="s3">"Prihvati"</string>
-    <string msgid="9167523597401839819" name="s4">"Odbij"</string>
-    <string msgid="1566682516266724847" name="s5">"Kreiranje događaja u kalendaru"</string>
-    <string msgid="5996672174517137271" name="s6">"Želite li dozvoliti oglasu da kreira događaj u kalendaru?"</string>
-    <string msgid="7163549807207034258" name="s7">"Probni oglas"</string>
+    <string name="offline_notification_text">Dodirnite da otvorite oglas</string>
+    <string name="offline_notification_title">Pogledajte sačuvani oglas kada ponovo budete online</string>
+    <string name="offline_opt_in_confirm">UREDU</string>
+    <string name="offline_opt_in_confirmation">Dobit ćete obavještenje s linkom kada ponovo budete online</string>
+    <string name="offline_opt_in_decline">Ne, hvala</string>
+    <string name="offline_opt_in_message">Poslat ćemo vam obavještenje s linkom na web lokaciju oglašivača.</string>
+    <string name="offline_opt_in_title">Otvorite oglas kada ponovo budete online.</string>
+    <string name="s1">Sačuvaj sliku</string>
+    <string name="s2">Želite li dozvoliti oglasu da pohrani sliku u Galeriju slika?</string>
+    <string name="s3">Prihvati</string>
+    <string name="s4">Odbij</string>
+    <string name="s5">Kreiranje događaja u kalendaru</string>
+    <string name="s6">Želite li dozvoliti oglasu da kreira događaj u kalendaru?</string>
+    <string name="s7">Probni oglas</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Pretražite"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

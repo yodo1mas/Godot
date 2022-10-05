@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25 ಪಟ್ಟು</item>
+    <item>0.5 ಪಟ್ಟು</item>
+    <item>0.75 ಪಟ್ಟು</item>
+    <item>ಸಾಮಾನ್ಯ</item>
+    <item>1.25 ಪಟ್ಟು</item>
+    <item>1.5 ಪಟ್ಟು</item>
+    <item>2 ಪಟ್ಟು</item>
+  </string-array>
     <plurals name="exo_controls_fastforward_by_amount_description">
     <item quantity="one">%d ಸೆಕೆಂಡ್‌ಗಳಷ್ಟು ಫಾಸ್ಟ್ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ</item>
     <item quantity="other">%d ಸೆಕೆಂಡ್‌ಗಳಷ್ಟು ಫಾಸ್ಟ್ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ</item>
@@ -35,7 +44,24 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ಕುಗ್ಗಿಸಿ"</string>
-    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ಆ್ಯಪ್‍‍ಗೆ Google Play ಸೇವೆಗಳಲ್ಲಿ ಸಮಸ್ಯೆ ಉಂಟಾಗಿದೆ. ದಯವಿಟ್ಟು ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ."</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">ಸಕ್ರಿಯಗೊಳಿಸು</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play ಸೇವೆಗಳನ್ನು ನೀವು ಸಕ್ರಿಯಗೊಳಿಸದ ಹೊರತು %1$s ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ</string>
+    <string name="common_google_play_services_install_text">ನಿಮ್ಮ ಸಾಧನದಿಂದ ಕಾಣೆಯಾಗಿರುವ %1$s, Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play ಸೇವೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play ಸೇವೆಗಳ ಲಭ್ಯತೆ</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ಸೇವೆಗಳ ದೋಷ</string>
+    <string name="common_google_play_services_unknown_issue">Google Play ಸೇವೆಗಳಲ್ಲಿ %1$s ಸಮಸ್ಯೆಯನ್ನು ಹೊಂದಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="common_google_play_services_unsupported_text">ನಿಮ್ಮ ಸಾಧನದ ಮೂಲಕ ಬೆಂಬಲಿಸದಿರುವ Google Play ಸೇವೆಗಳಿಲ್ಲದೆ %1$s ರನ್‌ ಆಗುವುದಿಲ್ಲ.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">ನೀವು Google Play ಸೇವೆಗಳನ್ನು ಅಪ್‍ಡೇಟ್ ಮಾಡದ ಹೊರತು %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google ಪ್ಲೇ ಸೇವೆಗಳನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ</string>
+    <string name="common_google_play_services_updating_text">Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ಪ್ರಸ್ತುತ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿರುವ %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play ಸೇವೆಗಳ ಹೊಸ ಆವೃತ್ತಿ ಅಗತ್ಯವಿದೆ. ಸದ್ಯದಲ್ಲೇ ಅದು ತಾನಾಗಿಯೇ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತದೆ.</string>
+    <string name="common_open_on_phone">ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+    <string name="common_signin_button_text">ಸೈನ್ ಇನ್</string>
+    <string name="common_signin_button_text_long">Google ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಲಾಗಿದೆ"</string>
     <string name="exo_controls_cc_disabled_description">ಸಬ್‌ಟೈಟಲ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="exo_controls_cc_enabled_description">ಸಬ್‌ಟೈಟಲ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
@@ -49,7 +75,6 @@
     <string name="exo_controls_pause_description">ವಿರಾಮ</string>
     <string name="exo_controls_play_description">ಪ್ಲೇ</string>
     <string name="exo_controls_playback_speed">ವೇಗ</string>
-    <string name="exo_controls_playback_speed_normal">ಸಾಮಾನ್ಯ</string>
     <string name="exo_controls_previous_description">ಹಿಂದಿನದು</string>
     <string name="exo_controls_repeat_all_description">ಎಲ್ಲವನ್ನು ಪುನರಾವರ್ತಿಸಿ</string>
     <string name="exo_controls_repeat_off_description">ಯಾವುದನ್ನೂ ಪುನರಾವರ್ತಿಸಬೇಡಿ</string>
@@ -67,6 +92,9 @@
     <string name="exo_download_downloading">ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
     <string name="exo_download_failed">ಡೌನ್‌ಲೋಡ್‌ ವಿಫಲಗೊಂಡಿದೆ</string>
     <string name="exo_download_notification_channel_name">ಡೌನ್‌ಲೋಡ್‌ಗಳು</string>
+    <string name="exo_download_paused">ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="exo_download_paused_for_network">ಡೌನ್‌ಲೋಡ್‌ಗಳು ನೆಟ್‌ವರ್ಕ್‌ಗಾಗಿ ಕಾಯುತ್ತಿವೆ</string>
+    <string name="exo_download_paused_for_wifi">ಡೌನ್‌ಲೋಡ್‌ಗಳು Wi-Fi ಗಾಗಿ ಕಾಯುತ್ತಿವೆ</string>
     <string name="exo_download_removing">ಡೌನ್ಲೋಡ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತಿದೆ</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -89,20 +117,20 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"ಲಿಂಕ್ ನಕಲಿಸಿ"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"ಲಿಂಕ್ ಹಂಚಿರಿ"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"ಜಾಹೀರಾತನ್ನು ತೆರೆಯಲು ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿದ್ದಾಗ ನೀವು ಉಳಿಸಿದ ಜಾಹೀರಾತನ್ನು ವೀಕ್ಷಿಸಿ"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"ಸರಿ"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"ನೀವು ಆನ್‌ಲೈನ್‌ಗೆ ಹಿಂತಿರುಗಿದಾಗ ಲಿಂಕ್‌ನೊಂದಿಗೆ ಅಧಿಸೂಚನೆಯನ್ನು ಪಡೆಯುತ್ತೀರಿ"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"ಬೇಡ"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"ಜಾಹೀರಾತುದಾರರ ಸೈಟ್‌ಗೆ ಲಿಂಕ್‌ನೊಂದಿಗೆ ನಾವು ನಿಮಗೆ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸುತ್ತೇವೆ."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"ನೀವು ಆನ್‌ಲೈನ್‌ಗೆ ಹಿಂತಿರುಗಿದಾಗ ಜಾಹೀರಾತನ್ನು ತೆರೆಯಿರಿ."</string>
-    <string msgid="368094699078615544" name="s1">"ಚಿತ್ರ ಉಳಿಸಿ"</string>
-    <string msgid="4550830452390689489" name="s2">"ಚಿತ್ರದ ಗ್ಯಾಲರಿಯಲ್ಲಿ ಚಿತ್ರ ಸಂಗ್ರಹಿಸಿಡಲು ಜಾಹೀರಾತಿಗೆ ಅನುಮತಿಸುವುದೇ?"</string>
-    <string msgid="2435407834265420668" name="s3">"ಸಮ್ಮತಿಸಿ"</string>
-    <string msgid="9167523597401839819" name="s4">"ನಿರಾಕರಿಸಿ"</string>
-    <string msgid="1566682516266724847" name="s5">"ಕ್ಯಾಲೆಂಡರ್ ಈವೆಂಟ್ ರಚಿಸಿ"</string>
-    <string msgid="5996672174517137271" name="s6">"ಕ್ಯಾಲೆಂಡರ್ ಈವೆಂಟ್ ರಚಿಸಲು ಜಾಹೀರಾತಿಗೆ ಅನುಮತಿಸುವುದೇ?"</string>
-    <string msgid="7163549807207034258" name="s7">"ಪರೀಕ್ಷಾ ಜಾಹೀರಾತು"</string>
+    <string name="offline_notification_text">ಜಾಹೀರಾತನ್ನು ತೆರೆಯಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="offline_notification_title">ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿದ್ದಾಗ ನೀವು ಉಳಿಸಿದ ಜಾಹೀರಾತನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="offline_opt_in_confirm">ಸರಿ</string>
+    <string name="offline_opt_in_confirmation">ನೀವು ಆನ್‌ಲೈನ್‌ಗೆ ಹಿಂತಿರುಗಿದಾಗ ಲಿಂಕ್‌ನೊಂದಿಗೆ ಅಧಿಸೂಚನೆಯನ್ನು ಪಡೆಯುತ್ತೀರಿ</string>
+    <string name="offline_opt_in_decline">ಬೇಡ</string>
+    <string name="offline_opt_in_message">ಜಾಹೀರಾತುದಾರರ ಸೈಟ್‌ಗೆ ಲಿಂಕ್‌ನೊಂದಿಗೆ ನಾವು ನಿಮಗೆ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸುತ್ತೇವೆ.</string>
+    <string name="offline_opt_in_title">ನೀವು ಆನ್‌ಲೈನ್‌ಗೆ ಹಿಂತಿರುಗಿದಾಗ ಜಾಹೀರಾತನ್ನು ತೆರೆಯಿರಿ.</string>
+    <string name="s1">ಚಿತ್ರ ಉಳಿಸಿ</string>
+    <string name="s2">ಚಿತ್ರದ ಗ್ಯಾಲರಿಯಲ್ಲಿ ಚಿತ್ರ ಸಂಗ್ರಹಿಸಿಡಲು ಜಾಹೀರಾತಿಗೆ ಅನುಮತಿಸುವುದೇ?</string>
+    <string name="s3">ಸಮ್ಮತಿಸಿ</string>
+    <string name="s4">ನಿರಾಕರಿಸಿ</string>
+    <string name="s5">ಕ್ಯಾಲೆಂಡರ್ ಈವೆಂಟ್ ರಚಿಸಿ</string>
+    <string name="s6">ಕ್ಯಾಲೆಂಡರ್ ಈವೆಂಟ್ ರಚಿಸಲು ಜಾಹೀರಾತಿಗೆ ಅನುಮತಿಸುವುದೇ?</string>
+    <string name="s7">ಪರೀಕ್ಷಾ ಜಾಹೀರಾತು</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ಹುಡುಕಿ"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

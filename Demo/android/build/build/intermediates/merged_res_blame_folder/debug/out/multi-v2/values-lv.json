@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
+            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
             "map": [
+                {
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/610d86b4674220792db9c64c148e1b1d/transformed/jetified-play-services-ads-21.3.0/res/values-lv/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "199,284,376,428,544,603,713,805,851,924,960,996,1050,1126",
+                        "endColumns": "84,91,51,115,58,109,91,45,72,35,35,53,75,40",
+                        "endOffsets": "283,375,427,543,602,712,804,850,923,959,995,1049,1125,1166"
+                    },
+                    "to": {
+                        "startLines": "122,123,124,125,126,127,128,129,130,131,132,133,134,135",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "10307,10396,10492,10548,10668,10731,10845,10941,10991,11068,11108,11148,11206,11286",
+                        "endColumns": "88,95,55,119,62,113,95,49,76,39,39,57,79,44",
+                        "endOffsets": "10391,10487,10543,10663,10726,10840,10936,10986,11063,11103,11143,11201,11281,11326"
+                    }
+                },
                 {
                     "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/27ccd9abac2ca9691477ef5cc78dc9c9/transformed/jetified-play-services-basement-18.0.0/res/values-lv/values.xml",
                     "from": {
@@ -21,41 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/caa737ca81150965bbdab81534569206/transformed/jetified-play-services-ads-21.0.0/res/values-lv/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,284,376,428,544,603,713,805,851,924,960,996,1050,1126",
-                        "endColumns": "84,91,51,115,58,109,91,45,72,35,35,53,75,40",
-                        "endOffsets": "283,375,427,543,602,712,804,850,923,959,995,1049,1125,1166"
-                    },
-                    "to": {
-                        "startLines": "122,123,124,125,126,127,128,129,130,131,132,133,134,135",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "10307,10396,10492,10548,10668,10731,10845,10941,10991,11068,11108,11148,11206,11286",
-                        "endColumns": "88,95,55,119,62,113,95,49,76,39,39,57,79,44",
-                        "endOffsets": "10391,10487,10543,10663,10726,10840,10936,10986,11063,11103,11143,11201,11281,11326"
-                    }
-                },
-                {
-                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/11577dd8f870ce4f266d07647e1749c1/transformed/browser-1.3.0/res/values-lv/values-lv.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,158,257,373",
-                        "endColumns": "102,98,115,101",
-                        "endOffsets": "153,252,368,470"
-                    },
-                    "to": {
-                        "startLines": "66,118,119,120",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6069,9922,10021,10137",
-                        "endColumns": "102,98,115,101",
-                        "endOffsets": "6167,10016,10132,10234"
-                    }
-                },
-                {
-                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/91908877d10ae67e1bef600c129c0b1d/transformed/jetified-exoplayer-ui-2.17.1/res/values-lv/values-lv.xml",
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/3bf2f10f4c46dc61c0755da0216f1cc7/transformed/jetified-exoplayer-ui-2.17.1/res/values-lv/values-lv.xml",
                     "from": {
                         "startLines": "2,11,16,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/res/values-lv/godot_project_name_string.xml",
+                    "source": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/res/values-lv/godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -139,6 +122,23 @@
                         "startOffsets": "3765,3872,4033,4166,4274,4416,4547,4664,4936,5111,5220,5389,5524,5693,5848,5912,5980",
                         "endColumns": "106,160,132,107,141,130,116,105,174,108,168,134,168,154,63,67,88",
                         "endOffsets": "3867,4028,4161,4269,4411,4542,4659,4765,5106,5215,5384,5519,5688,5843,5907,5975,6064"
+                    }
+                },
+                {
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/7ff34864a49cde2050bc5771e32d2e83/transformed/browser-1.4.0/res/values-lv/values-lv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,158,257,373",
+                        "endColumns": "102,98,115,101",
+                        "endOffsets": "153,252,368,470"
+                    },
+                    "to": {
+                        "startLines": "66,118,119,120",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6069,9922,10021,10137",
+                        "endColumns": "102,98,115,101",
+                        "endOffsets": "6167,10016,10132,10234"
                     }
                 },
                 {

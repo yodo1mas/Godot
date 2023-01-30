@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="godot_project_name_string">GodotYodo1Mas</string>
+    <string name="mbridge_reward_heat_count_unit">w</string>
+    <string name="mbridge_reward_viewed_text_str">Viewed</string>
     <string name="tt_full_screen_skip_tx">It can be skipped after 5 seconds</string>
     <string name="tt_reward_feedback">feedback</string>
     <string name="yandex_ads_internal_after_timer_value">sec unitl your reward</string>

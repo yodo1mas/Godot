@@ -59,9 +59,6 @@ margin_bottom = 113.0
 rect_pivot_offset = Vector2( 100, 44 )
 texture_normal = ExtResource( 3 )
 expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Label" type="Label" parent="CanvasLayer/Orange/BtnBannerAd"]
 anchor_left = 0.5
@@ -527,9 +524,6 @@ margin_right = 1.0
 mouse_filter = 2
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 13 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/PdPrivacy"]
 margin_top = 31.0
@@ -668,9 +662,9 @@ script = ExtResource( 2 )
 __meta__ = {
 "_editor_description_": ""
 }
-app_id_ios = "BkFDs2l8K4k"
-app_id_android = "u0a2MHvyzD"
+app_id_android = "Enter Your App key"
 IsPrivacyEnabled = true
+IsAppOpenAdsRequired = true
 
 [connection signal="ended" from="PrivacyController" to="." method="_on_PrivacyController_ended"]
 [connection signal="pressed" from="CanvasLayer/Orange/BtnBannerAd" to="." method="_on_BtnBannerAd_pressed"]

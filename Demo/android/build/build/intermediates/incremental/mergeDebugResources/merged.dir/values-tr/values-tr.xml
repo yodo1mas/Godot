@@ -134,6 +134,24 @@
     <string name="s7">Test Reklamı</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Ara"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tt_cancel">Cancel</string>
+    <string name="tt_click_to_replay">Tekrar oynatmak için dokunun</string>
+    <string name="tt_comment_num">%1$s inceleme</string>
+    <string name="tt_comment_num_backup">%1$s inceleme</string>
+    <string name="tt_count_down_view">Atla</string>
+    <string name="tt_dislike_header_tv_back">Geri</string>
+    <string name="tt_dislike_header_tv_title">Seç</string>
+    <string name="tt_feedback_experience_text">Hizmetimizi iyileştirmeye devam edeceğiz.</string>
+    <string name="tt_feedback_submit_text">Geri bildirim gönderdiniz! Lütfen tekrar göndermeyin.</string>
+    <string name="tt_feedback_thank_text">Geri bildiriminiz için teşekkürler!</string>
+    <string name="tt_negtiveBtnBtnText">Ayrıl</string>
+    <string name="tt_postiveBtnText">Devam Et</string>
+    <string name="tt_privacy_title">Gizlilik Politikası</string>
+    <string name="tt_reward_feedback">Geri Bildirim</string>
+    <string name="tt_reward_msg">Ödülünüzü talep etmek için videonun tamamını izleyin</string>
+    <string name="tt_txt_skip">Atla</string>
+    <string name="tt_video_download_apk">Hemen İndir</string>
+    <string name="tt_video_mobile_go_detail">Şimdi Görüntüle</string>
     <string name="yandex_ads_internal_after_timer_value">saniye kadar</string>
     <string name="yandex_ads_internal_before_timer_value">Ödül</string>
     <string name="yandex_ads_internal_go">Git</string>

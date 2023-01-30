@@ -118,7 +118,7 @@
     <string name="exo_track_surround_5_point_1">סראונד 5.1</string>
     <string name="exo_track_surround_7_point_1">סראונד 7.1</string>
     <string name="exo_track_unknown">לא ידוע</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"להעתקת הקישור"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"העתקת הקישור"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"פתיחה בדפדפן"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"לשיתוף הקישור"</string>
     <string name="godot_project_name_string">GodotYodo1Mas</string>

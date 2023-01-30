@@ -153,9 +153,9 @@
     <string name="tt_banner_ad_load_image_error">Banner loading failed</string>
     <string name="tt_cancel">रद्द करें</string>
     <string name="tt_choose_language">hi</string>
-    <string name="tt_click_to_replay">देखना जारी रखें</string>
-    <string name="tt_comment_num">%1$s रेटिंग</string>
-    <string name="tt_comment_num_backup">%1$s रेटिंग</string>
+    <string name="tt_click_to_replay">फिर से प्ले करने के लिए टैप करें</string>
+    <string name="tt_comment_num">%1$s समीक्षाएं</string>
+    <string name="tt_comment_num_backup">%1$s समीक्षाएं</string>
     <string name="tt_comment_score">मूल्यांकन</string>
     <string name="tt_confirm_download">आप वाई-फ़ाई नेटवर्क से कनेक्ट नहीं है. क्या आप वाकई डाउनलोड करना चाहते हैं?</string>
     <string name="tt_confirm_download_have_app_name">%s ऐप डाउनलोड करने की तैयारी की जा रही है</string>
@@ -183,9 +183,9 @@
     <string name="tt_error_union_sdk_too_old">Sdk version too low</string>
     <string name="tt_error_unknow">Unknown error</string>
     <string name="tt_error_verify_reward">Reward verify error</string>
-    <string name="tt_feedback_experience_text">हम आपको बेहतर विज्ञापन अनुभव देने की कोशिश करते रहेंगे</string>
-    <string name="tt_feedback_submit_text">आप पहले ही फ़ीडबैक सबमिट कर चुके हैं.कृपया एक से अधिक बार न  सबमिट करें!</string>
-    <string name="tt_feedback_thank_text">आपके फ़ीडबैक के लिए धन्यवाद!</string>
+    <string name="tt_feedback_experience_text">हम अपनी सेवा में सुधार करना जारी रखेंगे.</string>
+    <string name="tt_feedback_submit_text">आप फ़ीडबैक सबमिट कर चुके हैं! कृपया फिर से सबमिट न करें.</string>
+    <string name="tt_feedback_thank_text">अपना फ़ीडबैक देने के लिए धन्यवाद!</string>
     <string name="tt_frequent_call_erroe">Ad requests are too frequent</string>
     <string name="tt_full_screen_skip_tx">छोड़ें</string>
     <string name="tt_get_reward">रिवॉर्ड दिया गया</string>
@@ -197,7 +197,7 @@
     <string name="tt_load_failed_text">विज्ञापन लोड नहीं किया जा सका</string>
     <string name="tt_load_success_text">विज्ञापन सफलतापूर्वक लोड किया गया</string>
     <string name="tt_msgPlayable">रिवॉर्ड्स का दावा करने के लिए पूरा देखें</string>
-    <string name="tt_negtiveBtnBtnText">रिवॉर्ड्स छोड़ें</string>
+    <string name="tt_negtiveBtnBtnText">छोड़ दें</string>
     <string name="tt_negtive_txt">रद्द करें</string>
     <string name="tt_net_error">Network error</string>
     <string name="tt_no_ad">No ad</string>
@@ -205,10 +205,10 @@
     <string name="tt_no_network">नेटवर्क कनेक्शन मौजूद नहीं, कृपया बाद में फिर से कोशिश करें.</string>
     <string name="tt_parse_fail">Parsing error</string>
     <string name="tt_permission_denied">आपने आवश्यक अनुमतियाँ अक्षम कर दी हैं. कृपया उन्हें सक्षम करें.</string>
-    <string name="tt_postiveBtnText">देखते रहें</string>
+    <string name="tt_postiveBtnText">फिर से चलाएँ</string>
     <string name="tt_postiveBtnTextPlayable">देखना जारी रखें</string>
     <string name="tt_postive_txt">ठीक</string>
-    <string name="tt_privacy_title">गोपनीयता नीति</string>
+    <string name="tt_privacy_title">प्राइवेसी पालिसी</string>
     <string name="tt_reder_ad_load_timeout">Template loading timeout</string>
     <string name="tt_render_diff_template_invalid">Template diff invalid</string>
     <string name="tt_render_fail_meta_invalid">Template invalid</string>
@@ -223,7 +223,7 @@
     <string name="tt_request_permission_descript_location">स्थान</string>
     <string name="tt_request_permission_descript_read_phone_state">फ़ोन</string>
     <string name="tt_reward_feedback">फ़ीडबैक</string>
-    <string name="tt_reward_msg">रिवॉर्ड्स पाने के लिए पूरा वीडियो देखें</string>
+    <string name="tt_reward_msg">अपना रिवॉर्ड क्लेम करने के लिए पूरी वीडियो देखें</string>
     <string name="tt_reward_screen_skip_tx">छोड़ें</string>
     <string name="tt_reward_video_show_error">रिवॉर्ड वीडियो डिस्प्ले गड़बड़ी</string>
     <string name="tt_ror_code_show_event_error">Show event error</string>
@@ -249,7 +249,7 @@
     <string name="tt_video_continue_play">देखना जारी रखें</string>
     <string name="tt_video_dial_phone">अभी कॉल करें</string>
     <string name="tt_video_download_apk">डाउनलोड करें</string>
-    <string name="tt_video_mobile_go_detail">देखें</string>
+    <string name="tt_video_mobile_go_detail">अभी देखें</string>
     <string name="tt_video_retry_des">लोड नहीं किया जा सका. फिर से कोशिश करने के लिए क्लिक करें</string>
     <string name="tt_video_retry_des_txt">लोड नहीं किया जा सका. कृपया फिर से कोशिश करें.</string>
     <string name="tt_video_without_wifi_tips">इस सामग्री को चलाने पर %.2f MB डेटा का इस्तेमाल होगा</string>

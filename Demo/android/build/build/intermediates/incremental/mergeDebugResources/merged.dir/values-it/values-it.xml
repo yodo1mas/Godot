@@ -153,9 +153,9 @@
     <string name="tt_banner_ad_load_image_error">Banner loading failed</string>
     <string name="tt_cancel">Annulla</string>
     <string name="tt_choose_language">it</string>
-    <string name="tt_click_to_replay">Clic per caricare</string>
-    <string name="tt_comment_num">Valutazione(i) %1$s</string>
-    <string name="tt_comment_num_backup">Valutazione(i) %1$s</string>
+    <string name="tt_click_to_replay">Tocca per riprodurre</string>
+    <string name="tt_comment_num">%1$s recensioni</string>
+    <string name="tt_comment_num_backup">%1$s recensioni</string>
     <string name="tt_comment_score">Valutazione</string>
     <string name="tt_confirm_download">Non sei collegato a una rete Wi-Fi. Proseguire con il download?</string>
     <string name="tt_confirm_download_have_app_name">Preparazione download di %s app</string>
@@ -183,8 +183,8 @@
     <string name="tt_error_union_sdk_too_old">Sdk version too low</string>
     <string name="tt_error_unknow">Unknown error</string>
     <string name="tt_error_verify_reward">Reward verify error</string>
-    <string name="tt_feedback_experience_text">Continueremo a impegnarci per fornirti un\'esperienza pubblicitaria migliore</string>
-    <string name="tt_feedback_submit_text">Hai già inviato il tuo feedback.Non inviarne più di uno!</string>
+    <string name="tt_feedback_experience_text">Continueremo a migliorare il nostro servizio.</string>
+    <string name="tt_feedback_submit_text">Hai inviato un feedback! Non inviare nuovamente.</string>
     <string name="tt_feedback_thank_text">Grazie per il tuo feedback!</string>
     <string name="tt_frequent_call_erroe">Ad requests are too frequent</string>
     <string name="tt_full_screen_skip_tx">Ignora</string>
@@ -197,7 +197,7 @@
     <string name="tt_load_failed_text">Caricamento annuncio non riuscito</string>
     <string name="tt_load_success_text">Annuncio caricato correttamente</string>
     <string name="tt_msgPlayable">Riproduci tutto per richiedere le ricompense</string>
-    <string name="tt_negtiveBtnBtnText">Rinuncia a ricompense</string>
+    <string name="tt_negtiveBtnBtnText">Esci</string>
     <string name="tt_negtive_txt">Annulla</string>
     <string name="tt_net_error">Network error</string>
     <string name="tt_no_ad">No ad</string>
@@ -205,10 +205,10 @@
     <string name="tt_no_network">Connessione di rete assente, riprova più tardi.</string>
     <string name="tt_parse_fail">Parsing error</string>
     <string name="tt_permission_denied">Hai disabilitato le autorizzazioni necessarie. Abilitale.</string>
-    <string name="tt_postiveBtnText">Continua a guardare</string>
+    <string name="tt_postiveBtnText">Riprendi</string>
     <string name="tt_postiveBtnTextPlayable">Continua a riprodurre</string>
     <string name="tt_postive_txt">OK</string>
-    <string name="tt_privacy_title">politica sulla riservatezza</string>
+    <string name="tt_privacy_title">Informativa sulla privacy</string>
     <string name="tt_reder_ad_load_timeout">Template loading timeout</string>
     <string name="tt_render_diff_template_invalid">Template diff invalid</string>
     <string name="tt_render_fail_meta_invalid">Template invalid</string>
@@ -223,7 +223,7 @@
     <string name="tt_request_permission_descript_location">Posizione</string>
     <string name="tt_request_permission_descript_read_phone_state">Telefono</string>
     <string name="tt_reward_feedback">Feedback</string>
-    <string name="tt_reward_msg">Finisci di guardare il video per ottenere le ricompense</string>
+    <string name="tt_reward_msg">Guarda l\'intero video per richiedere il tuo premio</string>
     <string name="tt_reward_screen_skip_tx">Ignora</string>
     <string name="tt_reward_video_show_error">Errore visualizzazione video ricompensa</string>
     <string name="tt_ror_code_show_event_error">Show event error</string>
@@ -248,8 +248,8 @@
     <string name="tt_video_bytesize_MB">MB</string>
     <string name="tt_video_continue_play">Continua a riprodurre</string>
     <string name="tt_video_dial_phone">Chiama ora</string>
-    <string name="tt_video_download_apk">Scarica</string>
-    <string name="tt_video_mobile_go_detail">Visualizza</string>
+    <string name="tt_video_download_apk">Scarica ora</string>
+    <string name="tt_video_mobile_go_detail">Visualizza ora</string>
     <string name="tt_video_retry_des">Caricamento non riuscito. Fai clic per riprovare</string>
     <string name="tt_video_retry_des_txt">Caricamento non riuscito. Riprova.</string>
     <string name="tt_video_without_wifi_tips">La riproduzione di questo contenuto utilizzerà %.2f MB di dati</string>

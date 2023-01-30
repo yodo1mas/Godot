@@ -118,6 +118,8 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"在瀏覽器中開啟"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"分享連結"</string>
     <string name="godot_project_name_string">GodotYodo1Mas</string>
+    <string name="mbridge_reward_heat_count_unit">万</string>
+    <string name="mbridge_reward_viewed_text_str">您瀏覽過的內容</string>
     <string name="no_thank_you">不，謝謝</string>
     <string name="offline_notification_text">輕觸即可開啟廣告</string>
     <string name="offline_notification_title">查看你在離線時儲存的廣告</string>

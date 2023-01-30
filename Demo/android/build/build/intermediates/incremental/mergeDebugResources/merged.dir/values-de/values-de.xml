@@ -153,9 +153,9 @@
     <string name="tt_banner_ad_load_image_error">Banner loading failed</string>
     <string name="tt_cancel">Abbrechen</string>
     <string name="tt_choose_language">de</string>
-    <string name="tt_click_to_replay">Zum erneuten Wiedergeben  klicken</string>
-    <string name="tt_comment_num">%1$s Rating(s)</string>
-    <string name="tt_comment_num_backup">%1$s Rating(s)</string>
+    <string name="tt_click_to_replay">Zum Wiederholen tippen</string>
+    <string name="tt_comment_num">%1$s Reviews</string>
+    <string name="tt_comment_num_backup">%1$s Reviews</string>
     <string name="tt_comment_score">Bewertung</string>
     <string name="tt_confirm_download">Sie sind nicht mit einem WLAN-Netzwerk verbunden. Möchten Sie den Download wirklich ausführen?</string>
     <string name="tt_confirm_download_have_app_name">Download von %s App(s) wird vorbereitet.</string>
@@ -183,9 +183,9 @@
     <string name="tt_error_union_sdk_too_old">Sdk version too low</string>
     <string name="tt_error_unknow">Unknown error</string>
     <string name="tt_error_verify_reward">Reward verify error</string>
-    <string name="tt_feedback_experience_text">Wir sind bemüht, Ihre Werbeerfahrung weiter zu verbessern.</string>
-    <string name="tt_feedback_submit_text">Sie haben bereits Feedback übermittelt.Bitte senden Sie Ihr  Feedback nicht mehrfach!</string>
-    <string name="tt_feedback_thank_text">Vielen Dank für Ihr Feedback!</string>
+    <string name="tt_feedback_experience_text">Wir verbessern unseren Service fortlaufend.</string>
+    <string name="tt_feedback_submit_text">Dein Feedback wurde eingereicht. Du musst es nicht erneut senden.</string>
+    <string name="tt_feedback_thank_text">Vielen Dank für dein Feedback!</string>
     <string name="tt_frequent_call_erroe">Ad requests are too frequent</string>
     <string name="tt_full_screen_skip_tx">Überspringen</string>
     <string name="tt_get_reward">Prämie vergeben</string>
@@ -197,7 +197,7 @@
     <string name="tt_load_failed_text">Anzeige nicht geladen</string>
     <string name="tt_load_success_text">Anzeige erfolgreich geladen</string>
     <string name="tt_msgPlayable">Bis zum Ende wiedergeben, um Prämien zu erhalten</string>
-    <string name="tt_negtiveBtnBtnText">Auf Prämien verzichten</string>
+    <string name="tt_negtiveBtnBtnText">Verlassen</string>
     <string name="tt_negtive_txt">Abbrechen</string>
     <string name="tt_net_error">Network error</string>
     <string name="tt_no_ad">No ad</string>
@@ -205,10 +205,10 @@
     <string name="tt_no_network">Keine Netzwerkverbindung, versuchen Sie es bitte später noch einmal.</string>
     <string name="tt_parse_fail">Parsing error</string>
     <string name="tt_permission_denied">Sie haben die erforderlichen Berechtigungen deaktiviert. Bitte aktivieren Sie diese.</string>
-    <string name="tt_postiveBtnText">Weiter ansehen</string>
+    <string name="tt_postiveBtnText">Fortsetzen</string>
     <string name="tt_postiveBtnTextPlayable">Weiter wiedergeben</string>
     <string name="tt_postive_txt">OK</string>
-    <string name="tt_privacy_title">Datenschutz-Bestimmungen</string>
+    <string name="tt_privacy_title">Datenschutzrichtlinie</string>
     <string name="tt_reder_ad_load_timeout">Template loading timeout</string>
     <string name="tt_render_diff_template_invalid">Template diff invalid</string>
     <string name="tt_render_fail_meta_invalid">Template invalid</string>
@@ -223,7 +223,7 @@
     <string name="tt_request_permission_descript_location">Standort</string>
     <string name="tt_request_permission_descript_read_phone_state">Telefon</string>
     <string name="tt_reward_feedback">Feedback</string>
-    <string name="tt_reward_msg">Sehen Sie sich das Video vollständig an, um Prämien zu erhalten.</string>
+    <string name="tt_reward_msg">Sieh dir das ganze Video an, um deine Belohnung zu erhalten.</string>
     <string name="tt_reward_screen_skip_tx">Überspringen</string>
     <string name="tt_reward_video_show_error">Anzeigefehler bei Prämienvideo</string>
     <string name="tt_ror_code_show_event_error">Show event error</string>
@@ -248,8 +248,8 @@
     <string name="tt_video_bytesize_MB">MB</string>
     <string name="tt_video_continue_play">Weiter wiedergeben</string>
     <string name="tt_video_dial_phone">Jetzt anrufen</string>
-    <string name="tt_video_download_apk">Herunterladen</string>
-    <string name="tt_video_mobile_go_detail">Ansehen</string>
+    <string name="tt_video_download_apk">Jetzt herunterladen</string>
+    <string name="tt_video_mobile_go_detail">Jetzt ansehen</string>
     <string name="tt_video_retry_des">Ladefehler. Klicken Sie, um es erneut zu versuchen.</string>
     <string name="tt_video_retry_des_txt">Ladefehler. Bitte versuchen Sie es erneut.</string>
     <string name="tt_video_without_wifi_tips">Bei der Wiedergabe dieses Inhalts werden %.2f MB Daten verbraucht</string>

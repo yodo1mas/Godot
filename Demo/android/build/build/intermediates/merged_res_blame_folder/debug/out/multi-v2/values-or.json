@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/45a1aa906ac2f4730feabca4d2cfe3c7/transformed/appcompat-1.2.0/res/values-or/values-or.xml",
@@ -55,6 +55,23 @@
                     }
                 },
                 {
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/7ff34864a49cde2050bc5771e32d2e83/transformed/browser-1.4.0/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,165,270,383",
+                        "endColumns": "109,104,112,108",
+                        "endOffsets": "160,265,378,487"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5136,5246,5351,5464",
+                        "endColumns": "109,104,112,108",
+                        "endOffsets": "5241,5346,5459,5568"
+                    }
+                },
+                {
                     "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/db48b52b10dc05608bb3143a95aee276/transformed/core-1.7.0/res/values-or/values-or.xml",
                     "from": {
                         "startLines": "2",
@@ -72,24 +89,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/11577dd8f870ce4f266d07647e1749c1/transformed/browser-1.3.0/res/values-or/values-or.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,165,270,383",
-                        "endColumns": "109,104,112,108",
-                        "endOffsets": "160,265,378,487"
-                    },
-                    "to": {
-                        "startLines": "47,48,49,50",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5136,5246,5351,5464",
-                        "endColumns": "109,104,112,108",
-                        "endOffsets": "5241,5346,5459,5568"
-                    }
-                },
-                {
-                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/caa737ca81150965bbdab81534569206/transformed/jetified-play-services-ads-21.0.0/res/values-or/values.xml",
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/610d86b4674220792db9c64c148e1b1d/transformed/jetified-play-services-ads-21.3.0/res/values-or/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",

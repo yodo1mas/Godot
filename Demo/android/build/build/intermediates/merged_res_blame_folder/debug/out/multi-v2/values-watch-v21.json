@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/45a1aa906ac2f4730feabca4d2cfe3c7/transformed/appcompat-1.2.0/res/values-watch-v21/values-watch-v21.xml",

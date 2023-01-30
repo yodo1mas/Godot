@@ -35,7 +35,7 @@ signal rewarded_ad_earned()
 export var app_id_ios: String
 export var app_id_android: String
 export var IsPrivacyEnabled: bool
-#export var IsAppOpenAdsRequired: bool
+export var IsAppOpenAdsRequired: bool
 
 # "private" properties
 var _yodo1mas_singleton = null
@@ -79,9 +79,9 @@ func init() -> bool:
 		print("OS.get_name()")
 
 		if OS.get_name() == "iOS":
-			_yodo1mas_singleton.init(app_id_ios,IsPrivacyEnabled)
+			_yodo1mas_singleton.init(app_id_ios,IsPrivacyEnabled,IsAppOpenAdsRequired)
 		elif OS.get_name() == "Android":
-			_yodo1mas_singleton.init(app_id_android,IsPrivacyEnabled)
+			_yodo1mas_singleton.init(app_id_android,IsPrivacyEnabled,IsAppOpenAdsRequired)
 		else:
 			print("NOT Android or iOs")
 			
@@ -122,6 +122,11 @@ func load_banner_ad(size: String,horizontal_alignment: String,vertical_alignment
 	if(_yodo1mas_singleton != null):
 		_yodo1mas_singleton.loadBannerAds(size,horizontal_alignment,vertical_alignment)
 		
+
+func load_appopen_ad() -> void:
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.LoadAppOpenAds()
+
 func show_banner_ad() -> void:
 	if(_yodo1mas_singleton != null):
 		_yodo1mas_singleton.showBannerAd()
@@ -137,6 +142,14 @@ func is_interstitial_ad_loaded() -> bool:
 		return false;
 	return _yodo1mas_singleton.isInterstitialAdLoaded()
 	
+func initialize_interstitial_ads() -> void:
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.InitializeInterstitialAds()
+
+func load_interstitial_ads() -> void:
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.LoadInterstitialAds()
+
 func show_interstitial_ad() -> void:
 	if(_yodo1mas_singleton != null):
 		_yodo1mas_singleton.showInterstitialAd()
@@ -144,6 +157,14 @@ func show_interstitial_ad() -> void:
 func show_interstitial_ad_with_placement(placementId: String) -> void:
 	if(_yodo1mas_singleton != null):
 		_yodo1mas_singleton.showInterstitialAdWithPlacement(placementId)
+
+func initialize_rewarded_ad() -> void:
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.InitializeRewardedAds()
+
+func load_rewarded_ad() -> void:
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.loadRewardedAds()
 
 func is_rewarded_ad_loaded() -> bool:
 	if(_yodo1mas_singleton == null):
@@ -157,6 +178,19 @@ func show_rewarded_ad() -> void:
 func show_rewarded_ad_with_placement(placementId: String) -> void:
 	if(_yodo1mas_singleton != null):
 		_yodo1mas_singleton.showRewardAdWithPlacement(placementId)
+
+func initialize_rewarded_interstitial_ad() -> void:
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.InitializeInterstitialRewardedAds()
+
+func load_rewarded_interstitial_ad() -> void:
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.LoadInterstitialRewardedAds()
+
+func show_rewarded_interstitial_ad() -> void:
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.showInterstitialRewardedAd()
+
 # callbacks
 
 func _on_banner_ad_loaded() -> void:
@@ -210,6 +244,5 @@ func _on_rewarded_ad_closed() -> void:
 	
 func _on_rewarded_ad_earned() -> void:
 	#print("Godot app -> yodo1mas, _on_rewarded_ad_earned")
-	
 	emit_signal("rewarded_ad_earned")
 	

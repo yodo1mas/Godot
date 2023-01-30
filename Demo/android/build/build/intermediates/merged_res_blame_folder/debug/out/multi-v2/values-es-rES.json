@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
+            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
             "map": [
                 {
-                    "source": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/res/values-es-rES/godot_project_name_string.xml",
+                    "source": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/res/values-es-rES/godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/b85714a2827cd261ee9d0b163887676e/transformed/work-runtime-2.7.0/res/values-v23/values-v23.xml",

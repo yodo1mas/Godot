@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja-rJP/values-ja-rJP.xml",
+            "map": [
+                {
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/8506f32e12e57f2faa6cf421f1cd8ac6/transformed/jetified-dycreator-16.2.61/res/values-ja-rJP/values-ja-rJP.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,116",
+                        "endColumns": "60,63",
+                        "endOffsets": "111,175"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -9,6 +9,24 @@
     <item>1.5x</item>
     <item>2x</item>
   </string-array>
+    <string-array name="exo_playback_speeds" translatable="false">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>@string/exo_controls_playback_speed_normal</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <integer-array name="exo_speed_multiplied_by_100">
+    <item>25</item>
+    <item>50</item>
+    <item>75</item>
+    <item>100</item>
+    <item>125</item>
+    <item>150</item>
+    <item>200</item>
+  </integer-array>
     <string-array name="yodo1_mas_markArray">
         <item>0</item>
         <item>30</item>
@@ -313,6 +331,16 @@
         <enum name="vertical_only" value="2"/>
         <enum name="skipped" value="3"/>
     </attr>
+    <attr format="string" name="mbridge_click"/>
+    <attr format="string" name="mbridge_data"/>
+    <attr format="string" name="mbridge_effect"/>
+    <attr format="string" name="mbridge_effect_strategy"/>
+    <attr name="mbridge_report">
+        <flag name="mbridgeAttached" value="1"/>
+        <flag name="mbridgeDetached" value="2"/>
+        <flag name="mbridgeClicked" value="3"/>
+    </attr>
+    <attr format="string" name="mbridge_strategy"/>
     <attr format="float" name="motionPathRotate"/>
     <attr format="float" name="motionProgress"/>
     <attr format="float" name="motionStagger"/>
@@ -476,7 +504,6 @@
     <color name="applovin_sdk_brand_color">#0583aa</color>
     <color name="applovin_sdk_brand_color_dark">#02627F</color>
     <color name="applovin_sdk_checkmarkColor">#4CD964</color>
-    <color name="applovin_sdk_colorEdgeEffect">@android:color/black</color>
     <color name="applovin_sdk_ctaButtonColor">#4285F4</color>
     <color name="applovin_sdk_ctaButtonPressedColor">#0059c1</color>
     <color name="applovin_sdk_disclosureButtonColor">#C4C4C4</color>
@@ -484,6 +511,9 @@
     <color name="applovin_sdk_listViewBackground">#EFEFF4</color>
     <color name="applovin_sdk_listViewSectionTextColor">#97979B</color>
     <color name="applovin_sdk_textColorPrimary">@android:color/white</color>
+    <color name="applovin_sdk_textColorPrimaryDark">@android:color/black</color>
+    <color name="applovin_sdk_textColorSecondaryDark">@android:color/darker_gray</color>
+    <color name="applovin_sdk_warningColor">#FFCC00</color>
     <color name="applovin_sdk_xmarkColor">#FF3B30</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
@@ -567,6 +597,63 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
+    <color name="mbridge_black">#FF000000</color>
+    <color name="mbridge_black_66">#99000000</color>
+    <color name="mbridge_black_alpha_50">#7F000000</color>
+    <color name="mbridge_cm_feedback_dialog_chice_bg_pressed">#8FC31F</color>
+    <color name="mbridge_color_999999">#999999</color>
+    <color name="mbridge_color_cc000000">#CC000000</color>
+    <color name="mbridge_common_white">#FFFFFF</color>
+    <color name="mbridge_cpb_blue">#ff0099cc</color>
+    <color name="mbridge_cpb_blue_dark">#ff00719b</color>
+    <color name="mbridge_cpb_green">#ff99cc00</color>
+    <color name="mbridge_cpb_green_dark">#ff6d9b00</color>
+    <color name="mbridge_cpb_grey">#ffdedede</color>
+    <color name="mbridge_cpb_red">#ffff4444</color>
+    <color name="mbridge_cpb_red_dark">#ffcd3a3a</color>
+    <color name="mbridge_cpb_white">@android:color/white</color>
+    <color name="mbridge_dd_grey">#DDE6E5E5</color>
+    <color name="mbridge_ee_grey">#EEE6E5E5</color>
+    <color name="mbridge_interstitial_black">#30000000</color>
+    <color name="mbridge_interstitial_white">#ffffff</color>
+    <color name="mbridge_more_offer_list_bg">#40EAEAEA</color>
+    <color name="mbridge_nativex_cta_txt_nor">#C3C3C3</color>
+    <color name="mbridge_nativex_cta_txt_pre">#ffffff</color>
+    <color name="mbridge_nativex_land_cta_bg_nor">#7f000000</color>
+    <color name="mbridge_nativex_por_cta_bg_nor">#4A4A4A</color>
+    <color name="mbridge_nativex_por_cta_bg_pre">#4990E2</color>
+    <color name="mbridge_nativex_sound_bg">#B3000000</color>
+    <color name="mbridge_purple_200">#FFBB86FC</color>
+    <color name="mbridge_purple_500">#FF6200EE</color>
+    <color name="mbridge_purple_700">#FF3700B3</color>
+    <color name="mbridge_reward_black">#ff000000</color>
+    <color name="mbridge_reward_cta_bg">@color/mbridge_reward_minicard_bg</color>
+    <color name="mbridge_reward_desc_textcolor">#5f5f5f</color>
+    <color name="mbridge_reward_endcard_hor_bg">#ffffff</color>
+    <color name="mbridge_reward_endcard_land_bg">#f1f1f1</color>
+    <color name="mbridge_reward_endcard_line_bg">#d8d8d8</color>
+    <color name="mbridge_reward_endcard_vast_bg">#aa000000</color>
+    <color name="mbridge_reward_kiloo_background">#b3000000</color>
+    <color name="mbridge_reward_layer_text_bg">#DE000000</color>
+    <color name="mbridge_reward_minicard_bg">#7f000000</color>
+    <color name="mbridge_reward_six_black_transparent">#60000000</color>
+    <color name="mbridge_reward_six_black_transparent1">#03A9F4</color>
+    <color name="mbridge_reward_six_black_transparent2">#2196F3</color>
+    <color name="mbridge_reward_title_textcolor">#282828</color>
+    <color name="mbridge_reward_white">#FFFFFF</color>
+    <color name="mbridge_teal_200">#FF03DAC5</color>
+    <color name="mbridge_teal_700">#FF018786</color>
+    <color name="mbridge_video_common_alertview_bg">#FFFFFFFF</color>
+    <color name="mbridge_video_common_alertview_cancel_button_bg_default">#FF27AE5F</color>
+    <color name="mbridge_video_common_alertview_cancel_button_bg_pressed">#B327AE5F</color>
+    <color name="mbridge_video_common_alertview_cancel_button_textcolor">#FFFFFF</color>
+    <color name="mbridge_video_common_alertview_confirm_button_bg_default">#FFEAEAEA</color>
+    <color name="mbridge_video_common_alertview_confirm_button_bg_pressed">#B3EAEAEA</color>
+    <color name="mbridge_video_common_alertview_confirm_button_textcolor">#38B154</color>
+    <color name="mbridge_video_common_alertview_content_textcolor">#353535 </color>
+    <color name="mbridge_video_common_alertview_feedback_rb_bg">#FFF8F8F8</color>
+    <color name="mbridge_video_common_alertview_title_textcolor">#38B154</color>
+    <color name="mbridge_white">#FFFFFFFF</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
@@ -595,6 +682,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="transparent_background">#33FFFFFF</color>
     <color name="tt_black">#000000</color>
     <color name="tt_cancle_bg">#FDDCDCDC</color>
     <color name="tt_divider">#DCDCDC</color>
@@ -760,10 +848,6 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <dimen name="android_dialog_margin_bottom">26dp</dimen>
-    <dimen name="android_dialog_margin_left">22dp</dimen>
-    <dimen name="android_dialog_margin_right">22dp</dimen>
-    <dimen name="android_dialog_margin_top">16dp</dimen>
     <dimen name="applovin_sdk_actionBarHeight">60dp</dimen>
     <dimen name="applovin_sdk_adControlButton_height">40dp</dimen>
     <dimen name="applovin_sdk_adControlButton_width">70dp</dimen>
@@ -898,6 +982,7 @@
     <dimen name="ia_button_padding_lateral">48dp</dimen>
     <dimen name="ia_endcard_button_margin_bottom">74dp</dimen>
     <dimen name="ia_endcard_button_padding_vertical">8dp</dimen>
+    <dimen name="ia_endcard_hand_margin_button">50dp</dimen>
     <dimen name="ia_endcard_overlay_button_height_large">61dp</dimen>
     <dimen name="ia_endcard_overlay_button_height_medium">45dp</dimen>
     <dimen name="ia_endcard_overlay_button_width_large">247dp</dimen>
@@ -916,12 +1001,24 @@
     <dimen name="ia_video_control_margin">10dp</dimen>
     <dimen name="ia_video_overlay_button_width">95dp</dimen>
     <dimen name="ia_video_overlay_text_large">15sp</dimen>
+    <dimen name="ia_video_overlay_text_large_for_cta">20sp</dimen>
     <dimen name="ia_video_overlay_text_large_plus">30sp</dimen>
     <dimen name="ia_video_overlay_text_small">12sp</dimen>
     <dimen name="ia_video_text_padding">3dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="mbridge_video_common_alertview_bg_padding">30dp</dimen>
+    <dimen name="mbridge_video_common_alertview_button_height">28dp</dimen>
+    <dimen name="mbridge_video_common_alertview_button_margintop">38dp</dimen>
+    <dimen name="mbridge_video_common_alertview_button_radius">50dp</dimen>
+    <dimen name="mbridge_video_common_alertview_button_textsize">18sp</dimen>
+    <dimen name="mbridge_video_common_alertview_button_width">105dp</dimen>
+    <dimen name="mbridge_video_common_alertview_content_margintop">13dp</dimen>
+    <dimen name="mbridge_video_common_alertview_content_size">18sp</dimen>
+    <dimen name="mbridge_video_common_alertview_contentview_maxwidth">240dp</dimen>
+    <dimen name="mbridge_video_common_alertview_contentview_minwidth">240dp</dimen>
+    <dimen name="mbridge_video_common_alertview_title_size">20sp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
@@ -1141,7 +1238,6 @@
     <item name="action_menu_presenter" type="id"/>
     <item name="base_tabbed_title_container_scroller" type="id"/>
     <item name="bitmap_load_references_tag" type="id"/>
-    <item name="controller" type="id"/>
     <item name="div_buttons" type="id"/>
     <item name="div_custom_tag" type="id"/>
     <item name="div_gallery" type="id"/>
@@ -1240,7 +1336,6 @@
     <item name="split_action_bar" type="id"/>
     <item name="tab_height_cache" type="id"/>
     <item name="tab_sliding_oval_indicator" type="id"/>
-    <item name="tabtitle" type="id"/>
     <item name="tag_accessibility_actions" type="id"/>
     <item name="tag_accessibility_clickable_spans" type="id"/>
     <item name="tag_accessibility_heading" type="id"/>
@@ -1256,6 +1351,12 @@
     <item name="tag_window_insets_animation_callback" type="id"/>
     <item name="text" type="id"/>
     <item name="text2" type="id"/>
+    <item name="thinking_analytics_clone_tag_view_fragment_name" type="id"/>
+    <item name="thinking_analytics_clone_tag_view_id" type="id"/>
+    <item name="thinking_analytics_clone_tag_view_ignored" type="id"/>
+    <item name="thinking_analytics_clone_tag_view_onclick_timestamp" type="id"/>
+    <item name="thinking_analytics_clone_tag_view_properties" type="id"/>
+    <item name="thinking_analytics_clone_tag_view_value" type="id"/>
     <item name="title" type="id"/>
     <item name="transition_current_scene" type="id"/>
     <item name="transition_layout_save" type="id"/>
@@ -1268,10 +1369,12 @@
     <item name="tt_id_click_tag" type="id"/>
     <item name="tt_id_direction" type="id"/>
     <item name="tt_id_is_video_picture" type="id"/>
+    <item name="tt_id_mrc_tracker_view" type="id"/>
     <item name="tt_id_open_landing_page" type="id"/>
     <item name="tt_id_ripple_bg" type="id"/>
     <item name="tt_id_root_web_view" type="id"/>
     <item name="tt_id_shine_width" type="id"/>
+    <item name="tt_id_vast_click_type" type="id"/>
     <item name="tt_id_width" type="id"/>
     <item name="up" type="id"/>
     <item name="view_transition" type="id"/>
@@ -1283,31 +1386,16 @@
     <item name="yodo1_mas_root" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
-    <integer name="birth_year_min">1900</integer>
     <integer name="cancel_button_image_alpha">127</integer>
-    <integer name="chat_text_length_max">140</integer>
-    <integer name="chat_text_length_min">1</integer>
-    <integer name="comment_text_length_max">140</integer>
-    <integer name="comment_text_length_min">1</integer>
     <integer name="config_tooltipAnimTime">150</integer>
-    <integer name="direct_message_text_length_max">140</integer>
-    <integer name="direct_message_text_length_min">1</integer>
     <integer name="exo_media_button_opacity_percentage_disabled">33</integer>
     <integer name="exo_media_button_opacity_percentage_enabled">100</integer>
     <integer name="google_play_services_version">12451000</integer>
     <integer name="ia_ib_button_size_dp">32</integer>
     <integer name="ia_ib_toolbar_height_dp">48</integer>
-    <integer name="message_text_length_max">140</integer>
-    <integer name="message_text_length_min">1</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <integer name="tab_indicator_anim_duration_ms">300</integer>
     <integer name="tt_video_progress_max">100</integer>
-    <integer name="user_description_length_max">100</integer>
-    <integer name="user_description_length_min">0</integer>
-    <integer name="user_name_length_max">20</integer>
-    <integer name="user_name_length_min">1</integer>
-    <integer name="user_password_length_max">12</integer>
-    <integer name="user_password_length_min">6</integer>
     <integer name="yandex_ads_internal_age_max_lines">1</integer>
     <integer name="yandex_ads_internal_body_max_lines">4</integer>
     <integer name="yandex_ads_internal_domain_max_lines">1</integer>
@@ -1360,7 +1448,9 @@
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">GodotYodo1Mas</string>
     <string name="applovin_list_item_image_description">Displays more info about the list item.</string>
-    <string name="cancel">Cancel</string>
+    <string name="campaign.appName">getAppName</string>
+    <string name="campaign.iconUrl">getIconUrl</string>
+    <string name="campaign.imageUrl">getImageUrl</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -1380,9 +1470,24 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="date_format_month_day">EEEE, MMMM d</string>
-    <string name="date_format_year_month_day">EEEE, MMMM d yyyy</string>
-    <string name="empty"/>
+    <string name="defaults">default</string>
+    <string name="dyAction.getClick">click</string>
+    <string name="dyAction.getLogicClick">click|alecfc</string>
+    <string name="dyAction.getLongClick">longclick</string>
+    <string name="dyAction.getMove">move</string>
+    <string name="dyAction.getWobble">wobble</string>
+    <string name="dyEffect.getCountDown">countdown</string>
+    <string name="dyEffect.getVisible">visible</string>
+    <string name="dyEffect.getVisibleParam">visible|parent</string>
+    <string name="dyEffect.getWobble">wobble</string>
+    <string name="dyStrategy.feedback">feedback</string>
+    <string name="dyStrategy.getActivity">activity</string>
+    <string name="dyStrategy.getClose">close</string>
+    <string name="dyStrategy.getDeeplink">deeplink</string>
+    <string name="dyStrategy.getDownload">download</string>
+    <string name="dyStrategy.notice">notice</string>
+    <string name="dyStrategy.permissionInfo">permissionInfo</string>
+    <string name="dyStrategy.privateAddress">privateAddress</string>
     <string name="exo_controls_cc_disabled_description">Enable subtitles</string>
     <string name="exo_controls_cc_enabled_description">Disable subtitles</string>
     <string name="exo_controls_custom_playback_speed" translatable="false"><ns1:g example="1.05" id="playback_speed">%1$.2f</ns1:g>x</string>
@@ -1396,6 +1501,7 @@
     <string name="exo_controls_pause_description">Pause</string>
     <string name="exo_controls_play_description">Play</string>
     <string name="exo_controls_playback_speed">Speed</string>
+    <string name="exo_controls_playback_speed_normal">Normal</string>
     <string name="exo_controls_previous_description">Previous</string>
     <string name="exo_controls_repeat_all_description">Current mode: Repeat all. Toggle repeat mode.</string>
     <string name="exo_controls_repeat_off_description">Current mode: Repeat none. Toggle repeat mode.</string>
@@ -1436,24 +1542,41 @@
     <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
     <string name="exo_track_surround_7_point_1">7.1 surround sound</string>
     <string name="exo_track_unknown">Unknown</string>
-    <string name="failed_to_get_more">Failed to load more.</string>
-    <string name="failed_to_load">Failed to load.</string>
-    <string name="failed_to_refresh">Failed to refresh.</string>
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="fiverocks_app_id"/>
-    <string name="fiverocks_app_key"/>
-    <string name="getting_more">Loading more…</string>
     <string name="godot_project_name_string">GodotYodo1Mas</string>
     <string name="ia_str_video_error">Connection was lost\ncannot play video</string>
+    <string name="ia_video_app_info_text">App Info</string>
     <string name="ia_video_before_skip_format">Skip in (%d)</string>
     <string name="ia_video_install_now_text">Install Now</string>
+    <string name="ia_video_instant_install_text">Instant Install</string>
     <string name="ia_video_skip_text">Skip Ad</string>
-    <string name="just_before">Just before</string>
     <string name="kilobytes_per_second">%1$s KB/s</string>
-    <string name="loading">Loading…</string>
-    <string name="no">No</string>
+    <string name="mSplashData.setAdClickText">getAdClickText</string>
+    <string name="mSplashData.setAppInfo">getAppInfo</string>
+    <string name="mSplashData.setCountDownText">getCountDownText</string>
+    <string name="mSplashData.setLogoImage">getLogoImage</string>
+    <string name="mSplashData.setLogoText">getLogoText</string>
+    <string name="mSplashData.setNoticeImage">getNoticeImage</string>
+    <string name="mbridge_cm_feedback_btn_text">feedback</string>
+    <string name="mbridge_cm_feedback_dialog_close_close">Close</string>
+    <string name="mbridge_cm_feedback_dialog_close_submit">Submit</string>
+    <string name="mbridge_cm_feedback_dialog_content_balck_screen">Black screen</string>
+    <string name="mbridge_cm_feedback_dialog_content_cnr">Click no response</string>
+    <string name="mbridge_cm_feedback_dialog_content_other">Other issues</string>
+    <string name="mbridge_cm_feedback_dialog_content_stuck">Video stuck</string>
+    <string name="mbridge_cm_feedback_dialog_title">feedback</string>
+    <string name="mbridge_reward_appdesc">app desc</string>
+    <string name="mbridge_reward_apptitle">app title</string>
+    <string name="mbridge_reward_clickable_cta_btntext">Play Game</string>
+    <string name="mbridge_reward_endcard_ad">AD</string>
+    <string name="mbridge_reward_endcard_vast_notice">Do you want to learn more?</string>
+    <string name="mbridge_reward_heat_count_unit">w</string>
+    <string name="mbridge_reward_install">Install Now</string>
+    <string name="mbridge_reward_video_view_reward_time_complete">you have been rewarded</string>
+    <string name="mbridge_reward_video_view_reward_time_left">s left to be rewarded</string>
+    <string name="mbridge_reward_viewed_text_str">Viewed</string>
     <string name="no_thank_you">No,thank you</string>
     <string name="notification_download_complete">Download complete</string>
     <string name="notification_download_failed">Download unsuccessful</string>
@@ -1471,15 +1594,6 @@
       We\'ll send you a notification with a link to the advertiser site.</string>
     <string description="Title of the dialog presented when an ad is clicked while offline. [CHAR_LIMIT=NONE]" name="offline_opt_in_title">
       Open ad when you\'re back online.</string>
-    <string name="ok">OK</string>
-    <string name="please_wait">Please wait…</string>
-    <string name="pull_down_to_load">Pull down to load.</string>
-    <string name="pull_down_to_refresh">Pull down to refresh.</string>
-    <string name="pull_up_to_get_more">Pull up to load more.</string>
-    <string name="refresh">Refresh</string>
-    <string name="release_to_get_more">Release to load more.</string>
-    <string name="release_to_load">Release to load.</string>
-    <string name="release_to_refresh">Release to refresh.</string>
     <string name="s1">Save image</string>
     <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
     <string name="s3">Accept</string>
@@ -1487,12 +1601,7 @@
     <string name="s5">Create calendar event</string>
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="s7">Test Ad</string>
-    <string name="search_hint">Search</string>
     <string name="search_menu_title">Search</string>
-    <string name="settings">Settings</string>
-    <string name="sign_in">Sign in</string>
-    <string name="sign_out">Sign out</string>
-    <string name="sign_up">Sign up</string>
     <string name="star_4_8">4.8</string>
     <string name="state_completed">Download finished</string>
     <string name="state_connecting">Connecting to the download server</string>
@@ -1526,7 +1635,6 @@
     <string name="text_verifying_download">Verifying Download</string>
     <string name="time_remaining">Time remaining: %1$s</string>
     <string name="time_remaining_notification">%1$s left</string>
-    <string name="today">Today</string>
     <string name="tt_00_00">00:00</string>
     <string name="tt_ad">Ad</string>
     <string name="tt_ad_clicked_text">Ad shown</string>
@@ -1545,16 +1653,16 @@
     <string name="tt_banner_ad_load_image_error">Banner loading failed</string>
     <string name="tt_cancel">Cancel</string>
     <string name="tt_choose_language">en</string>
-    <string name="tt_click_to_replay">Continue  to play</string>
-    <string name="tt_comment_num">%1$s score</string>
-    <string name="tt_comment_num_backup">%1$s score</string>
+    <string name="tt_click_to_replay">Tap to replay</string>
+    <string name="tt_comment_num">%1$s reviews</string>
+    <string name="tt_comment_num_backup">%1$s reviews</string>
     <string name="tt_comment_score">Evaluation</string>
     <string name="tt_confirm_download">"Are you sure to download when using non-Wifi network?"</string>
     <string name="tt_confirm_download_have_app_name">"Prepare to download %s"</string>
     <string name="tt_content_type">Http content type error</string>
     <string name="tt_count_down_view">Skip</string>
     <string name="tt_dislike_header_tv_back">Back</string>
-    <string name="tt_dislike_header_tv_title">Choose</string>
+    <string name="tt_dislike_header_tv_title">Select</string>
     <string name="tt_error_access_method_pass">Illegal access method</string>
     <string name="tt_error_ad_able_false_msg">Prohibit request ads by compliance, please check COPPA/CCPA/GDPR settings</string>
     <string name="tt_error_ad_sec_false_msg">Security Check Failed</string>
@@ -1577,9 +1685,9 @@
     <string name="tt_error_union_sdk_too_old">Sdk version too low</string>
     <string name="tt_error_unknow">Unknown error</string>
     <string name="tt_error_verify_reward">Reward verify error</string>
-    <string name="tt_feedback_experience_text">We will bring you a better advertising experience</string>
-    <string name="tt_feedback_submit_text">You have successfully submitted feedback, please do not submit it again</string>
-    <string name="tt_feedback_thank_text">Thanks for your feedback</string>
+    <string name="tt_feedback_experience_text">We\'ll continue to improve our service.</string>
+    <string name="tt_feedback_submit_text">You\'ve submitted feedback! Please don\'t submit again.</string>
+    <string name="tt_feedback_thank_text">Thanks for your feedback!</string>
     <string name="tt_frequent_call_erroe">Ad requests are too frequent</string>
     <string name="tt_full_screen_skip_tx">Skip</string>
     <string name="tt_get_reward">Get reward</string>
@@ -1593,10 +1701,10 @@
     <string name="tt_load_failed_text">Load fail</string>
     <string name="tt_load_success_text">Load success</string>
     <string name="tt_loading_language">Landing page loading……</string>
-    <string name="tt_logo_cn">广告</string>
+    <string name="tt_logo_cn">AD</string>
     <string name="tt_logo_en">AD</string>
     <string name="tt_msgPlayable">Finish playing to get rewards</string>
-    <string name="tt_negtiveBtnBtnText">Give up rewards</string>
+    <string name="tt_negtiveBtnBtnText">Leave</string>
     <string name="tt_negtive_txt">Cancel</string>
     <string name="tt_net_error">Network error</string>
     <string name="tt_no_ad">No ad</string>
@@ -1605,7 +1713,7 @@
     <string name="tt_parse_fail">Parsing error</string>
     <string name="tt_permission_denied">You have prohibited from authorizing operation, please authorize it</string>
     <string name="tt_playable_btn_play">experience now</string>
-    <string name="tt_postiveBtnText">Continue playing</string>
+    <string name="tt_postiveBtnText">Resume</string>
     <string name="tt_postiveBtnTextPlayable">Continue playing</string>
     <string name="tt_postive_txt">OK</string>
     <string name="tt_privacy_title">Privacy Policy</string>
@@ -1619,24 +1727,28 @@
     <string name="tt_render_render_parse_error">Render parsing failed</string>
     <string name="tt_request_body_error">Request entity is empty</string>
     <string name="tt_request_pb_error">Http request pb error</string>
-    <string name="tt_reward_feedback">feedback</string>
-    <string name="tt_reward_msg">Finish playing to claim rewards</string>
+    <string name="tt_reward_feedback">Feedback</string>
+    <string name="tt_reward_msg">Watch the entire video to claim your reward</string>
     <string name="tt_reward_screen_skip_tx">Skip</string>
     <string name="tt_reward_video_show_error">onRewardedVideoAdFailedToShow</string>
     <string name="tt_ror_code_show_event_error">Show event error</string>
     <string name="tt_skip_ad_time_text">Skip after %ds</string>
     <string name="tt_splash_ad_load_image_error">Splash loading failed</string>
+    <string name="tt_splash_brush_mask_hint">Jump to details page or third party application</string>
+    <string name="tt_splash_brush_mask_title">Slide or click to Polish</string>
     <string name="tt_splash_cache_expired_error">Cache expired</string>
     <string name="tt_splash_cache_parse_error">Cache parsing failed</string>
     <string name="tt_splash_not_have_cache_error">No splash cache</string>
-    <string name="tt_splash_rock_text">前往详情页或第三方应用</string>
-    <string name="tt_splash_rock_top_text">摇一摇 或 点击图标</string>
+    <string name="tt_splash_rock_text">Go to details page or third-party application</string>
+    <string name="tt_splash_rock_top_text">Shake or click the icon</string>
     <string name="tt_splash_skip_tv">3s | Skip</string>
-    <string name="tt_splash_wriggle_text">前往详情页或第三方应用</string>
-    <string name="tt_splash_wriggle_top_text">扭动手机</string>
-    <string name="tt_splash_wriggle_top_text_style_17">扭动手机 或 点击图标</string>
+    <string name="tt_splash_wriggle_text">Go to details page or third-party application</string>
+    <string name="tt_splash_wriggle_top_text">Twist the phone</string>
+    <string name="tt_splash_wriggle_top_text_style_17">Twist the phone or tap the icon</string>
     <string name="tt_sys_error">System error</string>
     <string name="tt_template_load_fail">main template load fail !</string>
+    <string name="tt_text_privacy_app_version">Version：V</string>
+    <string name="tt_text_privacy_development">Developer：</string>
     <string name="tt_tip">Tip</string>
     <string name="tt_toast_ad_on_rewarded">Ad on rewarded</string>
     <string name="tt_toast_later_download">Download later</string>
@@ -1651,15 +1763,14 @@
     <string name="tt_video_bytesize_MB">MB</string>
     <string name="tt_video_continue_play">ContinueToPlay</string>
     <string name="tt_video_dial_phone">DialNow</string>
-    <string name="tt_video_download_apk">Download</string>
-    <string name="tt_video_mobile_go_detail">View Details</string>
+    <string name="tt_video_download_apk">Download Now</string>
+    <string name="tt_video_mobile_go_detail">View Now</string>
     <string name="tt_video_retry_des">Loading failed. Click to try again</string>
     <string name="tt_video_retry_des_txt">load fail ，please retry</string>
     <string name="tt_video_without_wifi_tips">Playing this content will use %.2f MB of data</string>
     <string name="tt_wap_empty">No request wap</string>
     <string name="tt_web_title_default">Advertise</string>
     <string name="tt_will_play">PlayNow</string>
-    <string name="updating">Updating…</string>
     <string name="yandex_ads_context">yandex:ads:context</string>
     <string name="yandex_ads_context_allow_parsing">allow-parsing</string>
     <string name="yandex_ads_context_do_not_parse">do-not-parse</string>
@@ -1689,9 +1800,7 @@
     <string name="yandex_ads_internal_tools_title_text">Покупка и продажа элитных и дешёвых машин на Авто.ру</string>
     <string name="yandex_ads_internal_tools_warning_text">Есть противопоказания. Обратитесь к специалисту Есть противопоказания. Обратитесь к специалисту</string>
     <string name="yandex_mobileads_automatic_sdk_initialization" translatable="false">com.yandex.mobile.ads.AUTOMATIC_SDK_INITIALIZATION</string>
-    <string name="yes">Yes</string>
     <string name="yes_i_agree">Yes, I agree</string>
-    <string name="yesterday">Yesterday</string>
     <string name="yodo1_mas_string_age"> Year(s) old</string>
     <string name="yodo1_mas_string_protocol_privacy"> Privacy Policy</string>
     <string name="yodo1_mas_string_protocol_term"> User Agreement</string>
@@ -1705,15 +1814,8 @@
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
-    <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
-    </style>
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <style name="AppBaseTheme" parent="">
+
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -2991,6 +3093,11 @@
     <item name="backgroundTint">@color/exo_white</item>
     <item name="android:insetBottom">0dp</item>
   </style>
+    <style name="ExoStyledControls.ButtonText">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">@dimen/exo_icon_text_size</item>
+    <item name="android:textColor">@color/exo_white</item>
+  </style>
     <style name="ExoStyledControls.TimeBar">
     <item name="bar_height">@dimen/exo_styled_progress_bar_height</item>
     <item name="bar_gravity">bottom</item>
@@ -3026,13 +3133,13 @@
 		<item name="android:windowBackground">@drawable/splash_drawable</item>
 		<item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
 	</style>
-    <style name="ImageButton.NoBackground" parent="@android:style/Widget.ImageButton">
-        <item name="android:background">@null</item>
-    </style>
     <style name="InneractiveAppTheme.Home" parent="android:Theme.NoTitleBar.Fullscreen"/>
     <style name="LargeIconView">
         <item name="android:layout_width">90dp</item>
         <item name="android:layout_height">90dp</item>
+    </style>
+    <style name="MBridgeAppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
     </style>
     <style name="NotificationText">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
@@ -3262,9 +3369,6 @@
     <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow" parent="Base.Widget.AppCompat.ActionButton">
         <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
-    </style>
-    <style name="SearchEditText">
-        <item name="android:singleLine">true</item>
     </style>
     <style name="SmallIconView">
         <item name="android:layout_width">50dp</item>
@@ -3623,7 +3727,7 @@
         <item name="android:layout_marginRight">4dp</item>
         <item name="android:paddingRight">2dp</item>
         <item name="android:paddingLeft">2dp</item>
-        <item name="android:background">@drawable/rounded_text_view_border</item>
+        <item name="android:background">@drawable/applovin_rounded_text_view_border</item>
         <item name="android:textColor">@color/applovin_sdk_adBadgeTextColor</item>
         <item name="android:text">Ad</item>
     </style>
@@ -3638,7 +3742,7 @@
         <item name="android:singleLine">true</item>
     </style>
     <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" parent="android:Widget.Button">
-        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:background">@drawable/applovin_rounded_button</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:singleLine">true</item>
     </style>
@@ -3724,6 +3828,16 @@
         <item name="android:layout_marginTop">@dimen/ia_video_control_margin</item>
         <item name="android:layout_marginRight">@dimen/ia_video_control_margin</item>
     </style>
+    <style name="ia_tv_app_info_btn_style" parent="ia_bottom_left_overlay">
+        <item name="android:layout_width">@dimen/ia_video_overlay_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/ia_video_overlay_text_view</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/ia_video_text_padding</item>
+        <item name="android:background">@drawable/bg_text_overlay</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
     <style name="ia_tv_call_to_action_style" parent="ia_bottom_right_overlay">
         <item name="android:layout_width">@dimen/ia_video_overlay_button_width</item>
         <item name="android:layout_height">wrap_content</item>
@@ -3766,6 +3880,31 @@
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:progressDrawable">@drawable/ia_progress_bar_drawable</item>
     </style>
+    <style name="mbridge_common_activity_style" parent="@android:style/Theme.Translucent.NoTitleBar"/>
+    <style name="mbridge_reward_theme" parent="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <style name="mbridge_transparent_common_activity_style" parent="mbridge_common_activity_style">
+    </style>
+    <style name="mbridge_transparent_theme" parent="mbridge_reward_theme">
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowTranslucentStatus" ns2:targetApi="kitkat">true</item>
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:statusBarColor" ns2:targetApi="lollipop">@android:color/transparent</item>
+            <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+            <item name="android:backgroundDimEnabled">false</item>
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowActionBar" ns2:targetApi="honeycomb">false</item>
+        </style>
+    <style name="myDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/mbridge_shape_btn</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
     <style name="quick_option_dialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowNoTitle">?android:attr/windowNoTitle</item>
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -3803,7 +3942,7 @@
     <style name="tt_back_view">
         <item name="android:minHeight">44dp</item>
         <item name="android:layout_marginLeft">12dp</item>
-        <item name="android:text">"关闭"</item>
+        <item name="android:text">"close"</item>
         <!-- TextView in MX3 don't respond to click event if text is null -->
         <item name="android:background">#00000000</item>
         <item name="android:layout_width">wrap_content</item>
@@ -4649,9 +4788,7 @@
         </attr>
         <attr format="reference" name="aspectImageViewStyle"/>
     </declare-styleable>
-    <declare-styleable name="AspectRatioFrameLayout">
-    <attr name="resize_mode"/>
-  </declare-styleable>
+    <declare-styleable name="AspectRatioFrameLayout"><attr name="resize_mode"/></declare-styleable>
     <declare-styleable name="BaseIndicatorTabLayout">
         <attr format="dimension" name="tabIndicatorPaddingTop"/>
         <attr format="dimension" name="tabIndicatorPaddingBottom"/>
@@ -5482,22 +5619,7 @@
         <attr format="boolean" name="customBoolean"/>
         <attr format="reference" name="customReference"/>
     </declare-styleable>
-    <declare-styleable name="DefaultTimeBar">
-    <attr name="bar_height"/>
-    <attr name="bar_gravity"/>
-    <attr name="touch_target_height"/>
-    <attr name="ad_marker_width"/>
-    <attr name="scrubber_enabled_size"/>
-    <attr name="scrubber_disabled_size"/>
-    <attr name="scrubber_dragged_size"/>
-    <attr name="scrubber_drawable"/>
-    <attr name="played_color"/>
-    <attr name="scrubber_color"/>
-    <attr name="buffered_color"/>
-    <attr name="unplayed_color"/>
-    <attr name="ad_marker_color"/>
-    <attr name="played_ad_marker_color"/>
-  </declare-styleable>
+    <declare-styleable name="DefaultTimeBar"><attr name="bar_height"/><attr name="bar_gravity"/><attr name="touch_target_height"/><attr name="ad_marker_width"/><attr name="scrubber_enabled_size"/><attr name="scrubber_disabled_size"/><attr name="scrubber_dragged_size"/><attr name="scrubber_drawable"/><attr name="played_color"/><attr name="scrubber_color"/><attr name="buffered_color"/><attr name="unplayed_color"/><attr name="ad_marker_color"/><attr name="played_ad_marker_color"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle">
         <!-- The drawing color for the bars -->
         <attr format="color" name="color"/>
@@ -5519,6 +5641,14 @@
     <declare-styleable name="EllipsizedTextView">
         <attr format="string|reference" name="ellipsis"/>
         <attr format="reference" name="ellipsisTextViewStyle"/>
+    </declare-styleable>
+    <declare-styleable name="FlowLightView">
+        <attr format="reference" name="image_src"/>
+        <attr format="color" name="start_color"/>
+        <attr format="color" name="center_color"/>
+        <attr format="color" name="end_color"/>
+        <attr format="integer" name="halo_width"/>
+        <attr format="integer" name="gradient"/>
     </declare-styleable>
     <declare-styleable name="FontFamily">
         <!-- The authority of the Font Provider to be used for the request. -->
@@ -6302,67 +6432,8 @@
         </attr>
 
     </declare-styleable>
-    <declare-styleable name="PlayerControlView">
-    <attr name="show_timeout"/>
-    <attr name="repeat_toggle_modes"/>
-    <attr name="show_rewind_button"/>
-    <attr name="show_fastforward_button"/>
-    <attr name="show_previous_button"/>
-    <attr name="show_next_button"/>
-    <attr name="show_shuffle_button"/>
-    <attr name="time_bar_min_update_interval"/>
-    <attr name="controller_layout_id"/>
-    <!-- DefaultTimeBar attributes -->
-    <attr name="bar_height"/>
-    <attr name="bar_gravity"/>
-    <attr name="touch_target_height"/>
-    <attr name="ad_marker_width"/>
-    <attr name="scrubber_enabled_size"/>
-    <attr name="scrubber_disabled_size"/>
-    <attr name="scrubber_dragged_size"/>
-    <attr name="scrubber_drawable"/>
-    <attr name="played_color"/>
-    <attr name="scrubber_color"/>
-    <attr name="buffered_color"/>
-    <attr name="unplayed_color"/>
-    <attr name="ad_marker_color"/>
-    <attr name="played_ad_marker_color"/>
-  </declare-styleable>
-    <declare-styleable name="PlayerView">
-    <attr name="use_artwork"/>
-    <attr name="shutter_background_color"/>
-    <attr name="default_artwork"/>
-    <attr name="use_controller"/>
-    <attr name="hide_on_touch"/>
-    <attr name="hide_during_ads"/>
-    <attr name="auto_show"/>
-    <attr name="show_buffering"/>
-    <attr name="keep_content_on_player_reset"/>
-    <attr name="player_layout_id"/>
-    <attr name="surface_type"/>
-    <!-- AspectRatioFrameLayout attributes -->
-    <attr name="resize_mode"/>
-    <!-- PlayerControlView attributes -->
-    <attr name="show_timeout"/>
-    <attr name="repeat_toggle_modes"/>
-    <attr name="show_shuffle_button"/>
-    <attr name="time_bar_min_update_interval"/>
-    <attr name="controller_layout_id"/>
-    <!-- DefaultTimeBar attributes -->
-    <attr name="bar_height"/>
-    <attr name="touch_target_height"/>
-    <attr name="ad_marker_width"/>
-    <attr name="scrubber_enabled_size"/>
-    <attr name="scrubber_disabled_size"/>
-    <attr name="scrubber_dragged_size"/>
-    <attr name="scrubber_drawable"/>
-    <attr name="played_color"/>
-    <attr name="scrubber_color"/>
-    <attr name="buffered_color"/>
-    <attr name="unplayed_color"/>
-    <attr name="ad_marker_color"/>
-    <attr name="played_ad_marker_color"/>
-  </declare-styleable>
+    <declare-styleable name="PlayerControlView"><attr name="show_timeout"/><attr name="repeat_toggle_modes"/><attr name="show_rewind_button"/><attr name="show_fastforward_button"/><attr name="show_previous_button"/><attr name="show_next_button"/><attr name="show_shuffle_button"/><attr name="time_bar_min_update_interval"/><attr name="controller_layout_id"/><attr name="bar_height"/><attr name="bar_gravity"/><attr name="touch_target_height"/><attr name="ad_marker_width"/><attr name="scrubber_enabled_size"/><attr name="scrubber_disabled_size"/><attr name="scrubber_dragged_size"/><attr name="scrubber_drawable"/><attr name="played_color"/><attr name="scrubber_color"/><attr name="buffered_color"/><attr name="unplayed_color"/><attr name="ad_marker_color"/><attr name="played_ad_marker_color"/></declare-styleable>
+    <declare-styleable name="PlayerView"><attr name="use_artwork"/><attr name="shutter_background_color"/><attr name="default_artwork"/><attr name="use_controller"/><attr name="hide_on_touch"/><attr name="hide_during_ads"/><attr name="auto_show"/><attr name="show_buffering"/><attr name="keep_content_on_player_reset"/><attr name="player_layout_id"/><attr name="surface_type"/><attr name="resize_mode"/><attr name="show_timeout"/><attr name="repeat_toggle_modes"/><attr name="show_shuffle_button"/><attr name="time_bar_min_update_interval"/><attr name="controller_layout_id"/><attr name="bar_height"/><attr name="touch_target_height"/><attr name="ad_marker_width"/><attr name="scrubber_enabled_size"/><attr name="scrubber_disabled_size"/><attr name="scrubber_dragged_size"/><attr name="scrubber_drawable"/><attr name="played_color"/><attr name="scrubber_color"/><attr name="buffered_color"/><attr name="unplayed_color"/><attr name="ad_marker_color"/><attr name="played_ad_marker_color"/></declare-styleable>
     <declare-styleable name="PopupWindow">
         <!-- Whether the popup window should overlap its anchor view. -->
         <attr format="boolean" name="overlapAnchor"/>
@@ -6431,6 +6502,9 @@
         <attr format="reference" name="fastScrollVerticalTrackDrawable"/>
         <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
         <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
+    </declare-styleable>
+    <declare-styleable name="RoundRectImageView">
+        <attr format="dimension" name="corner"/>
     </declare-styleable>
     <declare-styleable name="SearchView">
         <!-- The layout to use for the search view. -->
@@ -6539,74 +6613,8 @@
     <declare-styleable name="StateSet">
         <attr format="reference" name="defaultState"/>
     </declare-styleable>
-    <declare-styleable name="StyledPlayerControlView">
-    <attr name="show_timeout"/>
-    <attr name="repeat_toggle_modes"/>
-    <attr name="show_rewind_button"/>
-    <attr name="show_fastforward_button"/>
-    <attr name="show_previous_button"/>
-    <attr name="show_next_button"/>
-    <attr name="show_shuffle_button"/>
-    <attr name="show_subtitle_button"/>
-    <attr name="show_vr_button"/>
-    <attr name="time_bar_min_update_interval"/>
-    <attr name="controller_layout_id"/>
-    <attr name="animation_enabled"/>
-    <!-- DefaultTimeBar attributes -->
-    <attr name="bar_height"/>
-    <attr name="bar_gravity"/>
-    <attr name="touch_target_height"/>
-    <attr name="ad_marker_width"/>
-    <attr name="scrubber_enabled_size"/>
-    <attr name="scrubber_disabled_size"/>
-    <attr name="scrubber_dragged_size"/>
-    <attr name="scrubber_drawable"/>
-    <attr name="played_color"/>
-    <attr name="scrubber_color"/>
-    <attr name="buffered_color"/>
-    <attr name="unplayed_color"/>
-    <attr name="ad_marker_color"/>
-    <attr name="played_ad_marker_color"/>
-  </declare-styleable>
-    <declare-styleable name="StyledPlayerView">
-    <attr name="use_artwork"/>
-    <attr name="shutter_background_color"/>
-    <attr name="default_artwork"/>
-    <attr name="use_controller"/>
-    <attr name="hide_on_touch"/>
-    <attr name="hide_during_ads"/>
-    <attr name="auto_show"/>
-    <attr name="show_buffering"/>
-    <attr name="keep_content_on_player_reset"/>
-    <attr name="player_layout_id"/>
-    <attr name="surface_type"/>
-    <!-- AspectRatioFrameLayout attributes -->
-    <attr name="resize_mode"/>
-    <!-- StyledPlayerControlView attributes -->
-    <attr name="show_timeout"/>
-    <attr name="repeat_toggle_modes"/>
-    <attr name="show_shuffle_button"/>
-    <attr name="show_subtitle_button"/>
-    <attr name="show_vr_button"/>
-    <attr name="time_bar_min_update_interval"/>
-    <attr name="controller_layout_id"/>
-    <attr name="animation_enabled"/>
-    <!-- DefaultTimeBar attributes -->
-    <attr name="bar_height"/>
-    <attr name="bar_gravity"/>
-    <attr name="touch_target_height"/>
-    <attr name="ad_marker_width"/>
-    <attr name="scrubber_enabled_size"/>
-    <attr name="scrubber_disabled_size"/>
-    <attr name="scrubber_dragged_size"/>
-    <attr name="scrubber_drawable"/>
-    <attr name="played_color"/>
-    <attr name="scrubber_color"/>
-    <attr name="buffered_color"/>
-    <attr name="unplayed_color"/>
-    <attr name="ad_marker_color"/>
-    <attr name="played_ad_marker_color"/>
-  </declare-styleable>
+    <declare-styleable name="StyledPlayerControlView"><attr name="show_timeout"/><attr name="repeat_toggle_modes"/><attr name="show_rewind_button"/><attr name="show_fastforward_button"/><attr name="show_previous_button"/><attr name="show_next_button"/><attr name="show_shuffle_button"/><attr name="show_subtitle_button"/><attr name="show_vr_button"/><attr name="time_bar_min_update_interval"/><attr name="controller_layout_id"/><attr name="animation_enabled"/><attr name="bar_height"/><attr name="bar_gravity"/><attr name="touch_target_height"/><attr name="ad_marker_width"/><attr name="scrubber_enabled_size"/><attr name="scrubber_disabled_size"/><attr name="scrubber_dragged_size"/><attr name="scrubber_drawable"/><attr name="played_color"/><attr name="scrubber_color"/><attr name="buffered_color"/><attr name="unplayed_color"/><attr name="ad_marker_color"/><attr name="played_ad_marker_color"/></declare-styleable>
+    <declare-styleable name="StyledPlayerView"><attr name="use_artwork"/><attr name="shutter_background_color"/><attr name="default_artwork"/><attr name="use_controller"/><attr name="hide_on_touch"/><attr name="hide_during_ads"/><attr name="auto_show"/><attr name="show_buffering"/><attr name="keep_content_on_player_reset"/><attr name="player_layout_id"/><attr name="surface_type"/><attr name="resize_mode"/><attr name="show_timeout"/><attr name="repeat_toggle_modes"/><attr name="show_shuffle_button"/><attr name="show_subtitle_button"/><attr name="show_vr_button"/><attr name="time_bar_min_update_interval"/><attr name="controller_layout_id"/><attr name="animation_enabled"/><attr name="bar_height"/><attr name="bar_gravity"/><attr name="touch_target_height"/><attr name="ad_marker_width"/><attr name="scrubber_enabled_size"/><attr name="scrubber_disabled_size"/><attr name="scrubber_dragged_size"/><attr name="scrubber_drawable"/><attr name="played_color"/><attr name="scrubber_color"/><attr name="buffered_color"/><attr name="unplayed_color"/><attr name="ad_marker_color"/><attr name="played_ad_marker_color"/></declare-styleable>
     <declare-styleable name="SwitchCompat">
         <!-- Drawable to use as the "thumb" that switches back and forth. -->
         <attr name="android:thumb"/>

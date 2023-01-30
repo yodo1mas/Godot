@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/45a1aa906ac2f4730feabca4d2cfe3c7/transformed/appcompat-1.2.0/res/values-pt-rBR/values-pt-rBR.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "105,225,331,438,527,628,747,832,912,1003,1096,1191,1285,1385,1478,1573,1668,1759,1850,1935,2042,2153,2255,2363,2471,2581,2743,6587",
                         "endColumns": "119,105,106,88,100,118,84,79,90,92,94,93,99,92,94,94,90,90,84,106,110,101,107,107,109,161,99,85",
                         "endOffsets": "220,326,433,522,623,742,827,907,998,1091,1186,1280,1380,1473,1568,1663,1754,1845,1930,2037,2148,2250,2358,2466,2576,2738,2838,6668"
+                    }
+                },
+                {
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/7ff34864a49cde2050bc5771e32d2e83/transformed/browser-1.4.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,170,269,381",
+                        "endColumns": "114,98,111,105",
+                        "endOffsets": "165,264,376,482"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5105,5220,5319,5431",
+                        "endColumns": "114,98,111,105",
+                        "endOffsets": "5215,5314,5426,5532"
                     }
                 },
                 {
@@ -38,6 +55,23 @@
                     }
                 },
                 {
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/610d86b4674220792db9c64c148e1b1d/transformed/jetified-play-services-ads-21.3.0/res/values-pt-rBR/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "203,280,384,434,558,609,722,820,861,954,989,1024,1074,1153",
+                        "endColumns": "76,103,49,123,50,112,97,40,92,34,34,49,78,43",
+                        "endOffsets": "279,383,433,557,608,721,819,860,953,988,1023,1073,1152,1196"
+                    },
+                    "to": {
+                        "startLines": "51,52,53,54,55,56,57,58,59,60,61,62,63,64",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5537,5618,5726,5780,5908,5963,6080,6182,6227,6324,6363,6402,6456,6539",
+                        "endColumns": "80,107,53,127,54,116,101,44,96,38,38,53,82,47",
+                        "endOffsets": "5613,5721,5775,5903,5958,6075,6177,6222,6319,6358,6397,6451,6534,6582"
+                    }
+                },
+                {
                     "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/27ccd9abac2ca9691477ef5cc78dc9c9/transformed/jetified-play-services-basement-18.0.0/res/values-pt-rBR/values.xml",
                     "from": {
                         "startLines": "4",
@@ -52,40 +86,6 @@
                         "startOffsets": "3855",
                         "endColumns": "144",
                         "endOffsets": "3995"
-                    }
-                },
-                {
-                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/11577dd8f870ce4f266d07647e1749c1/transformed/browser-1.3.0/res/values-pt-rBR/values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,170,269,381",
-                        "endColumns": "114,98,111,105",
-                        "endOffsets": "165,264,376,482"
-                    },
-                    "to": {
-                        "startLines": "47,48,49,50",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5105,5220,5319,5431",
-                        "endColumns": "114,98,111,105",
-                        "endOffsets": "5215,5314,5426,5532"
-                    }
-                },
-                {
-                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/caa737ca81150965bbdab81534569206/transformed/jetified-play-services-ads-21.0.0/res/values-pt-rBR/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "203,280,384,434,558,609,722,820,861,954,989,1024,1074,1153",
-                        "endColumns": "76,103,49,123,50,112,97,40,92,34,34,49,78,43",
-                        "endOffsets": "279,383,433,557,608,721,819,860,953,988,1023,1073,1152,1196"
-                    },
-                    "to": {
-                        "startLines": "51,52,53,54,55,56,57,58,59,60,61,62,63,64",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5537,5618,5726,5780,5908,5963,6080,6182,6227,6324,6363,6402,6456,6539",
-                        "endColumns": "80,107,53,127,54,116,101,44,96,38,38,53,82,47",
-                        "endOffsets": "5613,5721,5775,5903,5958,6075,6177,6222,6319,6358,6397,6451,6534,6582"
                     }
                 },
                 {

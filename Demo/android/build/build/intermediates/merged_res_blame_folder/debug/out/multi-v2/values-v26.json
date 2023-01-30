@@ -1,8 +1,46 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/GodotTest/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/Users/aitssamulhaqrabbani/Downloads/Godot-main/Demo/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
+                {
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/7ebbe47e02baa46290eed7aaf8d2a073/transformed/jetified-same-16.2.61/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,158",
+                        "endLines": "2,5",
+                        "endColumns": "102,12",
+                        "endOffsets": "153,328"
+                    },
+                    "to": {
+                        "startLines": "17,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "1034,1230",
+                        "endLines": "17,21",
+                        "endColumns": "102,12",
+                        "endOffsets": "1132,1400"
+                    }
+                },
+                {
+                    "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/b6a6c6614707fa9ea8eb5298f34c42b2/transformed/jetified-reward-16.2.61/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,193",
+                        "endLines": "2,14",
+                        "endColumns": "92,16",
+                        "endOffsets": "188,1070"
+                    },
+                    "to": {
+                        "startLines": "18,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "1137,1405",
+                        "endLines": "18,33",
+                        "endColumns": "92,16",
+                        "endOffsets": "1225,2282"
+                    }
+                },
                 {
                     "source": "/Users/aitssamulhaqrabbani/.gradle/caches/transforms-3/45a1aa906ac2f4730feabca4d2cfe3c7/transformed/appcompat-1.2.0/res/values-v26/values-v26.xml",
                     "from": {
@@ -12,6 +50,14 @@
                         "endLines": "2,3,7,11,15,16",
                         "endColumns": "74,86,12,12,12,92",
                         "endOffsets": "125,212,426,652,891,984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "100,175,262,476,702,941",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "170,257,471,697,936,1029"
                     }
                 }
             ]

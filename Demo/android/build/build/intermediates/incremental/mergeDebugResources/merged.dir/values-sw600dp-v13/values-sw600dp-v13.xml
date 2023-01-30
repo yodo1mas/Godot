@@ -12,6 +12,7 @@
     <dimen name="ia_button_padding_lateral">48dp</dimen>
     <dimen name="ia_endcard_button_margin_bottom">74dp</dimen>
     <dimen name="ia_endcard_button_padding_vertical">8dp</dimen>
+    <dimen name="ia_endcard_hand_margin_button">50dp</dimen>
     <dimen name="ia_endcard_overlay_button_height_large">61dp</dimen>
     <dimen name="ia_endcard_overlay_button_height_medium">45dp</dimen>
     <dimen name="ia_endcard_overlay_button_width_large">247dp</dimen>
@@ -29,6 +30,7 @@
     <dimen name="ia_video_control_margin">8dp</dimen>
     <dimen name="ia_video_overlay_button_width">160dp</dimen>
     <dimen name="ia_video_overlay_text_large">23sp</dimen>
+    <dimen name="ia_video_overlay_text_large_for_cta">26sp</dimen>
     <dimen name="ia_video_overlay_text_large_plus">27sp</dimen>
     <dimen name="ia_video_overlay_text_small">18sp</dimen>
     <dimen name="ia_video_text_padding">3dp</dimen>

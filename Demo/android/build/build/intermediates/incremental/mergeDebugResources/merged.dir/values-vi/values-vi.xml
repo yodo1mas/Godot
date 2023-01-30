@@ -62,7 +62,7 @@
     <string name="common_open_on_phone">Mở trên điện thoại</string>
     <string name="common_signin_button_text">Đăng nhập</string>
     <string name="common_signin_button_text_long">Đăng nhập bằng Google</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Đã sao chép đường liên kết vào khay nhớ tạm"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Đã sao chép đường liên kết vào bảng nhớ tạm"</string>
     <string name="exo_controls_cc_disabled_description">Bật phụ đề</string>
     <string name="exo_controls_cc_enabled_description">Tắt phụ đề</string>
     <string name="exo_controls_fastforward_description">Tua đi</string>
@@ -153,9 +153,9 @@
     <string name="tt_banner_ad_load_image_error">Banner loading failed</string>
     <string name="tt_cancel">Hủy</string>
     <string name="tt_choose_language">vi</string>
-    <string name="tt_click_to_replay">Nhấp để phát lại</string>
-    <string name="tt_comment_num">%1$s xếp hạng</string>
-    <string name="tt_comment_num_backup">%1$s xếp hạng</string>
+    <string name="tt_click_to_replay">Nhấn để phát lại</string>
+    <string name="tt_comment_num">%1$s lượt đánh giá</string>
+    <string name="tt_comment_num_backup">%1$s lượt đánh giá</string>
     <string name="tt_comment_score">Đánh giá</string>
     <string name="tt_confirm_download">Bạn không được kết nối với mạng Wi-Fi. Bạn có chắc chắn muốn tải không?</string>
     <string name="tt_confirm_download_have_app_name">Chuẩn bị tải %s ứng dụng</string>
@@ -183,8 +183,8 @@
     <string name="tt_error_union_sdk_too_old">Sdk version too low</string>
     <string name="tt_error_unknow">Unknown error</string>
     <string name="tt_error_verify_reward">Reward verify error</string>
-    <string name="tt_feedback_experience_text">Chúng tôi sẽ tiếp tục nỗ lực để mang đến cho bạn trải nghiệm quảng cáo tốt hơn</string>
-    <string name="tt_feedback_submit_text">Bạn đã gửi phản hồi.Vui lòng không gửi nhiều  lần!</string>
+    <string name="tt_feedback_experience_text">Chúng tôi sẽ không ngừng cải thiện dịch vụ.</string>
+    <string name="tt_feedback_submit_text">Bạn đã gửi phản hồi xong! Vui lòng không gửi lại.</string>
     <string name="tt_feedback_thank_text">Cảm ơn bạn đã phản hồi!</string>
     <string name="tt_frequent_call_erroe">Ad requests are too frequent</string>
     <string name="tt_full_screen_skip_tx">Bỏ qua</string>
@@ -197,7 +197,7 @@
     <string name="tt_load_failed_text">Quảng cáo không tải được</string>
     <string name="tt_load_success_text">Quảng cáo được tải thành công</string>
     <string name="tt_msgPlayable">Chơi hết để giành phần thưởng</string>
-    <string name="tt_negtiveBtnBtnText">Bỏ phần thưởng</string>
+    <string name="tt_negtiveBtnBtnText">Rời đi</string>
     <string name="tt_negtive_txt">Hủy</string>
     <string name="tt_net_error">Network error</string>
     <string name="tt_no_ad">No ad</string>
@@ -205,10 +205,10 @@
     <string name="tt_no_network">Không có kết nối mạng, vui lòng thử lại sau.</string>
     <string name="tt_parse_fail">Parsing error</string>
     <string name="tt_permission_denied">Bạn đã vô hiệu hóa các quyền cần thiết. Vui lòng kích</string>
-    <string name="tt_postiveBtnText">Tiếp tục xem</string>
+    <string name="tt_postiveBtnText">Tiếp tục</string>
     <string name="tt_postiveBtnTextPlayable">Tiếp tục chơi</string>
     <string name="tt_postive_txt">OK</string>
-    <string name="tt_privacy_title">Chính sách bảo mật</string>
+    <string name="tt_privacy_title">Chính sách quyền riêng tư</string>
     <string name="tt_reder_ad_load_timeout">Template loading timeout</string>
     <string name="tt_render_diff_template_invalid">Template diff invalid</string>
     <string name="tt_render_fail_meta_invalid">Template invalid</string>
@@ -248,8 +248,8 @@
     <string name="tt_video_bytesize_MB">MB</string>
     <string name="tt_video_continue_play">Tiếp tục chơi</string>
     <string name="tt_video_dial_phone">Gọi ngay</string>
-    <string name="tt_video_download_apk">Tải</string>
-    <string name="tt_video_mobile_go_detail">Xem</string>
+    <string name="tt_video_download_apk">Tải xuống ngay</string>
+    <string name="tt_video_mobile_go_detail">Xem ngay</string>
     <string name="tt_video_retry_des">Không tải được. Nhấp để thử lại</string>
     <string name="tt_video_retry_des_txt">Không tải được. Vui lòng thử lại.</string>
     <string name="tt_video_without_wifi_tips">Bạn sẽ mất %.2f MB dữ liệu để phát nội dung này</string>

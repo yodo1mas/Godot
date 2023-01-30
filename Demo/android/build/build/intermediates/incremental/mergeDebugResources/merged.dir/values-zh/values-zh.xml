@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="godot_project_name_string">GodotYodo1Mas</string>
+    <string name="mbridge_cm_feedback_btn_text">反馈</string>
+    <string name="mbridge_cm_feedback_dialog_close_close">关闭</string>
+    <string name="mbridge_cm_feedback_dialog_close_submit">提交</string>
+    <string name="mbridge_cm_feedback_dialog_content_balck_screen">黑白屏</string>
+    <string name="mbridge_cm_feedback_dialog_content_cnr">无法点击</string>
+    <string name="mbridge_cm_feedback_dialog_content_other">其他</string>
+    <string name="mbridge_cm_feedback_dialog_content_stuck">卡顿</string>
+    <string name="mbridge_cm_feedback_dialog_title">选择反馈内容</string>
+    <string name="mbridge_reward_appdesc">app desc</string>
+    <string name="mbridge_reward_apptitle">app title</string>
+    <string name="mbridge_reward_clickable_cta_btntext">Play Game</string>
+    <string name="mbridge_reward_endcard_ad">AD</string>
+    <string name="mbridge_reward_endcard_vast_notice">Do you want to learn more?</string>
+    <string name="mbridge_reward_heat_count_unit">万</string>
+    <string name="mbridge_reward_install">Install Now</string>
+    <string name="mbridge_reward_video_view_reward_time_complete">已获得奖励</string>
+    <string name="mbridge_reward_video_view_reward_time_left">s后即可获得奖励</string>
+    <string name="mbridge_reward_viewed_text_str">您浏览过的内容</string>
     <string name="no_thank_you">不，谢谢</string>
     <string name="tt_00_00">00:00</string>
     <string name="tt_ad">广告</string>
@@ -22,7 +40,7 @@
     <string name="tt_choose_language">zh</string>
     <string name="tt_click_to_replay">点击重播</string>
     <string name="tt_comment_num">%1$s个评分</string>
-    <string name="tt_comment_num_backup">%1$s个评分</string>
+    <string name="tt_comment_num_backup">%1$s 个评分</string>
     <string name="tt_comment_score">评价</string>
     <string name="tt_confirm_download">"正在使用非Wifi网络，确认要进行下载吗？"</string>
     <string name="tt_confirm_download_have_app_name">"准备下载%s应用"</string>
@@ -51,8 +69,8 @@
     <string name="tt_error_unknow">未知异常</string>
     <string name="tt_error_verify_reward">激励视频验证服务器异常或处理失败</string>
     <string name="tt_feedback_experience_text">我们将为您带来更优质的广告体验</string>
-    <string name="tt_feedback_submit_text">您已成功提交反馈，请勿反复提交</string>
-    <string name="tt_feedback_thank_text">感谢您的反馈</string>
+    <string name="tt_feedback_submit_text">您已提交过反馈，请勿反复提交。</string>
+    <string name="tt_feedback_thank_text">感谢您的反馈！</string>
     <string name="tt_frequent_call_erroe">广告请求频率过高</string>
     <string name="tt_full_screen_skip_tx">跳过</string>
     <string name="tt_get_reward">激励发放</string>
@@ -115,7 +133,7 @@
     <string name="tt_video_continue_play">继续播放</string>
     <string name="tt_video_dial_phone">立即拨打</string>
     <string name="tt_video_download_apk">立即下载</string>
-    <string name="tt_video_mobile_go_detail">查看详情</string>
+    <string name="tt_video_mobile_go_detail">立即查看</string>
     <string name="tt_video_retry_des">加载失败，点击重试</string>
     <string name="tt_video_retry_des_txt">加载失败，请重试</string>
     <string name="tt_video_without_wifi_tips">播放将消耗%.2fMB流量</string>

@@ -32,10 +32,10 @@ signal rewarded_ad_closed()
 signal rewarded_ad_earned()
 
 # properties
-export var app_id_ios: String
-export var app_id_android: String
-export var IsPrivacyEnabled: bool
-export var IsAppOpenAdsRequired: bool
+@export var app_id_ios: String
+@export var app_id_android: String
+@export var IsPrivacyEnabled: bool
+@export var IsAppOpenAdsRequired: bool
 
 # "private" properties
 var _yodo1mas_singleton = null
